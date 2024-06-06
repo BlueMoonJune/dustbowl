@@ -17,6 +17,7 @@ local player = {
 	inventory = {},
 	dir = 0,
 	frame = 0,
+	frametimer = 0
 }
 
 
@@ -38,7 +39,12 @@ function love.draw()
 	graphics.draw(assets.player, player.x - 4, player.y - 12)
 end
 
-function love.update()
+function love.update(dt)
+	if player.frametimer <= 0 then
+		player.frametimer = 0.1
+		player.frame = player.frame % 3 + 1
+	end
+	player.frametimer = player.frametimer - dt
 	local x, y = 0, 0
 	if love.keyboard.isDown("d") then x = 1 end
 	if love.keyboard.isDown("a") then x = x - 1 end
@@ -52,6 +58,9 @@ function love.update()
 		player.dir = 1
 	elseif x == -1 then
 		player.dir = 3
+	else
+		player.frame = 0
+		player.frametimer = 0
 	end
 	player.x = player.x + x
 	player.y = player.y + y

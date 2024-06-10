@@ -39,10 +39,19 @@ local crops = {
 	}
 }
 
+graphics.setFont (graphics.newFont (50))
+local font = love.graphics.getFont ()
+
 local player = {
 	x = 0,
 	y = 0,
-	inventory = {},
+	inventory = {
+		["gloves"] = {count = 1, text = graphics.newText(font)},
+		["corn_seeds"] = {count = 99, text = graphics.newText(font)},
+		["wheat_seeds"] = {count = 0, text = graphics.newText(font)},
+		["watering_can"] = {count = 1, text = graphics.newText(font)}, -- 0..=1
+		["whistle"] = {count = 1, text = graphics.newText(font)},
+	},
 	dir = 0,
 	frame = 0,
 	frametimer = 0
@@ -50,6 +59,7 @@ local player = {
 
 
 function love.draw()
+	graphics.setColor(1, 0.95, 0.87)
 	local w, h = graphics.getDimensions()
 	graphics.scale(4)
 	graphics.translate(-player.x + w / 8, -player.y + h / 8)
@@ -95,6 +105,33 @@ function love.draw()
 	end
 
 	graphics.draw(batches.crops)
+
+	graphics.origin()
+	local boxSize = 50
+	local baseOffset = 10
+	local offset = baseOffset
+	for item, itemInfo in pairs(player.inventory) do
+		-- backing
+		graphics.setColor(0.8, 0.7, 0.5)
+		graphics.rectangle("fill", offset, baseOffset, boxSize, boxSize)
+
+		graphics.draw(assets[item], offset, baseOffset, 0, 2.5, 2.5)
+
+
+		-- border
+		graphics.setColor(0.3, 0.2, 0.0)
+		graphics.rectangle("line", offset, baseOffset, boxSize, boxSize)
+
+		graphics.setColor(0, 0, 0)
+		local itemCountText = tostring(itemInfo.count)
+		local fontHeight = font:getHeight() * 0.4
+		local fontWidth = font:getWidth(itemCountText) * 0.4
+		itemInfo.text:clear()
+		itemInfo.text:add(itemCountText, 0, 0, 0, 0.4, 0.4, 0, 0, 0, 0)
+		graphics.draw(itemInfo.text, offset + boxSize - fontWidth - 2, baseOffset + fontHeight + 5)
+
+		offset = offset + boxSize
+	end
 end
 
 function love.update(dt)

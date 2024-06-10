@@ -10,7 +10,6 @@ for _, i in ipairs(love.filesystem.getDirectoryItems("assets")) do
 	local name = i:sub(1, -5)
 	assets[name] = graphics.newImage("assets/" .. i)
 	batches[name] = graphics.newSpriteBatch(assets[name])
-	print(name)
 end
 
 local CROP_COUNT = 1
@@ -19,25 +18,13 @@ local cropIDs = {
 	corn = 0,
 	wheat = 1,
 }
+local cropNames = {}
+for name, id in pairs(cropIDs) do
+	cropNames[id] = name
+end
 
-local crops = {
-	["2,1"] = {
-		growth = 7,
-		id = 0
-	},
-	["3,1"] = {
-		growth = 7,
-		id = 0
-	},
-	["2,2"] = {
-		growth = 7,
-		id = 0
-	},
-	["3,2"] = {
-		growth = 7,
-		id = 0
-	}
-}
+local crops = {}
+local farmLands = {}
 
 graphics.setFont (graphics.newFont (50))
 local font = love.graphics.getFont ()
@@ -46,20 +33,30 @@ local player = {
 	x = 0,
 	y = 0,
 	inventory = {
-		["gloves"] = {count = 1, text = graphics.newText(font)},
-		["corn_seeds"] = {count = 99, text = graphics.newText(font)},
-		["wheat_seeds"] = {count = 0, text = graphics.newText(font)},
-		["watering_can"] = {count = 1, text = graphics.newText(font)}, -- 0..=1
-		["whistle"] = {count = 1, text = graphics.newText(font)},
+		{name = "gloves", count = nil, text = graphics.newText(font)},
+		{name = "hoe", count = nil, text = graphics.newText(font)},
+		{name = "watering_can", count = 100, text = graphics.newText(font)},
+
+		{name = "corn_seeds", count = 12, text = graphics.newText(font)},
+		{name = "harvested_corn", count = 10, text = graphics.newText(font)},
+
+		{name = "wheat_seeds", count = 7, text = graphics.newText(font)},
+		{name = "harvested_wheat", count = 15, text = graphics.newText(font)},
+
+		{name = "whistle", count = 100, text = graphics.newText(font)},
 	},
+	currentItem = 1,
 	dir = 0,
 	frame = 0,
 	frametimer = 0
 }
-
+local itemIds = {}
+for i, itemInfo in ipairs(player.inventory) do
+	itemIds[itemInfo.name] = i
+end
 
 function love.draw()
-	graphics.setColor(1, 0.95, 0.87)
+	graphics.setColor(1, 0.95, 0.87) -- cowboy color
 	local w, h = graphics.getDimensions()
 	graphics.scale(4)
 	graphics.translate(-player.x + w / 8, -player.y + h / 8)
@@ -74,15 +71,22 @@ function love.draw()
 	graphics.draw(batches.ground, 0, 0)
 
 	batches.crops:clear()
+	batches.soil:clear()
 	for posStr, crop in pairs(crops) do
 		local x = tonumber(posStr:match("[^,]+"))
 		local y = tonumber(posStr:sub(posStr:find(",") + 1))
 		local px = x * 16
 		local py = y * 16
-		batches.soil:add(px - 4, py - 4)
 		if py + 4 <= player.y then
 			batches.crops:add(quad(crop.growth * 16, crop.id * 32, 16, 32, 16 * MAX_GROWTH, 32 * CROP_COUNT), px, py - 16)
 		end
+	end
+	for posStr, soil in pairs(farmLands) do
+		local x = tonumber(posStr:match("[^,]+"))
+		local y = tonumber(posStr:sub(posStr:find(",") + 1))
+		local px = x * 16
+		local py = y * 16
+		batches.soil:add(quad(soil.hydration * 16, 32, 16, 32, 16 * MAX_GROWTH, 32 * CROP_COUNT), px, py - 16)
 	end
 	graphics.draw(batches.soil)
 
@@ -98,7 +102,6 @@ function love.draw()
 		local y = tonumber(posStr:sub(posStr:find(",") + 1))
 		local px = x * 16
 		local py = y * 16
-		print(py, player.y)
 		if py + 4 > player.y then
 			batches.crops:add(quad(crop.growth * 16, crop.id * 32, 16, 32, 16 * MAX_GROWTH, 32 * CROP_COUNT), px, py - 16)
 		end
@@ -110,20 +113,35 @@ function love.draw()
 	local boxSize = 50
 	local baseOffset = 10
 	local offset = baseOffset
-	for item, itemInfo in pairs(player.inventory) do
+	for i, itemInfo in ipairs(player.inventory) do
+		local backColor
+		local borderColor
+		if i == player.currentItem then
+			backColor = {r = 1, g = 1, b = 1}
+			borderColor = {r = 0.4, g = 0.4, b = 0.4}
+		else
+			backColor = {r = 0.8, g = 0.7, b = 0.5}
+			borderColor = {r = 0.3, g = 0.2, b = 0}
+		end
 		-- backing
-		graphics.setColor(0.8, 0.7, 0.5)
+		graphics.setColor(backColor.r, backColor.g, backColor.b)
 		graphics.rectangle("fill", offset, baseOffset, boxSize, boxSize)
 
-		graphics.draw(assets[item], offset, baseOffset, 0, 2.5, 2.5)
-
+		graphics.draw(assets[itemInfo.name], offset, baseOffset, 0, 2.5, 2.5)
 
 		-- border
-		graphics.setColor(0.3, 0.2, 0.0)
+		graphics.setColor(borderColor.r, borderColor.g, borderColor.b)
+		graphics.setLineWidth(4)
 		graphics.rectangle("line", offset, baseOffset, boxSize, boxSize)
+		graphics.setLineWidth(1)
 
 		graphics.setColor(0, 0, 0)
-		local itemCountText = tostring(itemInfo.count)
+		local itemCountText
+		if itemInfo.count then
+			itemCountText = tostring(itemInfo.count)
+		else
+			itemCountText = ""
+		end
 		local fontHeight = font:getHeight() * 0.4
 		local fontWidth = font:getWidth(itemCountText) * 0.4
 		itemInfo.text:clear()
@@ -135,16 +153,22 @@ function love.draw()
 end
 
 function love.update(dt)
+	for _, crop in pairs(crops) do
+		if math.random() > 0.9999 then
+			crop.growth = math.min(crop.growth + 1, MAX_GROWTH - 1)
+		end
+	end
+	local isDown = love.keyboard.isDown
 	if player.frametimer <= 0 then
 		player.frametimer = 0.2
 		player.frame = (player.frame + 1) % 4
 	end
 	player.frametimer = player.frametimer - dt
 	local x, y = 0, 0
-	if love.keyboard.isDown("d") then x = 1 end
-	if love.keyboard.isDown("a") then x = x - 1 end
-	if love.keyboard.isDown("s") then y = 1 end
-	if love.keyboard.isDown("w") then y = y - 1 end
+	if isDown("d") or isDown("right") then x = 1 end
+	if isDown("a") or isDown("left") then x = x - 1 end
+	if isDown("s") or isDown("down") then y = 1 end
+	if isDown("w") or isDown("up") then y = y - 1 end
 	if y == 1 then
 		player.dir = 0
 	elseif y == -1 then
@@ -159,4 +183,58 @@ function love.update(dt)
 	end
 	player.x = player.x + x * 50 * dt
 	player.y = player.y + y * 50 * dt
+
+	-- select item
+	for i = 1, #player.inventory do
+		if isDown(tostring(i)) then
+			player.currentItem = i
+		end
+	end
+
+	-- use item
+	if isDown("space") then
+		local currentItem = player.inventory[player.currentItem]
+		local pos = math.floor(player.x/16) .. "," ..math.floor(player.y/16)
+
+		if currentItem.name == "gloves" then
+			local crop = crops[pos]
+			if crop and crop.growth then
+				local cropName = cropNames[crop.id]
+				local playerItem = player.inventory[itemIds["harvested_" .. cropName]]
+				playerItem.count = playerItem.count + math.floor(math.random(crop.growth, crop.growth*1.5))
+				local seedItem = player.inventory[itemIds[cropName .. "_seeds"]]
+				seedItem.count = seedItem.count + math.floor(math.random(crop.growth, crop.growth + 1))
+
+				crops[pos] = nil
+			end
+		elseif currentItem.name:find("seed") then
+			if currentItem.count > 0 then
+				local crop = crops[pos]
+				if not crop and farmLands[pos] then
+					local cropName = currentItem.name:sub(1, -7)
+					crops[pos] = {
+						growth = 0,
+						id = cropIDs[cropName]
+					}
+					currentItem.count = currentItem.count - 1
+				end
+			end
+		elseif currentItem.name == "hoe" then
+			farmLands[pos] = {
+				hydration = 0
+			}
+		elseif currentItem.name == "watering_can" then
+			if currentItem.count > 0 then
+				local soil = farmLands[pos]
+				if soil then
+					if soil.hydration < 4 then
+						soil.hydration = soil.hydration + 1
+						currentItem.count = currentItem.count - 1
+					end
+				end
+			end
+		end
+
+
+	end
 end

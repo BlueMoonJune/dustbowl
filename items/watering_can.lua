@@ -1,5 +1,12 @@
+local cooldown = 30
+
 return {
     use = function (self, pos)
+        if cooldown > 0 then
+            cooldown = cooldown - 1
+            return
+        end
+        cooldown = 30
         if self.count > 0 then
             local soil = farmLands[pos]
             if soil then

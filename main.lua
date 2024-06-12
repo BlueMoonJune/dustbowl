@@ -2,7 +2,7 @@ local love = love
 local graphics = love.graphics
 local quad = graphics.newQuad
 
-graphics.setDefaultFilter("nearest", "nearest")
+graphics.setDefaultFilter("linear", "nearest")
 
 local batches = {}
 local assets = {}
@@ -14,22 +14,24 @@ end
 
 local CROP_COUNT = 1
 local MAX_GROWTH = 8
-local cropIDs = {
+cropIDs = {
 	corn = 0,
 	wheat = 1,
 }
-local cropNames = {}
+cropNames = {}
 for name, id in pairs(cropIDs) do
 	cropNames[id] = name
 end
 
-local crops = {}
-local farmLands = {}
+crops = {}
+farmLands = {}
 
 graphics.setFont (graphics.newFont (50))
 local font = love.graphics.getFont ()
 
-local player = {
+
+
+player = {
 	x = 0,
 	y = 0,
 	inventory = {
@@ -48,15 +50,21 @@ local player = {
 	currentItem = 1,
 	dir = 0,
 	frame = 0,
-	frametimer = 0
+	frametimer = 0,
+	health = 100
 }
-local itemIds = {}
+itemIds = {}
 for i, itemInfo in ipairs(player.inventory) do
 	itemIds[itemInfo.name] = i
+	itemInfo.use = select(2, xpcall(require, function ()
+		return {use = function () end}
+	end, "items."..itemInfo.name)).use
 end
 
+local dustStormTimer = 10;
+
 function love.draw()
-	graphics.setColor(1, 0.95, 0.87) -- cowboy color
+	graphics.setColor(1 * (player.health / 100), 0.95 * (player.health / 100) ^ 2, 0.87  * (player.health / 100) ^ 2) -- cowboy color
 	local w, h = graphics.getDimensions()
 	graphics.scale(4)
 	graphics.translate(-player.x + w / 8, -player.y + h / 8)
@@ -86,7 +94,7 @@ function love.draw()
 		local y = tonumber(posStr:sub(posStr:find(",") + 1))
 		local px = x * 16
 		local py = y * 16
-		batches.soil:add(quad(soil.hydration * 16, 32, 16, 32, 16 * MAX_GROWTH, 32 * CROP_COUNT), px, py - 16)
+		batches.soil:add(quad(soil.hydration * 24, 0, 24, 24, 24 * 5, 24), px - 4, py - 4)
 	end
 	graphics.draw(batches.soil)
 
@@ -154,7 +162,7 @@ end
 
 function love.update(dt)
 	for _, crop in pairs(crops) do
-		if math.random() > 0.9999 then
+		if math.random() / dt < 0.05 then
 			crop.growth = math.min(crop.growth + 1, MAX_GROWTH - 1)
 		end
 	end
@@ -163,7 +171,7 @@ function love.update(dt)
 		player.frametimer = 0.2
 		player.frame = (player.frame + 1) % 4
 	end
-	player.frametimer = player.frametimer - dt
+	player.frametimer = player.frametimer - dt * (player.health / 100) ^ 2
 	local x, y = 0, 0
 	if isDown("d") or isDown("right") then x = 1 end
 	if isDown("a") or isDown("left") then x = x - 1 end
@@ -181,8 +189,8 @@ function love.update(dt)
 		player.frame = 0
 		player.frametimer = 0
 	end
-	player.x = player.x + x * 50 * dt
-	player.y = player.y + y * 50 * dt
+	player.x = player.x + x * 50 * dt * (player.health / 100) ^ 2
+	player.y = player.y + y * 50 * dt * (player.health / 100) ^ 2
 
 	-- select item
 	for i = 1, #player.inventory do
@@ -195,46 +203,31 @@ function love.update(dt)
 	if isDown("space") then
 		local currentItem = player.inventory[player.currentItem]
 		local pos = math.floor(player.x/16) .. "," ..math.floor(player.y/16)
+		print(pos)
 
-		if currentItem.name == "gloves" then
-			local crop = crops[pos]
-			if crop and crop.growth then
-				local cropName = cropNames[crop.id]
-				local playerItem = player.inventory[itemIds["harvested_" .. cropName]]
-				playerItem.count = playerItem.count + math.floor(math.random(crop.growth, crop.growth*1.5))
-				local seedItem = player.inventory[itemIds[cropName .. "_seeds"]]
-				seedItem.count = seedItem.count + math.floor(math.random(crop.growth, crop.growth + 1))
+		currentItem:use(pos)
+	end
 
-				crops[pos] = nil
-			end
-		elseif currentItem.name:find("seed") then
-			if currentItem.count > 0 then
-				local crop = crops[pos]
-				if not crop and farmLands[pos] then
-					local cropName = currentItem.name:sub(1, -7)
-					crops[pos] = {
-						growth = 0,
-						id = cropIDs[cropName]
-					}
-					currentItem.count = currentItem.count - 1
-				end
-			end
-		elseif currentItem.name == "hoe" then
-			farmLands[pos] = {
-				hydration = 0
-			}
-		elseif currentItem.name == "watering_can" then
-			if currentItem.count > 0 then
-				local soil = farmLands[pos]
-				if soil then
-					if soil.hydration < 4 then
-						soil.hydration = soil.hydration + 1
-						currentItem.count = currentItem.count - 1
-					end
+	dustStormTimer = dustStormTimer - dt
+	if dustStormTimer < 0 then
+		dustStormTimer = 0
+		player.health = player.health - 5 * dt
+		if player.health <= 0 then
+			error("you died lol")
+		end
+		for pos, farmland in pairs(farmLands) do
+			if math.random() / dt < 0.3 then
+				if farmland.hydration <= 0 then
+					farmLands[pos] = nil
+				else
+					farmland.hydration = farmland.hydration - 1
 				end
 			end
 		end
-
-
+		for pos, crop in pairs(crops) do
+			if math.random() / dt < 0.1 then
+				crop.growth = 7
+			end
+		end
 	end
 end

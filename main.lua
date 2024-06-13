@@ -26,8 +26,8 @@ end
 crops = {}
 farmLands = {}
 
-graphics.setFont (graphics.newFont (50))
-local font = love.graphics.getFont ()
+graphics.setFont(graphics.newFont(50))
+local font = love.graphics.getFont()
 
 
 
@@ -35,17 +35,17 @@ player = {
 	x = 0,
 	y = 0,
 	inventory = {
-		{name = "gloves", count = nil, text = graphics.newText(font)},
-		{name = "hoe", count = nil, text = graphics.newText(font)},
-		{name = "watering_can", count = 100, text = graphics.newText(font)},
+		{ name = "gloves",          count = nil, text = graphics.newText(font) },
+		{ name = "hoe",             count = nil, text = graphics.newText(font) },
+		{ name = "watering_can",    count = 100, text = graphics.newText(font) },
 
-		{name = "corn_seeds", count = 12, text = graphics.newText(font)},
-		{name = "harvested_corn", count = 10, text = graphics.newText(font)},
+		{ name = "corn_seeds",      count = 12,  text = graphics.newText(font) },
+		{ name = "harvested_corn",  count = 10,  text = graphics.newText(font) },
 
-		{name = "wheat_seeds", count = 7, text = graphics.newText(font)},
-		{name = "harvested_wheat", count = 15, text = graphics.newText(font)},
+		{ name = "wheat_seeds",     count = 7,   text = graphics.newText(font) },
+		{ name = "harvested_wheat", count = 15,  text = graphics.newText(font) },
 
-		{name = "whistle", count = 100, text = graphics.newText(font)},
+		{ name = "whistle",         count = 100, text = graphics.newText(font) },
 	},
 	currentItem = 1,
 	dir = 0,
@@ -57,19 +57,21 @@ player = {
 itemIds = {}
 for i, itemInfo in ipairs(player.inventory) do
 	itemIds[itemInfo.name] = i
-	itemInfo.use = select(2, xpcall(require, function ()
-		return {use = function () end}
-	end, "items."..itemInfo.name)).use
+	itemInfo.use = select(2, xpcall(require, function()
+		return { use = function() end }
+	end, "items." .. itemInfo.name)).use
 end
 
+local tracks
 local dustStormTimer = 20;
 
 function drawCrops(minx, miny, maxx, maxy)
 	for y = miny, maxy do
 		for x = minx, maxx do
-			local crop = crops[x..","..y]
+			local crop = crops[x .. "," .. y]
 			if crop then
-				batches.crops:add(quad(crop.growth * 16, crop.id * 48, 16, 48, 16 * MAX_GROWTH, 48 * CROP_COUNT), x*16, y*16 - 36)
+				batches.crops:add(quad(crop.growth * 16, crop.id * 48, 16, 48, 16 * MAX_GROWTH, 48 * CROP_COUNT), x * 16,
+					y * 16 - 36)
 			end
 		end
 	end
@@ -86,12 +88,17 @@ function drawHouse()
 	end
 end
 
-local wimdy
-
 function love.load()
-	wimdy = love.audio.newSource("sounds/wimdy.ogg", "static")
-	wimdy:setLooping(true)
-	love.audio.play(wimdy)
+	tracks = {
+		wind = love.audio.newSource("sounds/wimdy.ogg", "static"),
+		normal = love.audio.newSource("sounds/calmbeforetheduststorm.ogg", "static"),
+		storm = love.audio.newSource("sounds/dustbowlcore.ogg", "static"),
+	}
+
+	tracks.wind:setLooping(true)
+	tracks.normal:setLooping(true)
+	love.audio.play(tracks.wind)
+	love.audio.play(tracks.normal)
 end
 
 function love.draw()
@@ -106,10 +113,15 @@ function love.draw()
 		filterIntensity = 2 - dustStormTimer / 10
 	end
 	print("dust", dustStormTimer, filterIntensity)
-	wimdy:setVolume(filterIntensity / 2)
-	wimdy:setPitch(filterIntensity)
+
+	tracks.wind:setVolume(filterIntensity / 2)
+	tracks.wind:setPitch(filterIntensity)
+	tracks.normal:setVolume(2 - filterIntensity)
+	--tracks.storm:setVolume(math.min(1, math.max(0, math.min(-dustStormTimer / 5, dustStormTimer / 5 + 12))))
+
 	local f = filterIntensity ^ 2
-	graphics.setColor(1 * (player.health / 100), (1 - 0.05 * f) * (player.health / 100) ^ 2, (1 - 0.13 * f) * (player.health / 100) ^ 2)
+	graphics.setColor(1 * (player.health / 100), (1 - 0.05 * f) * (player.health / 100) ^ 2,
+		(1 - 0.13 * f) * (player.health / 100) ^ 2)
 	local w, h = graphics.getDimensions()
 	graphics.scale(4)
 	graphics.translate(-player.x + w / 8, -player.y + h / 8)
@@ -138,7 +150,7 @@ function love.draw()
 		local px = x * 16
 		local py = y * 16
 		local c = soil.hydration / 5 * 1.5
-		batches.soil:setColor(c * (0.8-1) + 1, c * (0.4-0.7) + 0.7, c * (0.2-0.5) + 0.5)
+		batches.soil:setColor(c * (0.8 - 1) + 1, c * (0.4 - 0.7) + 0.7, c * (0.2 - 0.5) + 0.5)
 		batches.soil:add(quad(0, 0, 24, 24, 24, 24), px - 4, py - 4)
 	end
 	graphics.draw(batches.soil)
@@ -168,11 +180,11 @@ function love.draw()
 		local backColor
 		local borderColor
 		if i == player.currentItem then
-			backColor = {r = 1, g = 1, b = 1}
-			borderColor = {r = 0.4, g = 0.4, b = 0.4}
+			backColor = { r = 1, g = 1, b = 1 }
+			borderColor = { r = 0.4, g = 0.4, b = 0.4 }
 		else
-			backColor = {r = 0.8, g = 0.7, b = 0.5}
-			borderColor = {r = 0.3, g = 0.2, b = 0}
+			backColor = { r = 0.8, g = 0.7, b = 0.5 }
+			borderColor = { r = 0.3, g = 0.2, b = 0 }
 		end
 		-- backing
 		graphics.setColor(backColor.r, backColor.g, backColor.b)
@@ -230,14 +242,15 @@ function collide(px, py, x, y, c)
 end
 
 local colliders = {
-	{ l = -64, r = 64, t = -160, b = -96},
-	{ l = -58, r = 18, t = -96, b = -69},
-	{ l = 16, r = 58, t = -96, b = -88},
-	{ l = 52, r = 58, t = -96, b = -75},
+	{ l = -64, r = 64, t = -160, b = -96 },
+	{ l = -58, r = 18, t = -96,  b = -69 },
+	{ l = 16,  r = 58, t = -96,  b = -88 },
+	{ l = 52,  r = 58, t = -96,  b = -75 },
 }
 
 function love.update(dt)
 	if player.sheltered then
+		player.health = math.max(100, player.health + 1 * dt)
 		dt = dt * 4
 	end
 
@@ -296,7 +309,7 @@ function love.update(dt)
 		-- use item
 		if isDown("space") then
 			local currentItem = player.inventory[player.currentItem]
-			local pos = math.floor(player.x/16) .. "," ..math.floor(player.y/16)
+			local pos = math.floor(player.x / 16) .. "," .. math.floor(player.y / 16)
 			print(pos)
 
 			currentItem:use(pos)

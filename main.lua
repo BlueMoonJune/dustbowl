@@ -29,7 +29,23 @@ farmLands = {}
 graphics.setFont(graphics.newFont(50))
 local font = love.graphics.getFont()
 
+local credits = [[ 
+Dustbowl: a game by June Turner and Lily Chrisman
 
+Programming: 
+June Turner 
+Lily Chrisman 
+
+Artwork: 
+Lily Chrisman 
+June Turner 
+
+Composition: 
+June Turner 
+
+Presentation: 
+Lily Chrisman
+]]
 
 player = {
 	x = 0,
@@ -54,6 +70,8 @@ player = {
 	health = 100,
 	sheltered = false
 }
+boyTimer = 0
+local boyCropCount = 0
 itemIds = {}
 for i, itemInfo in ipairs(player.inventory) do
 	itemIds[itemInfo.name] = i
@@ -63,7 +81,26 @@ for i, itemInfo in ipairs(player.inventory) do
 end
 
 local tracks
-local dustStormTimer = 20;
+local dustStormTimer = 10
+local dustStormCount = 0
+
+money = 200
+local cropPrice = 1
+
+local parts = {
+	{frame = 0, index = 1, notes = require("midicsv").getEventTimes("sounds/percussion.csv", function (_, _, type, _, note)
+		return type == "Note_on_c" and note == "56"
+	end)},
+	{frame = 0, index = 1, notes = require("midicsv").getEventTimes("sounds/harmonica.csv", function (_, _, type)
+		return type == "Note_on_c"
+	end)},
+	{frame = 0, index = 1, notes = require("midicsv").getEventTimes("sounds/banjo.csv", function (_, _, type)
+		return type == "Note_on_c"
+	end)},
+	{frame = 0, index = 1, notes = require("midicsv").getEventTimes("sounds/percussion.csv", function (_, _, type, _, note)
+		return type == "Note_on_c" and note == "54"
+	end)},
+}
 
 function drawCrops(minx, miny, maxx, maxy)
 	for y = miny, maxy do
@@ -77,7 +114,9 @@ function drawCrops(minx, miny, maxx, maxy)
 	end
 end
 
+local bandFrame = 0
 local houseCounter = 0
+local pastASec = false
 function drawHouse()
 	houseCounter = houseCounter + 1
 	if houseCounter == 1 and player.y >= -96 or houseCounter == 2 and player.y < -96 then
@@ -86,6 +125,33 @@ function drawHouse()
 	if houseCounter == 2 then
 		houseCounter = 0
 	end
+	batches.band:clear()
+	local songPos = tracks.normal:tell()
+	if songPos > 1 then
+		pastASec = true
+	elseif pastASec then
+		pastASec = false
+		for _, part in ipairs(parts) do
+			part.index = 1
+		end
+	end
+	for i, part in ipairs(parts) do
+		if (part.notes[part.index] or 10000) < songPos then
+			if i == 2 or i == 3 then
+				if part.notes[part.index] ~= part.notes[part.index - 1] then
+					part.frame = (part.frame + 1) % 2
+				end
+			end
+			part.index = part.index + 1
+		end
+		if i == 1 or i == 4 then
+			local hit = part.index > 1 and part.notes[part.index - 1] > songPos - 0.1
+			print(hit)
+			part.frame = hit and 1 or 0
+		end
+		batches.band:add(quad(16 * i - 16, 24 * part.frame, 16, 24, 64, 48), -68 + 15 * i, -110)
+	end
+	graphics.draw(batches.band)
 end
 
 function love.load()
@@ -99,6 +165,19 @@ function love.load()
 	tracks.normal:setLooping(true)
 	love.audio.play(tracks.wind)
 	love.audio.play(tracks.normal)
+
+	for i = 1, 20 do
+		local x = math.random(-8, 8)
+		local y = math.random(-2, 4)
+		crops[x..","..y] = {
+			growth = math.random(0, 6),
+			id = math.random(0, CROP_COUNT - 1)
+		}
+		farmLands[x..","..y] = {
+			hydration = math.random(0, 4)
+		}
+	end
+
 end
 
 function love.draw()
@@ -112,7 +191,6 @@ function love.draw()
 	elseif dustStormTimer < 10 then
 		filterIntensity = 2 - dustStormTimer / 10
 	end
-	print("dust", dustStormTimer, filterIntensity)
 
 	tracks.wind:setVolume(filterIntensity / 2)
 	tracks.wind:setPitch(filterIntensity)
@@ -165,6 +243,10 @@ function love.draw()
 		graphics.draw(batches.player)
 	end
 
+	batches.boy:clear()
+	batches.boy:add(quad((boyTimer > 2) and 16 or 48, math.floor(boyTimer * 10) % 4 * 24, 16, 24, 16 * 4, 24 * 4), player.x - math.abs(boyTimer - 2) * w / 8 - 24, player.y - 16)
+	graphics.draw(batches.boy)
+
 	drawHouse()
 
 	batches.crops:clear()
@@ -212,6 +294,7 @@ function love.draw()
 		graphics.draw(itemInfo.text, offset + boxSize - fontWidth - 2, baseOffset + fontHeight + 5)
 
 		offset = offset + boxSize
+		graphics.print("$"..tostring(money), 0, 60)
 	end
 end
 
@@ -244,19 +327,31 @@ end
 local colliders = {
 	{ l = -64, r = 64, t = -160, b = -96 },
 	{ l = -58, r = 18, t = -96,  b = -69 },
-	{ l = 16,  r = 58, t = -96,  b = -88 },
+	{ l = 16,  r = 58, t = -100, b = -88 },
 	{ l = 52,  r = 58, t = -96,  b = -75 },
 }
 
 function love.update(dt)
 	if player.sheltered then
-		player.health = math.max(100, player.health + 1 * dt)
+		player.health = math.min(100, player.health + 1 * dt)
 		dt = dt * 4
 	end
+	boyTimer = boyTimer - dt / 2
 
-	for _, crop in pairs(crops) do
-		if math.random() / dt < 0.05 then
-			crop.growth = math.min(crop.growth + 1, MAX_GROWTH - 1)
+	if boyTimer < 2 and boyTimer > 1 then
+		boyCropCount = boyCropCount + player.inventory[itemIds.harvested_corn].count + player.inventory[itemIds.harvested_wheat].count
+		player.inventory[itemIds.harvested_wheat].count = 0
+		player.inventory[itemIds.harvested_corn].count = 0
+	end
+
+	if boyTimer < 0 then
+		money = money + boyCropCount * cropPrice
+		boyCropCount = 0
+	end
+
+	for pos, crop in pairs(crops) do
+		if math.random() / dt < 0.01 * (farmLands[pos] or {hydration = 0}).hydration then
+			crop.growth = math.min(crop.growth + 1, MAX_GROWTH - 2)
 		end
 	end
 	local isDown = love.keyboard.isDown
@@ -284,7 +379,6 @@ function love.update(dt)
 			player.frametimer = 0
 		end
 
-		print(player.x, player.y)
 		if y == -1 and player.y == -88 and player.x > 31 and player.x < 39 then
 			player.sheltered = true
 		end
@@ -322,15 +416,21 @@ function love.update(dt)
 	if dustStormTimer < 0 then
 		if dustStormTimer < -60 then
 			dustStormTimer = 300
+			dustStormCount = dustStormCount + 1
+			money = money - dustStormCount * 25
+			cropPrice = math.floor(cropPrice * 80) / 100
+			if money < 0 then
+				error("\nYOU RAN OUT OF MONEY AND STARVED      GAME OVER\n"..credits)
+			end
 		end
 		if not player.sheltered then
 			player.health = player.health - 5 * dt
 			if player.health <= 0 then
-				error("you died lol")
+				error("\nYOU INHALED TOO MUCH DUST      GAME OVER\n"..credits)
 			end
 		end
 		for pos, farmland in pairs(farmLands) do
-			if math.random() / dt < 0.3 then
+			if math.random() / dt < 0.03 then
 				if farmland.hydration <= 0 then
 					farmLands[pos] = nil
 				else
@@ -339,7 +439,7 @@ function love.update(dt)
 			end
 		end
 		for pos, crop in pairs(crops) do
-			if math.random() / dt < 0.1 then
+			if math.random() / dt < 0.01 then
 				crop.growth = 7
 			end
 		end

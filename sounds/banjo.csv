@@ -1,0 +1,2308 @@
+0, 0, Header, 0, 1, 19200
+1, 0, Start_track
+1, 0, Sequencer_specific, 5, 153, 1, 146, 214, 78
+1, 0, Note_on_c, 0, 60, 64
+1, 0, Sequencer_specific, 5, 153, 1, 146, 214, 79
+1, 4800, Note_on_c, 0, 64, 64
+1, 4800, Sequencer_specific, 5, 153, 1, 146, 214, 80
+1, 9600, Note_on_c, 0, 67, 64
+1, 9600, Sequencer_specific, 5, 153, 1, 146, 214, 81
+1, 14400, Note_on_c, 0, 71, 64
+1, 14400, Sequencer_specific, 5, 153, 1, 146, 214, 82
+1, 19200, Note_off_c, 0, 67, 64
+1, 19200, Sequencer_specific, 5, 153, 1, 146, 214, 83
+1, 19200, Note_on_c, 0, 67, 64
+1, 19200, Sequencer_specific, 5, 153, 1, 146, 214, 84
+1, 24000, Note_off_c, 0, 64, 64
+1, 24000, Sequencer_specific, 5, 153, 1, 146, 214, 85
+1, 24000, Note_on_c, 0, 64, 64
+1, 24000, Sequencer_specific, 5, 153, 1, 146, 214, 86
+1, 28800, Note_off_c, 0, 60, 64
+1, 28800, Sequencer_specific, 5, 153, 1, 146, 214, 87
+1, 28800, Note_on_c, 0, 60, 64
+1, 28800, Sequencer_specific, 5, 153, 1, 146, 214, 88
+1, 33600, Note_off_c, 0, 64, 64
+1, 33600, Sequencer_specific, 5, 153, 1, 146, 214, 89
+1, 33600, Note_on_c, 0, 64, 64
+1, 33600, Sequencer_specific, 5, 153, 1, 146, 214, 90
+1, 38400, Note_off_c, 0, 67, 64
+1, 38400, Sequencer_specific, 5, 153, 1, 146, 214, 91
+1, 38400, Note_on_c, 0, 67, 64
+1, 38400, Sequencer_specific, 5, 153, 1, 146, 214, 92
+1, 43200, Note_off_c, 0, 71, 64
+1, 43200, Sequencer_specific, 5, 153, 1, 146, 214, 93
+1, 43200, Note_on_c, 0, 71, 64
+1, 43200, Sequencer_specific, 5, 153, 1, 146, 214, 94
+1, 48000, Note_off_c, 0, 67, 64
+1, 48000, Sequencer_specific, 5, 153, 1, 146, 214, 95
+1, 48000, Note_on_c, 0, 67, 64
+1, 48000, Sequencer_specific, 5, 153, 1, 146, 214, 96
+1, 52800, Note_off_c, 0, 64, 64
+1, 52800, Sequencer_specific, 5, 153, 1, 146, 214, 97
+1, 52800, Note_on_c, 0, 64, 64
+1, 52800, Sequencer_specific, 5, 153, 1, 146, 214, 98
+1, 57600, Note_off_c, 0, 60, 64
+1, 57600, Sequencer_specific, 5, 153, 1, 146, 214, 99
+1, 57600, Note_on_c, 0, 57, 64
+1, 57600, Sequencer_specific, 5, 153, 1, 146, 214, 100
+1, 62400, Note_off_c, 0, 64, 64
+1, 62400, Sequencer_specific, 5, 153, 1, 146, 214, 101
+1, 62400, Note_on_c, 0, 61, 64
+1, 62400, Sequencer_specific, 5, 153, 1, 146, 214, 102
+1, 67200, Note_off_c, 0, 67, 64
+1, 67200, Sequencer_specific, 5, 153, 1, 146, 214, 103
+1, 67200, Note_on_c, 0, 64, 64
+1, 67200, Sequencer_specific, 5, 153, 1, 146, 214, 104
+1, 72000, Note_off_c, 0, 71, 64
+1, 72000, Sequencer_specific, 5, 153, 1, 146, 214, 105
+1, 72000, Note_on_c, 0, 68, 64
+1, 72000, Sequencer_specific, 5, 153, 1, 146, 214, 106
+1, 76800, Note_off_c, 0, 64, 64
+1, 76800, Sequencer_specific, 5, 153, 1, 146, 214, 107
+1, 76800, Note_on_c, 0, 64, 64
+1, 76800, Sequencer_specific, 5, 153, 1, 146, 214, 108
+1, 81600, Note_off_c, 0, 61, 64
+1, 81600, Sequencer_specific, 5, 153, 1, 146, 214, 109
+1, 81600, Note_on_c, 0, 61, 64
+1, 81600, Sequencer_specific, 5, 153, 1, 146, 214, 110
+1, 86400, Note_off_c, 0, 57, 64
+1, 86400, Sequencer_specific, 5, 153, 1, 146, 214, 111
+1, 86400, Note_on_c, 0, 57, 64
+1, 86400, Sequencer_specific, 5, 153, 1, 146, 214, 112
+1, 91200, Note_off_c, 0, 61, 64
+1, 91200, Sequencer_specific, 5, 153, 1, 146, 214, 113
+1, 91200, Note_on_c, 0, 61, 64
+1, 91200, Sequencer_specific, 5, 153, 1, 146, 214, 114
+1, 96000, Note_off_c, 0, 64, 64
+1, 96000, Sequencer_specific, 5, 153, 1, 146, 214, 115
+1, 96000, Note_on_c, 0, 64, 64
+1, 96000, Sequencer_specific, 5, 153, 1, 146, 214, 116
+1, 100800, Note_off_c, 0, 68, 64
+1, 100800, Sequencer_specific, 5, 153, 1, 146, 214, 117
+1, 100800, Note_on_c, 0, 68, 64
+1, 100800, Sequencer_specific, 5, 153, 1, 146, 214, 118
+1, 105600, Note_off_c, 0, 64, 64
+1, 105600, Sequencer_specific, 5, 153, 1, 146, 214, 119
+1, 105600, Note_on_c, 0, 64, 64
+1, 105600, Sequencer_specific, 5, 153, 1, 146, 214, 120
+1, 110400, Note_off_c, 0, 61, 64
+1, 110400, Sequencer_specific, 5, 153, 1, 146, 214, 121
+1, 110400, Note_on_c, 0, 61, 64
+1, 110400, Sequencer_specific, 5, 153, 1, 146, 214, 122
+1, 115200, Note_off_c, 0, 57, 64
+1, 115200, Sequencer_specific, 5, 153, 1, 146, 214, 123
+1, 115200, Note_on_c, 0, 55, 64
+1, 115200, Sequencer_specific, 5, 153, 1, 146, 214, 124
+1, 120000, Note_off_c, 0, 61, 64
+1, 120000, Sequencer_specific, 5, 153, 1, 146, 214, 125
+1, 120000, Note_on_c, 0, 59, 64
+1, 120000, Sequencer_specific, 5, 153, 1, 146, 214, 126
+1, 124800, Note_off_c, 0, 64, 64
+1, 124800, Sequencer_specific, 5, 153, 1, 146, 214, 127
+1, 124800, Note_on_c, 0, 62, 64
+1, 124800, Sequencer_specific, 5, 153, 1, 146, 215, 0
+1, 129600, Note_off_c, 0, 68, 64
+1, 129600, Sequencer_specific, 5, 153, 1, 146, 215, 1
+1, 129600, Note_on_c, 0, 66, 64
+1, 129600, Sequencer_specific, 5, 153, 1, 146, 215, 2
+1, 134400, Note_off_c, 0, 62, 64
+1, 134400, Sequencer_specific, 5, 153, 1, 146, 215, 3
+1, 134400, Note_on_c, 0, 62, 64
+1, 134400, Sequencer_specific, 5, 153, 1, 146, 215, 4
+1, 139200, Note_off_c, 0, 59, 64
+1, 139200, Sequencer_specific, 5, 153, 1, 146, 215, 5
+1, 139200, Note_on_c, 0, 59, 64
+1, 139200, Sequencer_specific, 5, 153, 1, 146, 215, 6
+1, 144000, Note_off_c, 0, 55, 64
+1, 144000, Sequencer_specific, 5, 153, 1, 146, 215, 7
+1, 144000, Note_on_c, 0, 55, 64
+1, 144000, Sequencer_specific, 5, 153, 1, 146, 215, 8
+1, 148800, Note_off_c, 0, 59, 64
+1, 148800, Sequencer_specific, 5, 153, 1, 146, 215, 9
+1, 148800, Note_on_c, 0, 59, 64
+1, 148800, Sequencer_specific, 5, 153, 1, 146, 215, 10
+1, 153600, Note_off_c, 0, 62, 64
+1, 153600, Sequencer_specific, 5, 153, 1, 146, 215, 11
+1, 153600, Note_on_c, 0, 62, 64
+1, 153600, Sequencer_specific, 5, 153, 1, 146, 215, 12
+1, 158400, Note_off_c, 0, 66, 64
+1, 158400, Sequencer_specific, 5, 153, 1, 146, 215, 13
+1, 158400, Note_on_c, 0, 66, 64
+1, 158400, Sequencer_specific, 5, 153, 1, 146, 215, 14
+1, 163200, Note_off_c, 0, 62, 64
+1, 163200, Sequencer_specific, 5, 153, 1, 146, 215, 15
+1, 163200, Note_on_c, 0, 62, 64
+1, 163200, Sequencer_specific, 5, 153, 1, 146, 215, 16
+1, 168000, Note_off_c, 0, 59, 64
+1, 168000, Sequencer_specific, 5, 153, 1, 146, 215, 17
+1, 168000, Note_on_c, 0, 59, 64
+1, 168000, Sequencer_specific, 5, 153, 1, 146, 215, 18
+1, 172800, Note_off_c, 0, 55, 64
+1, 172800, Sequencer_specific, 5, 153, 1, 146, 215, 19
+1, 172800, Note_on_c, 0, 59, 64
+1, 172800, Sequencer_specific, 5, 153, 1, 146, 215, 20
+1, 177600, Note_off_c, 0, 59, 64
+1, 177600, Sequencer_specific, 5, 153, 1, 146, 215, 21
+1, 177600, Note_on_c, 0, 63, 64
+1, 177600, Sequencer_specific, 5, 153, 1, 146, 215, 22
+1, 182400, Note_off_c, 0, 62, 64
+1, 182400, Sequencer_specific, 5, 153, 1, 146, 215, 23
+1, 182400, Note_on_c, 0, 66, 64
+1, 182400, Sequencer_specific, 5, 153, 1, 146, 215, 24
+1, 187200, Note_off_c, 0, 66, 64
+1, 187200, Sequencer_specific, 5, 153, 1, 146, 215, 25
+1, 187200, Note_on_c, 0, 70, 64
+1, 187200, Sequencer_specific, 5, 153, 1, 146, 215, 26
+1, 192000, Note_off_c, 0, 66, 64
+1, 192000, Sequencer_specific, 5, 153, 1, 146, 215, 27
+1, 192000, Note_on_c, 0, 66, 64
+1, 192000, Sequencer_specific, 5, 153, 1, 146, 215, 28
+1, 196800, Note_off_c, 0, 63, 64
+1, 196800, Sequencer_specific, 5, 153, 1, 146, 215, 29
+1, 196800, Note_on_c, 0, 63, 64
+1, 196800, Sequencer_specific, 5, 153, 1, 146, 215, 30
+1, 201600, Note_off_c, 0, 59, 64
+1, 201600, Sequencer_specific, 5, 153, 1, 146, 215, 31
+1, 201600, Note_on_c, 0, 59, 64
+1, 201600, Sequencer_specific, 5, 153, 1, 146, 215, 32
+1, 206400, Note_off_c, 0, 63, 64
+1, 206400, Sequencer_specific, 5, 153, 1, 146, 215, 33
+1, 206400, Note_on_c, 0, 63, 64
+1, 206400, Sequencer_specific, 5, 153, 1, 146, 215, 34
+1, 211200, Note_off_c, 0, 66, 64
+1, 211200, Sequencer_specific, 5, 153, 1, 146, 215, 35
+1, 211200, Note_on_c, 0, 66, 64
+1, 211200, Sequencer_specific, 5, 153, 1, 146, 215, 36
+1, 216000, Note_off_c, 0, 70, 64
+1, 216000, Sequencer_specific, 5, 153, 1, 146, 215, 37
+1, 216000, Note_on_c, 0, 70, 64
+1, 216000, Sequencer_specific, 5, 153, 1, 146, 215, 38
+1, 220800, Note_off_c, 0, 66, 64
+1, 220800, Sequencer_specific, 5, 153, 1, 146, 215, 39
+1, 220800, Note_on_c, 0, 66, 64
+1, 220800, Sequencer_specific, 5, 153, 1, 146, 215, 40
+1, 225600, Note_off_c, 0, 63, 64
+1, 225600, Sequencer_specific, 5, 153, 1, 146, 215, 41
+1, 225600, Note_on_c, 0, 63, 64
+1, 225600, Sequencer_specific, 5, 153, 1, 146, 215, 42
+1, 230400, Note_off_c, 0, 59, 64
+1, 230400, Sequencer_specific, 5, 153, 1, 146, 215, 43
+1, 230400, Note_off_c, 0, 66, 64
+1, 230400, Sequencer_specific, 5, 153, 1, 146, 215, 44
+1, 230400, Note_off_c, 0, 70, 64
+1, 230400, Sequencer_specific, 5, 153, 1, 146, 215, 45
+1, 230400, Note_off_c, 0, 63, 64
+1, 230400, Sequencer_specific, 5, 153, 1, 146, 215, 46
+1, 230400, Note_on_c, 0, 60, 64
+1, 230400, Sequencer_specific, 5, 153, 1, 146, 215, 47
+1, 235200, Note_on_c, 0, 64, 64
+1, 235200, Sequencer_specific, 5, 153, 1, 146, 215, 48
+1, 240000, Note_on_c, 0, 67, 64
+1, 240000, Sequencer_specific, 5, 153, 1, 146, 215, 49
+1, 244800, Note_on_c, 0, 71, 64
+1, 244800, Sequencer_specific, 5, 153, 1, 146, 215, 50
+1, 249600, Note_off_c, 0, 67, 64
+1, 249600, Sequencer_specific, 5, 153, 1, 146, 215, 51
+1, 249600, Note_on_c, 0, 67, 64
+1, 249600, Sequencer_specific, 5, 153, 1, 146, 215, 52
+1, 254400, Note_off_c, 0, 64, 64
+1, 254400, Sequencer_specific, 5, 153, 1, 146, 215, 53
+1, 254400, Note_on_c, 0, 64, 64
+1, 254400, Sequencer_specific, 5, 153, 1, 146, 215, 54
+1, 259200, Note_off_c, 0, 60, 64
+1, 259200, Sequencer_specific, 5, 153, 1, 146, 215, 55
+1, 259200, Note_on_c, 0, 60, 64
+1, 259200, Sequencer_specific, 5, 153, 1, 146, 215, 56
+1, 264000, Note_off_c, 0, 64, 64
+1, 264000, Sequencer_specific, 5, 153, 1, 146, 215, 57
+1, 264000, Note_on_c, 0, 64, 64
+1, 264000, Sequencer_specific, 5, 153, 1, 146, 215, 58
+1, 268800, Note_off_c, 0, 67, 64
+1, 268800, Sequencer_specific, 5, 153, 1, 146, 215, 59
+1, 268800, Note_on_c, 0, 67, 64
+1, 268800, Sequencer_specific, 5, 153, 1, 146, 215, 60
+1, 273600, Note_off_c, 0, 71, 64
+1, 273600, Sequencer_specific, 5, 153, 1, 146, 215, 61
+1, 273600, Note_on_c, 0, 71, 64
+1, 273600, Sequencer_specific, 5, 153, 1, 146, 215, 62
+1, 278400, Note_off_c, 0, 67, 64
+1, 278400, Sequencer_specific, 5, 153, 1, 146, 215, 63
+1, 278400, Note_on_c, 0, 67, 64
+1, 278400, Sequencer_specific, 5, 153, 1, 146, 215, 64
+1, 283200, Note_off_c, 0, 64, 64
+1, 283200, Sequencer_specific, 5, 153, 1, 146, 215, 65
+1, 283200, Note_on_c, 0, 64, 64
+1, 283200, Sequencer_specific, 5, 153, 1, 146, 215, 66
+1, 288000, Note_off_c, 0, 60, 64
+1, 288000, Sequencer_specific, 5, 153, 1, 146, 215, 67
+1, 288000, Note_on_c, 0, 57, 64
+1, 288000, Sequencer_specific, 5, 153, 1, 146, 215, 68
+1, 292800, Note_off_c, 0, 64, 64
+1, 292800, Sequencer_specific, 5, 153, 1, 146, 215, 69
+1, 292800, Note_on_c, 0, 61, 64
+1, 292800, Sequencer_specific, 5, 153, 1, 146, 215, 70
+1, 297600, Note_off_c, 0, 67, 64
+1, 297600, Sequencer_specific, 5, 153, 1, 146, 215, 71
+1, 297600, Note_on_c, 0, 64, 64
+1, 297600, Sequencer_specific, 5, 153, 1, 146, 215, 72
+1, 302400, Note_off_c, 0, 71, 64
+1, 302400, Sequencer_specific, 5, 153, 1, 146, 215, 73
+1, 302400, Note_on_c, 0, 68, 64
+1, 302400, Sequencer_specific, 5, 153, 1, 146, 215, 74
+1, 307200, Note_off_c, 0, 64, 64
+1, 307200, Sequencer_specific, 5, 153, 1, 146, 215, 75
+1, 307200, Note_on_c, 0, 64, 64
+1, 307200, Sequencer_specific, 5, 153, 1, 146, 215, 76
+1, 312000, Note_off_c, 0, 61, 64
+1, 312000, Sequencer_specific, 5, 153, 1, 146, 215, 77
+1, 312000, Note_on_c, 0, 61, 64
+1, 312000, Sequencer_specific, 5, 153, 1, 146, 215, 78
+1, 316800, Note_off_c, 0, 57, 64
+1, 316800, Sequencer_specific, 5, 153, 1, 146, 215, 79
+1, 316800, Note_on_c, 0, 57, 64
+1, 316800, Sequencer_specific, 5, 153, 1, 146, 215, 80
+1, 321600, Note_off_c, 0, 61, 64
+1, 321600, Sequencer_specific, 5, 153, 1, 146, 215, 81
+1, 321600, Note_on_c, 0, 61, 64
+1, 321600, Sequencer_specific, 5, 153, 1, 146, 215, 82
+1, 326400, Note_off_c, 0, 64, 64
+1, 326400, Sequencer_specific, 5, 153, 1, 146, 215, 83
+1, 326400, Note_on_c, 0, 64, 64
+1, 326400, Sequencer_specific, 5, 153, 1, 146, 215, 84
+1, 331200, Note_off_c, 0, 68, 64
+1, 331200, Sequencer_specific, 5, 153, 1, 146, 215, 85
+1, 331200, Note_on_c, 0, 68, 64
+1, 331200, Sequencer_specific, 5, 153, 1, 146, 215, 86
+1, 336000, Note_off_c, 0, 64, 64
+1, 336000, Sequencer_specific, 5, 153, 1, 146, 215, 87
+1, 336000, Note_on_c, 0, 64, 64
+1, 336000, Sequencer_specific, 5, 153, 1, 146, 215, 88
+1, 340800, Note_off_c, 0, 61, 64
+1, 340800, Sequencer_specific, 5, 153, 1, 146, 215, 89
+1, 340800, Note_on_c, 0, 61, 64
+1, 340800, Sequencer_specific, 5, 153, 1, 146, 215, 90
+1, 345600, Note_off_c, 0, 57, 64
+1, 345600, Sequencer_specific, 5, 153, 1, 146, 215, 91
+1, 345600, Note_on_c, 0, 55, 64
+1, 345600, Sequencer_specific, 5, 153, 1, 146, 215, 92
+1, 350400, Note_off_c, 0, 61, 64
+1, 350400, Sequencer_specific, 5, 153, 1, 146, 215, 93
+1, 350400, Note_on_c, 0, 59, 64
+1, 350400, Sequencer_specific, 5, 153, 1, 146, 215, 94
+1, 355200, Note_off_c, 0, 64, 64
+1, 355200, Sequencer_specific, 5, 153, 1, 146, 215, 95
+1, 355200, Note_on_c, 0, 62, 64
+1, 355200, Sequencer_specific, 5, 153, 1, 146, 215, 96
+1, 360000, Note_off_c, 0, 68, 64
+1, 360000, Sequencer_specific, 5, 153, 1, 146, 215, 97
+1, 360000, Note_on_c, 0, 66, 64
+1, 360000, Sequencer_specific, 5, 153, 1, 146, 215, 98
+1, 364800, Note_off_c, 0, 62, 64
+1, 364800, Sequencer_specific, 5, 153, 1, 146, 215, 99
+1, 364800, Note_on_c, 0, 62, 64
+1, 364800, Sequencer_specific, 5, 153, 1, 146, 215, 100
+1, 369600, Note_off_c, 0, 59, 64
+1, 369600, Sequencer_specific, 5, 153, 1, 146, 215, 101
+1, 369600, Note_on_c, 0, 59, 64
+1, 369600, Sequencer_specific, 5, 153, 1, 146, 215, 102
+1, 374400, Note_off_c, 0, 55, 64
+1, 374400, Sequencer_specific, 5, 153, 1, 146, 215, 103
+1, 374400, Note_on_c, 0, 55, 64
+1, 374400, Sequencer_specific, 5, 153, 1, 146, 215, 104
+1, 379200, Note_off_c, 0, 59, 64
+1, 379200, Sequencer_specific, 5, 153, 1, 146, 215, 105
+1, 379200, Note_on_c, 0, 59, 64
+1, 379200, Sequencer_specific, 5, 153, 1, 146, 215, 106
+1, 384000, Note_off_c, 0, 62, 64
+1, 384000, Sequencer_specific, 5, 153, 1, 146, 215, 107
+1, 384000, Note_on_c, 0, 62, 64
+1, 384000, Sequencer_specific, 5, 153, 1, 146, 215, 108
+1, 388800, Note_off_c, 0, 66, 64
+1, 388800, Sequencer_specific, 5, 153, 1, 146, 215, 109
+1, 388800, Note_on_c, 0, 66, 64
+1, 388800, Sequencer_specific, 5, 153, 1, 146, 215, 110
+1, 393600, Note_off_c, 0, 62, 64
+1, 393600, Sequencer_specific, 5, 153, 1, 146, 215, 111
+1, 393600, Note_on_c, 0, 62, 64
+1, 393600, Sequencer_specific, 5, 153, 1, 146, 215, 112
+1, 398400, Note_off_c, 0, 59, 64
+1, 398400, Sequencer_specific, 5, 153, 1, 146, 215, 113
+1, 398400, Note_on_c, 0, 59, 64
+1, 398400, Sequencer_specific, 5, 153, 1, 146, 215, 114
+1, 403200, Note_off_c, 0, 55, 64
+1, 403200, Sequencer_specific, 5, 153, 1, 146, 215, 115
+1, 403200, Note_on_c, 0, 59, 64
+1, 403200, Sequencer_specific, 5, 153, 1, 146, 215, 116
+1, 408000, Note_off_c, 0, 59, 64
+1, 408000, Sequencer_specific, 5, 153, 1, 146, 215, 117
+1, 408000, Note_on_c, 0, 63, 64
+1, 408000, Sequencer_specific, 5, 153, 1, 146, 215, 118
+1, 412800, Note_off_c, 0, 62, 64
+1, 412800, Sequencer_specific, 5, 153, 1, 146, 215, 119
+1, 412800, Note_on_c, 0, 66, 64
+1, 412800, Sequencer_specific, 5, 153, 1, 146, 215, 120
+1, 417600, Note_off_c, 0, 66, 64
+1, 417600, Sequencer_specific, 5, 153, 1, 146, 215, 121
+1, 417600, Note_on_c, 0, 70, 64
+1, 417600, Sequencer_specific, 5, 153, 1, 146, 215, 122
+1, 422400, Note_off_c, 0, 66, 64
+1, 422400, Sequencer_specific, 5, 153, 1, 146, 215, 123
+1, 422400, Note_on_c, 0, 66, 64
+1, 422400, Sequencer_specific, 5, 153, 1, 146, 215, 124
+1, 427200, Note_off_c, 0, 63, 64
+1, 427200, Sequencer_specific, 5, 153, 1, 146, 215, 125
+1, 427200, Note_on_c, 0, 63, 64
+1, 427200, Sequencer_specific, 5, 153, 1, 146, 215, 126
+1, 432000, Note_off_c, 0, 59, 64
+1, 432000, Sequencer_specific, 5, 153, 1, 146, 215, 127
+1, 432000, Note_on_c, 0, 59, 64
+1, 432000, Sequencer_specific, 5, 153, 1, 146, 216, 0
+1, 436800, Note_off_c, 0, 63, 64
+1, 436800, Sequencer_specific, 5, 153, 1, 146, 216, 1
+1, 436800, Note_on_c, 0, 63, 64
+1, 436800, Sequencer_specific, 5, 153, 1, 146, 216, 2
+1, 441600, Note_off_c, 0, 66, 64
+1, 441600, Sequencer_specific, 5, 153, 1, 146, 216, 3
+1, 441600, Note_on_c, 0, 66, 64
+1, 441600, Sequencer_specific, 5, 153, 1, 146, 216, 4
+1, 446400, Note_off_c, 0, 70, 64
+1, 446400, Sequencer_specific, 5, 153, 1, 146, 216, 5
+1, 446400, Note_on_c, 0, 70, 64
+1, 446400, Sequencer_specific, 5, 153, 1, 146, 216, 6
+1, 451200, Note_off_c, 0, 66, 64
+1, 451200, Sequencer_specific, 5, 153, 1, 146, 216, 7
+1, 451200, Note_on_c, 0, 66, 64
+1, 451200, Sequencer_specific, 5, 153, 1, 146, 216, 8
+1, 456000, Note_off_c, 0, 63, 64
+1, 456000, Sequencer_specific, 5, 153, 1, 146, 216, 9
+1, 456000, Note_on_c, 0, 63, 64
+1, 456000, Sequencer_specific, 5, 153, 1, 146, 216, 10
+1, 460800, Note_off_c, 0, 59, 64
+1, 460800, Sequencer_specific, 5, 153, 1, 146, 216, 11
+1, 460800, Note_off_c, 0, 66, 64
+1, 460800, Sequencer_specific, 5, 153, 1, 146, 216, 12
+1, 460800, Note_off_c, 0, 70, 64
+1, 460800, Sequencer_specific, 5, 153, 1, 146, 216, 13
+1, 460800, Note_off_c, 0, 63, 64
+1, 460800, Sequencer_specific, 5, 153, 1, 146, 216, 14
+1, 460800, Note_on_c, 0, 60, 64
+1, 460800, Sequencer_specific, 5, 153, 1, 146, 216, 15
+1, 465600, Note_on_c, 0, 64, 64
+1, 465600, Sequencer_specific, 5, 153, 1, 146, 216, 16
+1, 470400, Note_on_c, 0, 67, 64
+1, 470400, Sequencer_specific, 5, 153, 1, 146, 216, 17
+1, 475200, Note_on_c, 0, 71, 64
+1, 475200, Sequencer_specific, 5, 153, 1, 146, 216, 18
+1, 480000, Note_off_c, 0, 67, 64
+1, 480000, Sequencer_specific, 5, 153, 1, 146, 216, 19
+1, 480000, Note_on_c, 0, 67, 64
+1, 480000, Sequencer_specific, 5, 153, 1, 146, 216, 20
+1, 484800, Note_off_c, 0, 64, 64
+1, 484800, Sequencer_specific, 5, 153, 1, 146, 216, 21
+1, 484800, Note_on_c, 0, 64, 64
+1, 484800, Sequencer_specific, 5, 153, 1, 146, 216, 22
+1, 489600, Note_off_c, 0, 60, 64
+1, 489600, Sequencer_specific, 5, 153, 1, 146, 216, 23
+1, 489600, Note_on_c, 0, 60, 64
+1, 489600, Sequencer_specific, 5, 153, 1, 146, 216, 24
+1, 494400, Note_off_c, 0, 64, 64
+1, 494400, Sequencer_specific, 5, 153, 1, 146, 216, 25
+1, 494400, Note_on_c, 0, 64, 64
+1, 494400, Sequencer_specific, 5, 153, 1, 146, 216, 26
+1, 499200, Note_off_c, 0, 67, 64
+1, 499200, Sequencer_specific, 5, 153, 1, 146, 216, 27
+1, 499200, Note_on_c, 0, 67, 64
+1, 499200, Sequencer_specific, 5, 153, 1, 146, 216, 28
+1, 504000, Note_off_c, 0, 71, 64
+1, 504000, Sequencer_specific, 5, 153, 1, 146, 216, 29
+1, 504000, Note_on_c, 0, 71, 64
+1, 504000, Sequencer_specific, 5, 153, 1, 146, 216, 30
+1, 508800, Note_off_c, 0, 67, 64
+1, 508800, Sequencer_specific, 5, 153, 1, 146, 216, 31
+1, 508800, Note_on_c, 0, 67, 64
+1, 508800, Sequencer_specific, 5, 153, 1, 146, 216, 32
+1, 513600, Note_off_c, 0, 64, 64
+1, 513600, Sequencer_specific, 5, 153, 1, 146, 216, 33
+1, 513600, Note_on_c, 0, 64, 64
+1, 513600, Sequencer_specific, 5, 153, 1, 146, 216, 34
+1, 518400, Note_off_c, 0, 60, 64
+1, 518400, Sequencer_specific, 5, 153, 1, 146, 216, 35
+1, 518400, Note_on_c, 0, 57, 64
+1, 518400, Sequencer_specific, 5, 153, 1, 146, 216, 36
+1, 523200, Note_off_c, 0, 64, 64
+1, 523200, Sequencer_specific, 5, 153, 1, 146, 216, 37
+1, 523200, Note_on_c, 0, 61, 64
+1, 523200, Sequencer_specific, 5, 153, 1, 146, 216, 38
+1, 528000, Note_off_c, 0, 67, 64
+1, 528000, Sequencer_specific, 5, 153, 1, 146, 216, 39
+1, 528000, Note_on_c, 0, 64, 64
+1, 528000, Sequencer_specific, 5, 153, 1, 146, 216, 40
+1, 532800, Note_off_c, 0, 71, 64
+1, 532800, Sequencer_specific, 5, 153, 1, 146, 216, 41
+1, 532800, Note_on_c, 0, 68, 64
+1, 532800, Sequencer_specific, 5, 153, 1, 146, 216, 42
+1, 537600, Note_off_c, 0, 64, 64
+1, 537600, Sequencer_specific, 5, 153, 1, 146, 216, 43
+1, 537600, Note_on_c, 0, 64, 64
+1, 537600, Sequencer_specific, 5, 153, 1, 146, 216, 44
+1, 542400, Note_off_c, 0, 61, 64
+1, 542400, Sequencer_specific, 5, 153, 1, 146, 216, 45
+1, 542400, Note_on_c, 0, 61, 64
+1, 542400, Sequencer_specific, 5, 153, 1, 146, 216, 46
+1, 547200, Note_off_c, 0, 57, 64
+1, 547200, Sequencer_specific, 5, 153, 1, 146, 216, 47
+1, 547200, Note_on_c, 0, 57, 64
+1, 547200, Sequencer_specific, 5, 153, 1, 146, 216, 48
+1, 552000, Note_off_c, 0, 61, 64
+1, 552000, Sequencer_specific, 5, 153, 1, 146, 216, 49
+1, 552000, Note_on_c, 0, 61, 64
+1, 552000, Sequencer_specific, 5, 153, 1, 146, 216, 50
+1, 556800, Note_off_c, 0, 64, 64
+1, 556800, Sequencer_specific, 5, 153, 1, 146, 216, 51
+1, 556800, Note_on_c, 0, 64, 64
+1, 556800, Sequencer_specific, 5, 153, 1, 146, 216, 52
+1, 561600, Note_off_c, 0, 68, 64
+1, 561600, Sequencer_specific, 5, 153, 1, 146, 216, 53
+1, 561600, Note_on_c, 0, 68, 64
+1, 561600, Sequencer_specific, 5, 153, 1, 146, 216, 54
+1, 566400, Note_off_c, 0, 64, 64
+1, 566400, Sequencer_specific, 5, 153, 1, 146, 216, 55
+1, 566400, Note_on_c, 0, 64, 64
+1, 566400, Sequencer_specific, 5, 153, 1, 146, 216, 56
+1, 571200, Note_off_c, 0, 61, 64
+1, 571200, Sequencer_specific, 5, 153, 1, 146, 216, 57
+1, 571200, Note_on_c, 0, 61, 64
+1, 571200, Sequencer_specific, 5, 153, 1, 146, 216, 58
+1, 576000, Note_off_c, 0, 57, 64
+1, 576000, Sequencer_specific, 5, 153, 1, 146, 216, 59
+1, 576000, Note_on_c, 0, 55, 64
+1, 576000, Sequencer_specific, 5, 153, 1, 146, 216, 60
+1, 580800, Note_off_c, 0, 61, 64
+1, 580800, Sequencer_specific, 5, 153, 1, 146, 216, 61
+1, 580800, Note_on_c, 0, 59, 64
+1, 580800, Sequencer_specific, 5, 153, 1, 146, 216, 62
+1, 585600, Note_off_c, 0, 64, 64
+1, 585600, Sequencer_specific, 5, 153, 1, 146, 216, 63
+1, 585600, Note_on_c, 0, 62, 64
+1, 585600, Sequencer_specific, 5, 153, 1, 146, 216, 64
+1, 590400, Note_off_c, 0, 68, 64
+1, 590400, Sequencer_specific, 5, 153, 1, 146, 216, 65
+1, 590400, Note_on_c, 0, 66, 64
+1, 590400, Sequencer_specific, 5, 153, 1, 146, 216, 66
+1, 595200, Note_off_c, 0, 62, 64
+1, 595200, Sequencer_specific, 5, 153, 1, 146, 216, 67
+1, 595200, Note_on_c, 0, 62, 64
+1, 595200, Sequencer_specific, 5, 153, 1, 146, 216, 68
+1, 600000, Note_off_c, 0, 59, 64
+1, 600000, Sequencer_specific, 5, 153, 1, 146, 216, 69
+1, 600000, Note_on_c, 0, 59, 64
+1, 600000, Sequencer_specific, 5, 153, 1, 146, 216, 70
+1, 604800, Note_off_c, 0, 55, 64
+1, 604800, Sequencer_specific, 5, 153, 1, 146, 216, 71
+1, 604800, Note_on_c, 0, 55, 64
+1, 604800, Sequencer_specific, 5, 153, 1, 146, 216, 72
+1, 609600, Note_off_c, 0, 59, 64
+1, 609600, Sequencer_specific, 5, 153, 1, 146, 216, 73
+1, 609600, Note_on_c, 0, 59, 64
+1, 609600, Sequencer_specific, 5, 153, 1, 146, 216, 74
+1, 614400, Note_off_c, 0, 62, 64
+1, 614400, Sequencer_specific, 5, 153, 1, 146, 216, 75
+1, 614400, Note_on_c, 0, 62, 64
+1, 614400, Sequencer_specific, 5, 153, 1, 146, 216, 76
+1, 619200, Note_off_c, 0, 66, 64
+1, 619200, Sequencer_specific, 5, 153, 1, 146, 216, 77
+1, 619200, Note_on_c, 0, 66, 64
+1, 619200, Sequencer_specific, 5, 153, 1, 146, 216, 78
+1, 624000, Note_off_c, 0, 62, 64
+1, 624000, Sequencer_specific, 5, 153, 1, 146, 216, 79
+1, 624000, Note_on_c, 0, 62, 64
+1, 624000, Sequencer_specific, 5, 153, 1, 146, 216, 80
+1, 628800, Note_off_c, 0, 59, 64
+1, 628800, Sequencer_specific, 5, 153, 1, 146, 216, 81
+1, 628800, Note_on_c, 0, 59, 64
+1, 628800, Sequencer_specific, 5, 153, 1, 146, 216, 82
+1, 633600, Note_off_c, 0, 55, 64
+1, 633600, Sequencer_specific, 5, 153, 1, 146, 216, 83
+1, 633600, Note_on_c, 0, 59, 64
+1, 633600, Sequencer_specific, 5, 153, 1, 146, 216, 84
+1, 638400, Note_off_c, 0, 59, 64
+1, 638400, Sequencer_specific, 5, 153, 1, 146, 216, 85
+1, 638400, Note_on_c, 0, 63, 64
+1, 638400, Sequencer_specific, 5, 153, 1, 146, 216, 86
+1, 643200, Note_off_c, 0, 62, 64
+1, 643200, Sequencer_specific, 5, 153, 1, 146, 216, 87
+1, 643200, Note_on_c, 0, 66, 64
+1, 643200, Sequencer_specific, 5, 153, 1, 146, 216, 88
+1, 648000, Note_off_c, 0, 66, 64
+1, 648000, Sequencer_specific, 5, 153, 1, 146, 216, 89
+1, 648000, Note_on_c, 0, 70, 64
+1, 648000, Sequencer_specific, 5, 153, 1, 146, 216, 90
+1, 652800, Note_off_c, 0, 66, 64
+1, 652800, Sequencer_specific, 5, 153, 1, 146, 216, 91
+1, 652800, Note_on_c, 0, 66, 64
+1, 652800, Sequencer_specific, 5, 153, 1, 146, 216, 92
+1, 657600, Note_off_c, 0, 63, 64
+1, 657600, Sequencer_specific, 5, 153, 1, 146, 216, 93
+1, 657600, Note_on_c, 0, 63, 64
+1, 657600, Sequencer_specific, 5, 153, 1, 146, 216, 94
+1, 662400, Note_off_c, 0, 59, 64
+1, 662400, Sequencer_specific, 5, 153, 1, 146, 216, 95
+1, 662400, Note_on_c, 0, 59, 64
+1, 662400, Sequencer_specific, 5, 153, 1, 146, 216, 96
+1, 667200, Note_off_c, 0, 63, 64
+1, 667200, Sequencer_specific, 5, 153, 1, 146, 216, 97
+1, 667200, Note_on_c, 0, 63, 64
+1, 667200, Sequencer_specific, 5, 153, 1, 146, 216, 98
+1, 672000, Note_off_c, 0, 66, 64
+1, 672000, Sequencer_specific, 5, 153, 1, 146, 216, 99
+1, 672000, Note_on_c, 0, 66, 64
+1, 672000, Sequencer_specific, 5, 153, 1, 146, 216, 100
+1, 676800, Note_off_c, 0, 70, 64
+1, 676800, Sequencer_specific, 5, 153, 1, 146, 216, 101
+1, 676800, Note_on_c, 0, 70, 64
+1, 676800, Sequencer_specific, 5, 153, 1, 146, 216, 102
+1, 681600, Note_off_c, 0, 66, 64
+1, 681600, Sequencer_specific, 5, 153, 1, 146, 216, 103
+1, 681600, Note_on_c, 0, 66, 64
+1, 681600, Sequencer_specific, 5, 153, 1, 146, 216, 104
+1, 686400, Note_off_c, 0, 63, 64
+1, 686400, Sequencer_specific, 5, 153, 1, 146, 216, 105
+1, 686400, Note_on_c, 0, 63, 64
+1, 686400, Sequencer_specific, 5, 153, 1, 146, 216, 106
+1, 691200, Note_off_c, 0, 59, 64
+1, 691200, Sequencer_specific, 5, 153, 1, 146, 216, 107
+1, 691200, Note_off_c, 0, 66, 64
+1, 691200, Sequencer_specific, 5, 153, 1, 146, 216, 108
+1, 691200, Note_off_c, 0, 70, 64
+1, 691200, Sequencer_specific, 5, 153, 1, 146, 216, 109
+1, 691200, Note_off_c, 0, 63, 64
+1, 691200, Sequencer_specific, 5, 153, 1, 146, 216, 110
+1, 691200, Note_on_c, 0, 60, 64
+1, 691200, Sequencer_specific, 5, 153, 1, 146, 216, 111
+1, 696000, Note_on_c, 0, 64, 64
+1, 696000, Sequencer_specific, 5, 153, 1, 146, 216, 112
+1, 700800, Note_on_c, 0, 67, 64
+1, 700800, Sequencer_specific, 5, 153, 1, 146, 216, 113
+1, 705600, Note_on_c, 0, 71, 64
+1, 705600, Sequencer_specific, 5, 153, 1, 146, 216, 114
+1, 710400, Note_off_c, 0, 67, 64
+1, 710400, Sequencer_specific, 5, 153, 1, 146, 216, 115
+1, 710400, Note_on_c, 0, 67, 64
+1, 710400, Sequencer_specific, 5, 153, 1, 146, 216, 116
+1, 715200, Note_off_c, 0, 64, 64
+1, 715200, Sequencer_specific, 5, 153, 1, 146, 216, 117
+1, 715200, Note_on_c, 0, 64, 64
+1, 715200, Sequencer_specific, 5, 153, 1, 146, 216, 118
+1, 720000, Note_off_c, 0, 60, 64
+1, 720000, Sequencer_specific, 5, 153, 1, 146, 216, 119
+1, 720000, Note_on_c, 0, 60, 64
+1, 720000, Sequencer_specific, 5, 153, 1, 146, 216, 120
+1, 724800, Note_off_c, 0, 64, 64
+1, 724800, Sequencer_specific, 5, 153, 1, 146, 216, 121
+1, 724800, Note_on_c, 0, 64, 64
+1, 724800, Sequencer_specific, 5, 153, 1, 146, 216, 122
+1, 729600, Note_off_c, 0, 67, 64
+1, 729600, Sequencer_specific, 5, 153, 1, 146, 216, 123
+1, 729600, Note_on_c, 0, 67, 64
+1, 729600, Sequencer_specific, 5, 153, 1, 146, 216, 124
+1, 734400, Note_off_c, 0, 71, 64
+1, 734400, Sequencer_specific, 5, 153, 1, 146, 216, 125
+1, 734400, Note_on_c, 0, 71, 64
+1, 734400, Sequencer_specific, 5, 153, 1, 146, 216, 126
+1, 739200, Note_off_c, 0, 67, 64
+1, 739200, Sequencer_specific, 5, 153, 1, 146, 216, 127
+1, 739200, Note_on_c, 0, 67, 64
+1, 739200, Sequencer_specific, 5, 153, 1, 146, 217, 0
+1, 744000, Note_off_c, 0, 64, 64
+1, 744000, Sequencer_specific, 5, 153, 1, 146, 217, 1
+1, 744000, Note_on_c, 0, 64, 64
+1, 744000, Sequencer_specific, 5, 153, 1, 146, 217, 2
+1, 748800, Note_off_c, 0, 60, 64
+1, 748800, Sequencer_specific, 5, 153, 1, 146, 217, 3
+1, 748800, Note_on_c, 0, 57, 64
+1, 748800, Sequencer_specific, 5, 153, 1, 146, 217, 4
+1, 753600, Note_off_c, 0, 64, 64
+1, 753600, Sequencer_specific, 5, 153, 1, 146, 217, 5
+1, 753600, Note_on_c, 0, 61, 64
+1, 753600, Sequencer_specific, 5, 153, 1, 146, 217, 6
+1, 758400, Note_off_c, 0, 67, 64
+1, 758400, Sequencer_specific, 5, 153, 1, 146, 217, 7
+1, 758400, Note_on_c, 0, 64, 64
+1, 758400, Sequencer_specific, 5, 153, 1, 146, 217, 8
+1, 763200, Note_off_c, 0, 71, 64
+1, 763200, Sequencer_specific, 5, 153, 1, 146, 217, 9
+1, 763200, Note_on_c, 0, 68, 64
+1, 763200, Sequencer_specific, 5, 153, 1, 146, 217, 10
+1, 768000, Note_off_c, 0, 64, 64
+1, 768000, Sequencer_specific, 5, 153, 1, 146, 217, 11
+1, 768000, Note_on_c, 0, 64, 64
+1, 768000, Sequencer_specific, 5, 153, 1, 146, 217, 12
+1, 772800, Note_off_c, 0, 61, 64
+1, 772800, Sequencer_specific, 5, 153, 1, 146, 217, 13
+1, 772800, Note_on_c, 0, 61, 64
+1, 772800, Sequencer_specific, 5, 153, 1, 146, 217, 14
+1, 777600, Note_off_c, 0, 57, 64
+1, 777600, Sequencer_specific, 5, 153, 1, 146, 217, 15
+1, 777600, Note_on_c, 0, 57, 64
+1, 777600, Sequencer_specific, 5, 153, 1, 146, 217, 16
+1, 782400, Note_off_c, 0, 61, 64
+1, 782400, Sequencer_specific, 5, 153, 1, 146, 217, 17
+1, 782400, Note_on_c, 0, 61, 64
+1, 782400, Sequencer_specific, 5, 153, 1, 146, 217, 18
+1, 787200, Note_off_c, 0, 64, 64
+1, 787200, Sequencer_specific, 5, 153, 1, 146, 217, 19
+1, 787200, Note_on_c, 0, 64, 64
+1, 787200, Sequencer_specific, 5, 153, 1, 146, 217, 20
+1, 792000, Note_off_c, 0, 68, 64
+1, 792000, Sequencer_specific, 5, 153, 1, 146, 217, 21
+1, 792000, Note_on_c, 0, 68, 64
+1, 792000, Sequencer_specific, 5, 153, 1, 146, 217, 22
+1, 796800, Note_off_c, 0, 64, 64
+1, 796800, Sequencer_specific, 5, 153, 1, 146, 217, 23
+1, 796800, Note_on_c, 0, 64, 64
+1, 796800, Sequencer_specific, 5, 153, 1, 146, 217, 24
+1, 801600, Note_off_c, 0, 61, 64
+1, 801600, Sequencer_specific, 5, 153, 1, 146, 217, 25
+1, 801600, Note_on_c, 0, 61, 64
+1, 801600, Sequencer_specific, 5, 153, 1, 146, 217, 26
+1, 806400, Note_off_c, 0, 57, 64
+1, 806400, Sequencer_specific, 5, 153, 1, 146, 217, 27
+1, 806400, Note_on_c, 0, 55, 64
+1, 806400, Sequencer_specific, 5, 153, 1, 146, 217, 28
+1, 811200, Note_off_c, 0, 61, 64
+1, 811200, Sequencer_specific, 5, 153, 1, 146, 217, 29
+1, 811200, Note_on_c, 0, 59, 64
+1, 811200, Sequencer_specific, 5, 153, 1, 146, 217, 30
+1, 816000, Note_off_c, 0, 64, 64
+1, 816000, Sequencer_specific, 5, 153, 1, 146, 217, 31
+1, 816000, Note_on_c, 0, 62, 64
+1, 816000, Sequencer_specific, 5, 153, 1, 146, 217, 32
+1, 820800, Note_off_c, 0, 68, 64
+1, 820800, Sequencer_specific, 5, 153, 1, 146, 217, 33
+1, 820800, Note_on_c, 0, 66, 64
+1, 820800, Sequencer_specific, 5, 153, 1, 146, 217, 34
+1, 825600, Note_off_c, 0, 62, 64
+1, 825600, Sequencer_specific, 5, 153, 1, 146, 217, 35
+1, 825600, Note_on_c, 0, 62, 64
+1, 825600, Sequencer_specific, 5, 153, 1, 146, 217, 36
+1, 830400, Note_off_c, 0, 59, 64
+1, 830400, Sequencer_specific, 5, 153, 1, 146, 217, 37
+1, 830400, Note_on_c, 0, 59, 64
+1, 830400, Sequencer_specific, 5, 153, 1, 146, 217, 38
+1, 835200, Note_off_c, 0, 55, 64
+1, 835200, Sequencer_specific, 5, 153, 1, 146, 217, 39
+1, 835200, Note_on_c, 0, 55, 64
+1, 835200, Sequencer_specific, 5, 153, 1, 146, 217, 40
+1, 840000, Note_off_c, 0, 59, 64
+1, 840000, Sequencer_specific, 5, 153, 1, 146, 217, 41
+1, 840000, Note_on_c, 0, 59, 64
+1, 840000, Sequencer_specific, 5, 153, 1, 146, 217, 42
+1, 844800, Note_off_c, 0, 62, 64
+1, 844800, Sequencer_specific, 5, 153, 1, 146, 217, 43
+1, 844800, Note_on_c, 0, 62, 64
+1, 844800, Sequencer_specific, 5, 153, 1, 146, 217, 44
+1, 849600, Note_off_c, 0, 66, 64
+1, 849600, Sequencer_specific, 5, 153, 1, 146, 217, 45
+1, 849600, Note_on_c, 0, 66, 64
+1, 849600, Sequencer_specific, 5, 153, 1, 146, 217, 46
+1, 854400, Note_off_c, 0, 62, 64
+1, 854400, Sequencer_specific, 5, 153, 1, 146, 217, 47
+1, 854400, Note_on_c, 0, 62, 64
+1, 854400, Sequencer_specific, 5, 153, 1, 146, 217, 48
+1, 859200, Note_off_c, 0, 59, 64
+1, 859200, Sequencer_specific, 5, 153, 1, 146, 217, 49
+1, 859200, Note_on_c, 0, 59, 64
+1, 859200, Sequencer_specific, 5, 153, 1, 146, 217, 50
+1, 864000, Note_off_c, 0, 55, 64
+1, 864000, Sequencer_specific, 5, 153, 1, 146, 217, 51
+1, 864000, Note_on_c, 0, 59, 64
+1, 864000, Sequencer_specific, 5, 153, 1, 146, 217, 52
+1, 868800, Note_off_c, 0, 59, 64
+1, 868800, Sequencer_specific, 5, 153, 1, 146, 217, 53
+1, 868800, Note_on_c, 0, 63, 64
+1, 868800, Sequencer_specific, 5, 153, 1, 146, 217, 54
+1, 873600, Note_off_c, 0, 62, 64
+1, 873600, Sequencer_specific, 5, 153, 1, 146, 217, 55
+1, 873600, Note_on_c, 0, 66, 64
+1, 873600, Sequencer_specific, 5, 153, 1, 146, 217, 56
+1, 878400, Note_off_c, 0, 66, 64
+1, 878400, Sequencer_specific, 5, 153, 1, 146, 217, 57
+1, 878400, Note_on_c, 0, 70, 64
+1, 878400, Sequencer_specific, 5, 153, 1, 146, 217, 58
+1, 883200, Note_off_c, 0, 66, 64
+1, 883200, Sequencer_specific, 5, 153, 1, 146, 217, 59
+1, 883200, Note_on_c, 0, 66, 64
+1, 883200, Sequencer_specific, 5, 153, 1, 146, 217, 60
+1, 888000, Note_off_c, 0, 63, 64
+1, 888000, Sequencer_specific, 5, 153, 1, 146, 217, 61
+1, 888000, Note_on_c, 0, 63, 64
+1, 888000, Sequencer_specific, 5, 153, 1, 146, 217, 62
+1, 892800, Note_off_c, 0, 59, 64
+1, 892800, Sequencer_specific, 5, 153, 1, 146, 217, 63
+1, 892800, Note_on_c, 0, 59, 64
+1, 892800, Sequencer_specific, 5, 153, 1, 146, 217, 64
+1, 897600, Note_off_c, 0, 63, 64
+1, 897600, Sequencer_specific, 5, 153, 1, 146, 217, 65
+1, 897600, Note_on_c, 0, 63, 64
+1, 897600, Sequencer_specific, 5, 153, 1, 146, 217, 66
+1, 902400, Note_off_c, 0, 66, 64
+1, 902400, Sequencer_specific, 5, 153, 1, 146, 217, 67
+1, 902400, Note_on_c, 0, 66, 64
+1, 902400, Sequencer_specific, 5, 153, 1, 146, 217, 68
+1, 907200, Note_off_c, 0, 70, 64
+1, 907200, Sequencer_specific, 5, 153, 1, 146, 217, 69
+1, 907200, Note_on_c, 0, 70, 64
+1, 907200, Sequencer_specific, 5, 153, 1, 146, 217, 70
+1, 912000, Note_off_c, 0, 66, 64
+1, 912000, Sequencer_specific, 5, 153, 1, 146, 217, 71
+1, 912000, Note_on_c, 0, 66, 64
+1, 912000, Sequencer_specific, 5, 153, 1, 146, 217, 72
+1, 916800, Note_off_c, 0, 63, 64
+1, 916800, Sequencer_specific, 5, 153, 1, 146, 217, 73
+1, 916800, Note_on_c, 0, 63, 64
+1, 916800, Sequencer_specific, 5, 153, 1, 146, 217, 74
+1, 921600, Note_off_c, 0, 59, 64
+1, 921600, Sequencer_specific, 5, 153, 1, 146, 217, 75
+1, 921600, Note_off_c, 0, 66, 64
+1, 921600, Sequencer_specific, 5, 153, 1, 146, 217, 76
+1, 921600, Note_off_c, 0, 70, 64
+1, 921600, Sequencer_specific, 5, 153, 1, 146, 217, 77
+1, 921600, Note_off_c, 0, 63, 64
+1, 921600, Sequencer_specific, 5, 153, 1, 146, 217, 78
+1, 921600, Note_on_c, 0, 60, 64
+1, 921600, Sequencer_specific, 5, 153, 1, 146, 217, 79
+1, 926400, Note_on_c, 0, 64, 64
+1, 926400, Sequencer_specific, 5, 153, 1, 146, 217, 80
+1, 931200, Note_on_c, 0, 67, 64
+1, 931200, Sequencer_specific, 5, 153, 1, 146, 217, 81
+1, 936000, Note_on_c, 0, 71, 64
+1, 936000, Sequencer_specific, 5, 153, 1, 146, 217, 82
+1, 940800, Note_off_c, 0, 67, 64
+1, 940800, Sequencer_specific, 5, 153, 1, 146, 217, 83
+1, 940800, Note_on_c, 0, 67, 64
+1, 940800, Sequencer_specific, 5, 153, 1, 146, 217, 84
+1, 945600, Note_off_c, 0, 64, 64
+1, 945600, Sequencer_specific, 5, 153, 1, 146, 217, 85
+1, 945600, Note_on_c, 0, 64, 64
+1, 945600, Sequencer_specific, 5, 153, 1, 146, 217, 86
+1, 950400, Note_off_c, 0, 60, 64
+1, 950400, Sequencer_specific, 5, 153, 1, 146, 217, 87
+1, 950400, Note_on_c, 0, 60, 64
+1, 950400, Sequencer_specific, 5, 153, 1, 146, 217, 88
+1, 955200, Note_off_c, 0, 64, 64
+1, 955200, Sequencer_specific, 5, 153, 1, 146, 217, 89
+1, 955200, Note_on_c, 0, 64, 64
+1, 955200, Sequencer_specific, 5, 153, 1, 146, 217, 90
+1, 960000, Note_off_c, 0, 67, 64
+1, 960000, Sequencer_specific, 5, 153, 1, 146, 217, 91
+1, 960000, Note_on_c, 0, 67, 64
+1, 960000, Sequencer_specific, 5, 153, 1, 146, 217, 92
+1, 964800, Note_off_c, 0, 71, 64
+1, 964800, Sequencer_specific, 5, 153, 1, 146, 217, 93
+1, 964800, Note_on_c, 0, 71, 64
+1, 964800, Sequencer_specific, 5, 153, 1, 146, 217, 94
+1, 969600, Note_off_c, 0, 67, 64
+1, 969600, Sequencer_specific, 5, 153, 1, 146, 217, 95
+1, 969600, Note_on_c, 0, 67, 64
+1, 969600, Sequencer_specific, 5, 153, 1, 146, 217, 96
+1, 974400, Note_off_c, 0, 64, 64
+1, 974400, Sequencer_specific, 5, 153, 1, 146, 217, 97
+1, 974400, Note_on_c, 0, 64, 64
+1, 974400, Sequencer_specific, 5, 153, 1, 146, 217, 98
+1, 979200, Note_off_c, 0, 60, 64
+1, 979200, Sequencer_specific, 5, 153, 1, 146, 217, 99
+1, 979200, Note_on_c, 0, 57, 64
+1, 979200, Sequencer_specific, 5, 153, 1, 146, 217, 100
+1, 984000, Note_off_c, 0, 64, 64
+1, 984000, Sequencer_specific, 5, 153, 1, 146, 217, 101
+1, 984000, Note_on_c, 0, 61, 64
+1, 984000, Sequencer_specific, 5, 153, 1, 146, 217, 102
+1, 988800, Note_off_c, 0, 67, 64
+1, 988800, Sequencer_specific, 5, 153, 1, 146, 217, 103
+1, 988800, Note_on_c, 0, 64, 64
+1, 988800, Sequencer_specific, 5, 153, 1, 146, 217, 104
+1, 993600, Note_off_c, 0, 71, 64
+1, 993600, Sequencer_specific, 5, 153, 1, 146, 217, 105
+1, 993600, Note_on_c, 0, 68, 64
+1, 993600, Sequencer_specific, 5, 153, 1, 146, 217, 106
+1, 998400, Note_off_c, 0, 64, 64
+1, 998400, Sequencer_specific, 5, 153, 1, 146, 217, 107
+1, 998400, Note_on_c, 0, 64, 64
+1, 998400, Sequencer_specific, 5, 153, 1, 146, 217, 108
+1, 1003200, Note_off_c, 0, 61, 64
+1, 1003200, Sequencer_specific, 5, 153, 1, 146, 217, 109
+1, 1003200, Note_on_c, 0, 61, 64
+1, 1003200, Sequencer_specific, 5, 153, 1, 146, 217, 110
+1, 1008000, Note_off_c, 0, 57, 64
+1, 1008000, Sequencer_specific, 5, 153, 1, 146, 217, 111
+1, 1008000, Note_on_c, 0, 57, 64
+1, 1008000, Sequencer_specific, 5, 153, 1, 146, 217, 112
+1, 1012800, Note_off_c, 0, 61, 64
+1, 1012800, Sequencer_specific, 5, 153, 1, 146, 217, 113
+1, 1012800, Note_on_c, 0, 61, 64
+1, 1012800, Sequencer_specific, 5, 153, 1, 146, 217, 114
+1, 1017600, Note_off_c, 0, 64, 64
+1, 1017600, Sequencer_specific, 5, 153, 1, 146, 217, 115
+1, 1017600, Note_on_c, 0, 64, 64
+1, 1017600, Sequencer_specific, 5, 153, 1, 146, 217, 116
+1, 1022400, Note_off_c, 0, 68, 64
+1, 1022400, Sequencer_specific, 5, 153, 1, 146, 217, 117
+1, 1022400, Note_on_c, 0, 68, 64
+1, 1022400, Sequencer_specific, 5, 153, 1, 146, 217, 118
+1, 1027200, Note_off_c, 0, 64, 64
+1, 1027200, Sequencer_specific, 5, 153, 1, 146, 217, 119
+1, 1027200, Note_on_c, 0, 64, 64
+1, 1027200, Sequencer_specific, 5, 153, 1, 146, 217, 120
+1, 1032000, Note_off_c, 0, 61, 64
+1, 1032000, Sequencer_specific, 5, 153, 1, 146, 217, 121
+1, 1032000, Note_on_c, 0, 61, 64
+1, 1032000, Sequencer_specific, 5, 153, 1, 146, 217, 122
+1, 1036800, Note_off_c, 0, 57, 64
+1, 1036800, Sequencer_specific, 5, 153, 1, 146, 217, 123
+1, 1036800, Note_on_c, 0, 55, 64
+1, 1036800, Sequencer_specific, 5, 153, 1, 146, 217, 124
+1, 1041600, Note_off_c, 0, 61, 64
+1, 1041600, Sequencer_specific, 5, 153, 1, 146, 217, 125
+1, 1041600, Note_on_c, 0, 59, 64
+1, 1041600, Sequencer_specific, 5, 153, 1, 146, 217, 126
+1, 1046400, Note_off_c, 0, 64, 64
+1, 1046400, Sequencer_specific, 5, 153, 1, 146, 217, 127
+1, 1046400, Note_on_c, 0, 62, 64
+1, 1046400, Sequencer_specific, 5, 153, 1, 146, 218, 0
+1, 1051200, Note_off_c, 0, 68, 64
+1, 1051200, Sequencer_specific, 5, 153, 1, 146, 218, 1
+1, 1051200, Note_on_c, 0, 66, 64
+1, 1051200, Sequencer_specific, 5, 153, 1, 146, 218, 2
+1, 1056000, Note_off_c, 0, 62, 64
+1, 1056000, Sequencer_specific, 5, 153, 1, 146, 218, 3
+1, 1056000, Note_on_c, 0, 62, 64
+1, 1056000, Sequencer_specific, 5, 153, 1, 146, 218, 4
+1, 1060800, Note_off_c, 0, 59, 64
+1, 1060800, Sequencer_specific, 5, 153, 1, 146, 218, 5
+1, 1060800, Note_on_c, 0, 59, 64
+1, 1060800, Sequencer_specific, 5, 153, 1, 146, 218, 6
+1, 1065600, Note_off_c, 0, 55, 64
+1, 1065600, Sequencer_specific, 5, 153, 1, 146, 218, 7
+1, 1065600, Note_on_c, 0, 55, 64
+1, 1065600, Sequencer_specific, 5, 153, 1, 146, 218, 8
+1, 1070400, Note_off_c, 0, 59, 64
+1, 1070400, Sequencer_specific, 5, 153, 1, 146, 218, 9
+1, 1070400, Note_on_c, 0, 59, 64
+1, 1070400, Sequencer_specific, 5, 153, 1, 146, 218, 10
+1, 1075200, Note_off_c, 0, 62, 64
+1, 1075200, Sequencer_specific, 5, 153, 1, 146, 218, 11
+1, 1075200, Note_on_c, 0, 62, 64
+1, 1075200, Sequencer_specific, 5, 153, 1, 146, 218, 12
+1, 1080000, Note_off_c, 0, 66, 64
+1, 1080000, Sequencer_specific, 5, 153, 1, 146, 218, 13
+1, 1080000, Note_on_c, 0, 66, 64
+1, 1080000, Sequencer_specific, 5, 153, 1, 146, 218, 14
+1, 1084800, Note_off_c, 0, 62, 64
+1, 1084800, Sequencer_specific, 5, 153, 1, 146, 218, 15
+1, 1084800, Note_on_c, 0, 62, 64
+1, 1084800, Sequencer_specific, 5, 153, 1, 146, 218, 16
+1, 1089600, Note_off_c, 0, 59, 64
+1, 1089600, Sequencer_specific, 5, 153, 1, 146, 218, 17
+1, 1089600, Note_on_c, 0, 59, 64
+1, 1089600, Sequencer_specific, 5, 153, 1, 146, 218, 18
+1, 1094400, Note_off_c, 0, 55, 64
+1, 1094400, Sequencer_specific, 5, 153, 1, 146, 218, 19
+1, 1094400, Note_on_c, 0, 59, 64
+1, 1094400, Sequencer_specific, 5, 153, 1, 146, 218, 20
+1, 1099200, Note_off_c, 0, 59, 64
+1, 1099200, Sequencer_specific, 5, 153, 1, 146, 218, 21
+1, 1099200, Note_on_c, 0, 63, 64
+1, 1099200, Sequencer_specific, 5, 153, 1, 146, 218, 22
+1, 1104000, Note_off_c, 0, 62, 64
+1, 1104000, Sequencer_specific, 5, 153, 1, 146, 218, 23
+1, 1104000, Note_on_c, 0, 66, 64
+1, 1104000, Sequencer_specific, 5, 153, 1, 146, 218, 24
+1, 1108800, Note_off_c, 0, 66, 64
+1, 1108800, Sequencer_specific, 5, 153, 1, 146, 218, 25
+1, 1108800, Note_on_c, 0, 70, 64
+1, 1108800, Sequencer_specific, 5, 153, 1, 146, 218, 26
+1, 1113600, Note_off_c, 0, 66, 64
+1, 1113600, Sequencer_specific, 5, 153, 1, 146, 218, 27
+1, 1113600, Note_on_c, 0, 66, 64
+1, 1113600, Sequencer_specific, 5, 153, 1, 146, 218, 28
+1, 1118400, Note_off_c, 0, 63, 64
+1, 1118400, Sequencer_specific, 5, 153, 1, 146, 218, 29
+1, 1118400, Note_on_c, 0, 63, 64
+1, 1118400, Sequencer_specific, 5, 153, 1, 146, 218, 30
+1, 1123200, Note_off_c, 0, 59, 64
+1, 1123200, Sequencer_specific, 5, 153, 1, 146, 218, 31
+1, 1123200, Note_on_c, 0, 59, 64
+1, 1123200, Sequencer_specific, 5, 153, 1, 146, 218, 32
+1, 1128000, Note_off_c, 0, 63, 64
+1, 1128000, Sequencer_specific, 5, 153, 1, 146, 218, 33
+1, 1128000, Note_on_c, 0, 63, 64
+1, 1128000, Sequencer_specific, 5, 153, 1, 146, 218, 34
+1, 1132800, Note_off_c, 0, 66, 64
+1, 1132800, Sequencer_specific, 5, 153, 1, 146, 218, 35
+1, 1132800, Note_on_c, 0, 66, 64
+1, 1132800, Sequencer_specific, 5, 153, 1, 146, 218, 36
+1, 1137600, Note_off_c, 0, 70, 64
+1, 1137600, Sequencer_specific, 5, 153, 1, 146, 218, 37
+1, 1137600, Note_on_c, 0, 70, 64
+1, 1137600, Sequencer_specific, 5, 153, 1, 146, 218, 38
+1, 1142400, Note_off_c, 0, 66, 64
+1, 1142400, Sequencer_specific, 5, 153, 1, 146, 218, 39
+1, 1142400, Note_on_c, 0, 66, 64
+1, 1142400, Sequencer_specific, 5, 153, 1, 146, 218, 40
+1, 1147200, Note_off_c, 0, 63, 64
+1, 1147200, Sequencer_specific, 5, 153, 1, 146, 218, 41
+1, 1147200, Note_on_c, 0, 63, 64
+1, 1147200, Sequencer_specific, 5, 153, 1, 146, 218, 42
+1, 1152000, Note_off_c, 0, 59, 64
+1, 1152000, Sequencer_specific, 5, 153, 1, 146, 218, 43
+1, 1152000, Note_off_c, 0, 66, 64
+1, 1152000, Sequencer_specific, 5, 153, 1, 146, 218, 44
+1, 1152000, Note_off_c, 0, 70, 64
+1, 1152000, Sequencer_specific, 5, 153, 1, 146, 218, 45
+1, 1152000, Note_off_c, 0, 63, 64
+1, 1152000, Sequencer_specific, 5, 153, 1, 146, 218, 46
+1, 1152000, Note_on_c, 0, 60, 64
+1, 1152000, Sequencer_specific, 5, 153, 1, 146, 218, 47
+1, 1156800, Note_on_c, 0, 64, 64
+1, 1156800, Sequencer_specific, 5, 153, 1, 146, 218, 48
+1, 1161600, Note_on_c, 0, 67, 64
+1, 1161600, Sequencer_specific, 5, 153, 1, 146, 218, 49
+1, 1166400, Note_on_c, 0, 71, 64
+1, 1166400, Sequencer_specific, 5, 153, 1, 146, 218, 50
+1, 1171200, Note_off_c, 0, 67, 64
+1, 1171200, Sequencer_specific, 5, 153, 1, 146, 218, 51
+1, 1171200, Note_on_c, 0, 67, 64
+1, 1171200, Sequencer_specific, 5, 153, 1, 146, 218, 52
+1, 1176000, Note_off_c, 0, 64, 64
+1, 1176000, Sequencer_specific, 5, 153, 1, 146, 218, 53
+1, 1176000, Note_on_c, 0, 64, 64
+1, 1176000, Sequencer_specific, 5, 153, 1, 146, 218, 54
+1, 1180800, Note_off_c, 0, 60, 64
+1, 1180800, Sequencer_specific, 5, 153, 1, 146, 218, 55
+1, 1180800, Note_on_c, 0, 60, 64
+1, 1180800, Sequencer_specific, 5, 153, 1, 146, 218, 56
+1, 1185600, Note_off_c, 0, 64, 64
+1, 1185600, Sequencer_specific, 5, 153, 1, 146, 218, 57
+1, 1185600, Note_on_c, 0, 64, 64
+1, 1185600, Sequencer_specific, 5, 153, 1, 146, 218, 58
+1, 1190400, Note_off_c, 0, 67, 64
+1, 1190400, Sequencer_specific, 5, 153, 1, 146, 218, 59
+1, 1190400, Note_on_c, 0, 67, 64
+1, 1190400, Sequencer_specific, 5, 153, 1, 146, 218, 60
+1, 1195200, Note_off_c, 0, 71, 64
+1, 1195200, Sequencer_specific, 5, 153, 1, 146, 218, 61
+1, 1195200, Note_on_c, 0, 71, 64
+1, 1195200, Sequencer_specific, 5, 153, 1, 146, 218, 62
+1, 1200000, Note_off_c, 0, 67, 64
+1, 1200000, Sequencer_specific, 5, 153, 1, 146, 218, 63
+1, 1200000, Note_on_c, 0, 67, 64
+1, 1200000, Sequencer_specific, 5, 153, 1, 146, 218, 64
+1, 1204800, Note_off_c, 0, 64, 64
+1, 1204800, Sequencer_specific, 5, 153, 1, 146, 218, 65
+1, 1204800, Note_on_c, 0, 64, 64
+1, 1204800, Sequencer_specific, 5, 153, 1, 146, 218, 66
+1, 1209600, Note_off_c, 0, 60, 64
+1, 1209600, Sequencer_specific, 5, 153, 1, 146, 218, 67
+1, 1209600, Note_on_c, 0, 57, 64
+1, 1209600, Sequencer_specific, 5, 153, 1, 146, 218, 68
+1, 1214400, Note_off_c, 0, 64, 64
+1, 1214400, Sequencer_specific, 5, 153, 1, 146, 218, 69
+1, 1214400, Note_on_c, 0, 61, 64
+1, 1214400, Sequencer_specific, 5, 153, 1, 146, 218, 70
+1, 1219200, Note_off_c, 0, 67, 64
+1, 1219200, Sequencer_specific, 5, 153, 1, 146, 218, 71
+1, 1219200, Note_on_c, 0, 64, 64
+1, 1219200, Sequencer_specific, 5, 153, 1, 146, 218, 72
+1, 1224000, Note_off_c, 0, 71, 64
+1, 1224000, Sequencer_specific, 5, 153, 1, 146, 218, 73
+1, 1224000, Note_on_c, 0, 68, 64
+1, 1224000, Sequencer_specific, 5, 153, 1, 146, 218, 74
+1, 1228800, Note_off_c, 0, 64, 64
+1, 1228800, Sequencer_specific, 5, 153, 1, 146, 218, 75
+1, 1228800, Note_on_c, 0, 64, 64
+1, 1228800, Sequencer_specific, 5, 153, 1, 146, 218, 76
+1, 1233600, Note_off_c, 0, 61, 64
+1, 1233600, Sequencer_specific, 5, 153, 1, 146, 218, 77
+1, 1233600, Note_on_c, 0, 61, 64
+1, 1233600, Sequencer_specific, 5, 153, 1, 146, 218, 78
+1, 1238400, Note_off_c, 0, 57, 64
+1, 1238400, Sequencer_specific, 5, 153, 1, 146, 218, 79
+1, 1238400, Note_on_c, 0, 57, 64
+1, 1238400, Sequencer_specific, 5, 153, 1, 146, 218, 80
+1, 1243200, Note_off_c, 0, 61, 64
+1, 1243200, Sequencer_specific, 5, 153, 1, 146, 218, 81
+1, 1243200, Note_on_c, 0, 61, 64
+1, 1243200, Sequencer_specific, 5, 153, 1, 146, 218, 82
+1, 1248000, Note_off_c, 0, 64, 64
+1, 1248000, Sequencer_specific, 5, 153, 1, 146, 218, 83
+1, 1248000, Note_on_c, 0, 64, 64
+1, 1248000, Sequencer_specific, 5, 153, 1, 146, 218, 84
+1, 1252800, Note_off_c, 0, 68, 64
+1, 1252800, Sequencer_specific, 5, 153, 1, 146, 218, 85
+1, 1252800, Note_on_c, 0, 68, 64
+1, 1252800, Sequencer_specific, 5, 153, 1, 146, 218, 86
+1, 1257600, Note_off_c, 0, 64, 64
+1, 1257600, Sequencer_specific, 5, 153, 1, 146, 218, 87
+1, 1257600, Note_on_c, 0, 64, 64
+1, 1257600, Sequencer_specific, 5, 153, 1, 146, 218, 88
+1, 1262400, Note_off_c, 0, 61, 64
+1, 1262400, Sequencer_specific, 5, 153, 1, 146, 218, 89
+1, 1262400, Note_on_c, 0, 61, 64
+1, 1262400, Sequencer_specific, 5, 153, 1, 146, 218, 90
+1, 1267200, Note_off_c, 0, 57, 64
+1, 1267200, Sequencer_specific, 5, 153, 1, 146, 218, 91
+1, 1267200, Note_on_c, 0, 55, 64
+1, 1267200, Sequencer_specific, 5, 153, 1, 146, 218, 92
+1, 1272000, Note_off_c, 0, 61, 64
+1, 1272000, Sequencer_specific, 5, 153, 1, 146, 218, 93
+1, 1272000, Note_on_c, 0, 59, 64
+1, 1272000, Sequencer_specific, 5, 153, 1, 146, 218, 94
+1, 1276800, Note_off_c, 0, 64, 64
+1, 1276800, Sequencer_specific, 5, 153, 1, 146, 218, 95
+1, 1276800, Note_on_c, 0, 62, 64
+1, 1276800, Sequencer_specific, 5, 153, 1, 146, 218, 96
+1, 1281600, Note_off_c, 0, 68, 64
+1, 1281600, Sequencer_specific, 5, 153, 1, 146, 218, 97
+1, 1281600, Note_on_c, 0, 66, 64
+1, 1281600, Sequencer_specific, 5, 153, 1, 146, 218, 98
+1, 1286400, Note_off_c, 0, 62, 64
+1, 1286400, Sequencer_specific, 5, 153, 1, 146, 218, 99
+1, 1286400, Note_on_c, 0, 62, 64
+1, 1286400, Sequencer_specific, 5, 153, 1, 146, 218, 100
+1, 1291200, Note_off_c, 0, 59, 64
+1, 1291200, Sequencer_specific, 5, 153, 1, 146, 218, 101
+1, 1291200, Note_on_c, 0, 59, 64
+1, 1291200, Sequencer_specific, 5, 153, 1, 146, 218, 102
+1, 1296000, Note_off_c, 0, 55, 64
+1, 1296000, Sequencer_specific, 5, 153, 1, 146, 218, 103
+1, 1296000, Note_on_c, 0, 55, 64
+1, 1296000, Sequencer_specific, 5, 153, 1, 146, 218, 104
+1, 1300800, Note_off_c, 0, 59, 64
+1, 1300800, Sequencer_specific, 5, 153, 1, 146, 218, 105
+1, 1300800, Note_on_c, 0, 59, 64
+1, 1300800, Sequencer_specific, 5, 153, 1, 146, 218, 106
+1, 1305600, Note_off_c, 0, 62, 64
+1, 1305600, Sequencer_specific, 5, 153, 1, 146, 218, 107
+1, 1305600, Note_on_c, 0, 62, 64
+1, 1305600, Sequencer_specific, 5, 153, 1, 146, 218, 108
+1, 1310400, Note_off_c, 0, 66, 64
+1, 1310400, Sequencer_specific, 5, 153, 1, 146, 218, 109
+1, 1310400, Note_on_c, 0, 66, 64
+1, 1310400, Sequencer_specific, 5, 153, 1, 146, 218, 110
+1, 1315200, Note_off_c, 0, 62, 64
+1, 1315200, Sequencer_specific, 5, 153, 1, 146, 218, 111
+1, 1315200, Note_on_c, 0, 62, 64
+1, 1315200, Sequencer_specific, 5, 153, 1, 146, 218, 112
+1, 1320000, Note_off_c, 0, 59, 64
+1, 1320000, Sequencer_specific, 5, 153, 1, 146, 218, 113
+1, 1320000, Note_on_c, 0, 59, 64
+1, 1320000, Sequencer_specific, 5, 153, 1, 146, 218, 114
+1, 1324800, Note_off_c, 0, 55, 64
+1, 1324800, Sequencer_specific, 5, 153, 1, 146, 218, 115
+1, 1324800, Note_on_c, 0, 59, 64
+1, 1324800, Sequencer_specific, 5, 153, 1, 146, 218, 116
+1, 1329600, Note_off_c, 0, 59, 64
+1, 1329600, Sequencer_specific, 5, 153, 1, 146, 218, 117
+1, 1329600, Note_on_c, 0, 63, 64
+1, 1329600, Sequencer_specific, 5, 153, 1, 146, 218, 118
+1, 1334400, Note_off_c, 0, 62, 64
+1, 1334400, Sequencer_specific, 5, 153, 1, 146, 218, 119
+1, 1334400, Note_on_c, 0, 66, 64
+1, 1334400, Sequencer_specific, 5, 153, 1, 146, 218, 120
+1, 1339200, Note_off_c, 0, 66, 64
+1, 1339200, Sequencer_specific, 5, 153, 1, 146, 218, 121
+1, 1339200, Note_on_c, 0, 70, 64
+1, 1339200, Sequencer_specific, 5, 153, 1, 146, 218, 122
+1, 1344000, Note_off_c, 0, 66, 64
+1, 1344000, Sequencer_specific, 5, 153, 1, 146, 218, 123
+1, 1344000, Note_on_c, 0, 66, 64
+1, 1344000, Sequencer_specific, 5, 153, 1, 146, 218, 124
+1, 1348800, Note_off_c, 0, 63, 64
+1, 1348800, Sequencer_specific, 5, 153, 1, 146, 218, 125
+1, 1348800, Note_on_c, 0, 63, 64
+1, 1348800, Sequencer_specific, 5, 153, 1, 146, 218, 126
+1, 1353600, Note_off_c, 0, 59, 64
+1, 1353600, Sequencer_specific, 5, 153, 1, 146, 218, 127
+1, 1353600, Note_on_c, 0, 59, 64
+1, 1353600, Sequencer_specific, 5, 153, 1, 146, 219, 0
+1, 1358400, Note_off_c, 0, 63, 64
+1, 1358400, Sequencer_specific, 5, 153, 1, 146, 219, 1
+1, 1358400, Note_on_c, 0, 63, 64
+1, 1358400, Sequencer_specific, 5, 153, 1, 146, 219, 2
+1, 1363200, Note_off_c, 0, 66, 64
+1, 1363200, Sequencer_specific, 5, 153, 1, 146, 219, 3
+1, 1363200, Note_on_c, 0, 66, 64
+1, 1363200, Sequencer_specific, 5, 153, 1, 146, 219, 4
+1, 1368000, Note_off_c, 0, 70, 64
+1, 1368000, Sequencer_specific, 5, 153, 1, 146, 219, 5
+1, 1368000, Note_on_c, 0, 70, 64
+1, 1368000, Sequencer_specific, 5, 153, 1, 146, 219, 6
+1, 1372800, Note_off_c, 0, 66, 64
+1, 1372800, Sequencer_specific, 5, 153, 1, 146, 219, 7
+1, 1372800, Note_on_c, 0, 66, 64
+1, 1372800, Sequencer_specific, 5, 153, 1, 146, 219, 8
+1, 1377600, Note_off_c, 0, 63, 64
+1, 1377600, Sequencer_specific, 5, 153, 1, 146, 219, 9
+1, 1377600, Note_on_c, 0, 63, 64
+1, 1377600, Sequencer_specific, 5, 153, 1, 146, 219, 10
+1, 1382400, Note_off_c, 0, 59, 64
+1, 1382400, Sequencer_specific, 5, 153, 1, 146, 219, 11
+1, 1382400, Note_off_c, 0, 66, 64
+1, 1382400, Sequencer_specific, 5, 153, 1, 146, 219, 12
+1, 1382400, Note_off_c, 0, 70, 64
+1, 1382400, Sequencer_specific, 5, 153, 1, 146, 219, 13
+1, 1382400, Note_off_c, 0, 63, 64
+1, 1382400, Sequencer_specific, 5, 153, 1, 146, 219, 14
+1, 1382400, Note_on_c, 0, 60, 64
+1, 1382400, Sequencer_specific, 5, 153, 1, 146, 219, 15
+1, 1387200, Note_on_c, 0, 64, 64
+1, 1387200, Sequencer_specific, 5, 153, 1, 146, 219, 16
+1, 1392000, Note_on_c, 0, 67, 64
+1, 1392000, Sequencer_specific, 5, 153, 1, 146, 219, 17
+1, 1396800, Note_on_c, 0, 71, 64
+1, 1396800, Sequencer_specific, 5, 153, 1, 146, 219, 18
+1, 1401600, Note_off_c, 0, 67, 64
+1, 1401600, Sequencer_specific, 5, 153, 1, 146, 219, 19
+1, 1401600, Note_on_c, 0, 67, 64
+1, 1401600, Sequencer_specific, 5, 153, 1, 146, 219, 20
+1, 1406400, Note_off_c, 0, 64, 64
+1, 1406400, Sequencer_specific, 5, 153, 1, 146, 219, 21
+1, 1406400, Note_on_c, 0, 64, 64
+1, 1406400, Sequencer_specific, 5, 153, 1, 146, 219, 22
+1, 1411200, Note_off_c, 0, 60, 64
+1, 1411200, Sequencer_specific, 5, 153, 1, 146, 219, 23
+1, 1411200, Note_on_c, 0, 60, 64
+1, 1411200, Sequencer_specific, 5, 153, 1, 146, 219, 24
+1, 1416000, Note_off_c, 0, 64, 64
+1, 1416000, Sequencer_specific, 5, 153, 1, 146, 219, 25
+1, 1416000, Note_on_c, 0, 64, 64
+1, 1416000, Sequencer_specific, 5, 153, 1, 146, 219, 26
+1, 1420800, Note_off_c, 0, 67, 64
+1, 1420800, Sequencer_specific, 5, 153, 1, 146, 219, 27
+1, 1420800, Note_on_c, 0, 67, 64
+1, 1420800, Sequencer_specific, 5, 153, 1, 146, 219, 28
+1, 1425600, Note_off_c, 0, 71, 64
+1, 1425600, Sequencer_specific, 5, 153, 1, 146, 219, 29
+1, 1425600, Note_on_c, 0, 71, 64
+1, 1425600, Sequencer_specific, 5, 153, 1, 146, 219, 30
+1, 1430400, Note_off_c, 0, 67, 64
+1, 1430400, Sequencer_specific, 5, 153, 1, 146, 219, 31
+1, 1430400, Note_on_c, 0, 67, 64
+1, 1430400, Sequencer_specific, 5, 153, 1, 146, 219, 32
+1, 1435200, Note_off_c, 0, 64, 64
+1, 1435200, Sequencer_specific, 5, 153, 1, 146, 219, 33
+1, 1435200, Note_on_c, 0, 64, 64
+1, 1435200, Sequencer_specific, 5, 153, 1, 146, 219, 34
+1, 1440000, Note_off_c, 0, 60, 64
+1, 1440000, Sequencer_specific, 5, 153, 1, 146, 219, 35
+1, 1440000, Note_on_c, 0, 57, 64
+1, 1440000, Sequencer_specific, 5, 153, 1, 146, 219, 36
+1, 1444800, Note_off_c, 0, 64, 64
+1, 1444800, Sequencer_specific, 5, 153, 1, 146, 219, 37
+1, 1444800, Note_on_c, 0, 61, 64
+1, 1444800, Sequencer_specific, 5, 153, 1, 146, 219, 38
+1, 1449600, Note_off_c, 0, 67, 64
+1, 1449600, Sequencer_specific, 5, 153, 1, 146, 219, 39
+1, 1449600, Note_on_c, 0, 64, 64
+1, 1449600, Sequencer_specific, 5, 153, 1, 146, 219, 40
+1, 1454400, Note_off_c, 0, 71, 64
+1, 1454400, Sequencer_specific, 5, 153, 1, 146, 219, 41
+1, 1454400, Note_on_c, 0, 68, 64
+1, 1454400, Sequencer_specific, 5, 153, 1, 146, 219, 42
+1, 1459200, Note_off_c, 0, 64, 64
+1, 1459200, Sequencer_specific, 5, 153, 1, 146, 219, 43
+1, 1459200, Note_on_c, 0, 64, 64
+1, 1459200, Sequencer_specific, 5, 153, 1, 146, 219, 44
+1, 1464000, Note_off_c, 0, 61, 64
+1, 1464000, Sequencer_specific, 5, 153, 1, 146, 219, 45
+1, 1464000, Note_on_c, 0, 61, 64
+1, 1464000, Sequencer_specific, 5, 153, 1, 146, 219, 46
+1, 1468800, Note_off_c, 0, 57, 64
+1, 1468800, Sequencer_specific, 5, 153, 1, 146, 219, 47
+1, 1468800, Note_on_c, 0, 57, 64
+1, 1468800, Sequencer_specific, 5, 153, 1, 146, 219, 48
+1, 1473600, Note_off_c, 0, 61, 64
+1, 1473600, Sequencer_specific, 5, 153, 1, 146, 219, 49
+1, 1473600, Note_on_c, 0, 61, 64
+1, 1473600, Sequencer_specific, 5, 153, 1, 146, 219, 50
+1, 1478400, Note_off_c, 0, 64, 64
+1, 1478400, Sequencer_specific, 5, 153, 1, 146, 219, 51
+1, 1478400, Note_on_c, 0, 64, 64
+1, 1478400, Sequencer_specific, 5, 153, 1, 146, 219, 52
+1, 1483200, Note_off_c, 0, 68, 64
+1, 1483200, Sequencer_specific, 5, 153, 1, 146, 219, 53
+1, 1483200, Note_on_c, 0, 68, 64
+1, 1483200, Sequencer_specific, 5, 153, 1, 146, 219, 54
+1, 1488000, Note_off_c, 0, 64, 64
+1, 1488000, Sequencer_specific, 5, 153, 1, 146, 219, 55
+1, 1488000, Note_on_c, 0, 64, 64
+1, 1488000, Sequencer_specific, 5, 153, 1, 146, 219, 56
+1, 1492800, Note_off_c, 0, 61, 64
+1, 1492800, Sequencer_specific, 5, 153, 1, 146, 219, 57
+1, 1492800, Note_on_c, 0, 61, 64
+1, 1492800, Sequencer_specific, 5, 153, 1, 146, 219, 58
+1, 1497600, Note_off_c, 0, 57, 64
+1, 1497600, Sequencer_specific, 5, 153, 1, 146, 219, 59
+1, 1497600, Note_on_c, 0, 55, 64
+1, 1497600, Sequencer_specific, 5, 153, 1, 146, 219, 60
+1, 1502400, Note_off_c, 0, 61, 64
+1, 1502400, Sequencer_specific, 5, 153, 1, 146, 219, 61
+1, 1502400, Note_on_c, 0, 59, 64
+1, 1502400, Sequencer_specific, 5, 153, 1, 146, 219, 62
+1, 1507200, Note_off_c, 0, 64, 64
+1, 1507200, Sequencer_specific, 5, 153, 1, 146, 219, 63
+1, 1507200, Note_on_c, 0, 62, 64
+1, 1507200, Sequencer_specific, 5, 153, 1, 146, 219, 64
+1, 1512000, Note_off_c, 0, 68, 64
+1, 1512000, Sequencer_specific, 5, 153, 1, 146, 219, 65
+1, 1512000, Note_on_c, 0, 66, 64
+1, 1512000, Sequencer_specific, 5, 153, 1, 146, 219, 66
+1, 1516800, Note_off_c, 0, 62, 64
+1, 1516800, Sequencer_specific, 5, 153, 1, 146, 219, 67
+1, 1516800, Note_on_c, 0, 62, 64
+1, 1516800, Sequencer_specific, 5, 153, 1, 146, 219, 68
+1, 1521600, Note_off_c, 0, 59, 64
+1, 1521600, Sequencer_specific, 5, 153, 1, 146, 219, 69
+1, 1521600, Note_on_c, 0, 59, 64
+1, 1521600, Sequencer_specific, 5, 153, 1, 146, 219, 70
+1, 1526400, Note_off_c, 0, 55, 64
+1, 1526400, Sequencer_specific, 5, 153, 1, 146, 219, 71
+1, 1526400, Note_on_c, 0, 55, 64
+1, 1526400, Sequencer_specific, 5, 153, 1, 146, 219, 72
+1, 1531200, Note_off_c, 0, 59, 64
+1, 1531200, Sequencer_specific, 5, 153, 1, 146, 219, 73
+1, 1531200, Note_on_c, 0, 59, 64
+1, 1531200, Sequencer_specific, 5, 153, 1, 146, 219, 74
+1, 1536000, Note_off_c, 0, 62, 64
+1, 1536000, Sequencer_specific, 5, 153, 1, 146, 219, 75
+1, 1536000, Note_on_c, 0, 62, 64
+1, 1536000, Sequencer_specific, 5, 153, 1, 146, 219, 76
+1, 1540800, Note_off_c, 0, 66, 64
+1, 1540800, Sequencer_specific, 5, 153, 1, 146, 219, 77
+1, 1540800, Note_on_c, 0, 66, 64
+1, 1540800, Sequencer_specific, 5, 153, 1, 146, 219, 78
+1, 1545600, Note_off_c, 0, 62, 64
+1, 1545600, Sequencer_specific, 5, 153, 1, 146, 219, 79
+1, 1545600, Note_on_c, 0, 62, 64
+1, 1545600, Sequencer_specific, 5, 153, 1, 146, 219, 80
+1, 1550400, Note_off_c, 0, 59, 64
+1, 1550400, Sequencer_specific, 5, 153, 1, 146, 219, 81
+1, 1550400, Note_on_c, 0, 59, 64
+1, 1550400, Sequencer_specific, 5, 153, 1, 146, 219, 82
+1, 1555200, Note_off_c, 0, 55, 64
+1, 1555200, Sequencer_specific, 5, 153, 1, 146, 219, 83
+1, 1555200, Note_on_c, 0, 59, 64
+1, 1555200, Sequencer_specific, 5, 153, 1, 146, 219, 84
+1, 1560000, Note_off_c, 0, 59, 64
+1, 1560000, Sequencer_specific, 5, 153, 1, 146, 219, 85
+1, 1560000, Note_on_c, 0, 63, 64
+1, 1560000, Sequencer_specific, 5, 153, 1, 146, 219, 86
+1, 1564800, Note_off_c, 0, 62, 64
+1, 1564800, Sequencer_specific, 5, 153, 1, 146, 219, 87
+1, 1564800, Note_on_c, 0, 66, 64
+1, 1564800, Sequencer_specific, 5, 153, 1, 146, 219, 88
+1, 1569600, Note_off_c, 0, 66, 64
+1, 1569600, Sequencer_specific, 5, 153, 1, 146, 219, 89
+1, 1569600, Note_on_c, 0, 70, 64
+1, 1569600, Sequencer_specific, 5, 153, 1, 146, 219, 90
+1, 1574400, Note_off_c, 0, 66, 64
+1, 1574400, Sequencer_specific, 5, 153, 1, 146, 219, 91
+1, 1574400, Note_on_c, 0, 66, 64
+1, 1574400, Sequencer_specific, 5, 153, 1, 146, 219, 92
+1, 1579200, Note_off_c, 0, 63, 64
+1, 1579200, Sequencer_specific, 5, 153, 1, 146, 219, 93
+1, 1579200, Note_on_c, 0, 63, 64
+1, 1579200, Sequencer_specific, 5, 153, 1, 146, 219, 94
+1, 1584000, Note_off_c, 0, 59, 64
+1, 1584000, Sequencer_specific, 5, 153, 1, 146, 219, 95
+1, 1584000, Note_on_c, 0, 59, 64
+1, 1584000, Sequencer_specific, 5, 153, 1, 146, 219, 96
+1, 1588800, Note_off_c, 0, 63, 64
+1, 1588800, Sequencer_specific, 5, 153, 1, 146, 219, 97
+1, 1588800, Note_on_c, 0, 63, 64
+1, 1588800, Sequencer_specific, 5, 153, 1, 146, 219, 98
+1, 1593600, Note_off_c, 0, 66, 64
+1, 1593600, Sequencer_specific, 5, 153, 1, 146, 219, 99
+1, 1593600, Note_on_c, 0, 66, 64
+1, 1593600, Sequencer_specific, 5, 153, 1, 146, 219, 100
+1, 1598400, Note_off_c, 0, 70, 64
+1, 1598400, Sequencer_specific, 5, 153, 1, 146, 219, 101
+1, 1598400, Note_on_c, 0, 70, 64
+1, 1598400, Sequencer_specific, 5, 153, 1, 146, 219, 102
+1, 1603200, Note_off_c, 0, 66, 64
+1, 1603200, Sequencer_specific, 5, 153, 1, 146, 219, 103
+1, 1603200, Note_on_c, 0, 66, 64
+1, 1603200, Sequencer_specific, 5, 153, 1, 146, 219, 104
+1, 1608000, Note_off_c, 0, 63, 64
+1, 1608000, Sequencer_specific, 5, 153, 1, 146, 219, 105
+1, 1608000, Note_on_c, 0, 63, 64
+1, 1608000, Sequencer_specific, 5, 153, 1, 146, 219, 106
+1, 1612800, Note_off_c, 0, 59, 64
+1, 1612800, Sequencer_specific, 5, 153, 1, 146, 219, 107
+1, 1612800, Note_off_c, 0, 66, 64
+1, 1612800, Sequencer_specific, 5, 153, 1, 146, 219, 108
+1, 1612800, Note_off_c, 0, 70, 64
+1, 1612800, Sequencer_specific, 5, 153, 1, 146, 219, 109
+1, 1612800, Note_off_c, 0, 63, 64
+1, 1612800, Sequencer_specific, 5, 153, 1, 146, 219, 110
+1, 1612800, Note_on_c, 0, 60, 64
+1, 1612800, Sequencer_specific, 5, 153, 1, 146, 219, 111
+1, 1617600, Note_on_c, 0, 64, 64
+1, 1617600, Sequencer_specific, 5, 153, 1, 146, 219, 112
+1, 1622400, Note_on_c, 0, 67, 64
+1, 1622400, Sequencer_specific, 5, 153, 1, 146, 219, 113
+1, 1627200, Note_on_c, 0, 71, 64
+1, 1627200, Sequencer_specific, 5, 153, 1, 146, 219, 114
+1, 1632000, Note_off_c, 0, 67, 64
+1, 1632000, Sequencer_specific, 5, 153, 1, 146, 219, 115
+1, 1632000, Note_on_c, 0, 67, 64
+1, 1632000, Sequencer_specific, 5, 153, 1, 146, 219, 116
+1, 1636800, Note_off_c, 0, 64, 64
+1, 1636800, Sequencer_specific, 5, 153, 1, 146, 219, 117
+1, 1636800, Note_on_c, 0, 64, 64
+1, 1636800, Sequencer_specific, 5, 153, 1, 146, 219, 118
+1, 1641600, Note_off_c, 0, 60, 64
+1, 1641600, Sequencer_specific, 5, 153, 1, 146, 219, 119
+1, 1641600, Note_on_c, 0, 60, 64
+1, 1641600, Sequencer_specific, 5, 153, 1, 146, 219, 120
+1, 1646400, Note_off_c, 0, 64, 64
+1, 1646400, Sequencer_specific, 5, 153, 1, 146, 219, 121
+1, 1646400, Note_on_c, 0, 64, 64
+1, 1646400, Sequencer_specific, 5, 153, 1, 146, 219, 122
+1, 1651200, Note_off_c, 0, 67, 64
+1, 1651200, Sequencer_specific, 5, 153, 1, 146, 219, 123
+1, 1651200, Note_on_c, 0, 67, 64
+1, 1651200, Sequencer_specific, 5, 153, 1, 146, 219, 124
+1, 1656000, Note_off_c, 0, 71, 64
+1, 1656000, Sequencer_specific, 5, 153, 1, 146, 219, 125
+1, 1656000, Note_on_c, 0, 71, 64
+1, 1656000, Sequencer_specific, 5, 153, 1, 146, 219, 126
+1, 1660800, Note_off_c, 0, 67, 64
+1, 1660800, Sequencer_specific, 5, 153, 1, 146, 219, 127
+1, 1660800, Note_on_c, 0, 67, 64
+1, 1660800, Sequencer_specific, 5, 153, 1, 146, 220, 0
+1, 1665600, Note_off_c, 0, 64, 64
+1, 1665600, Sequencer_specific, 5, 153, 1, 146, 220, 1
+1, 1665600, Note_on_c, 0, 64, 64
+1, 1665600, Sequencer_specific, 5, 153, 1, 146, 220, 2
+1, 1670400, Note_off_c, 0, 60, 64
+1, 1670400, Sequencer_specific, 5, 153, 1, 146, 220, 3
+1, 1670400, Note_on_c, 0, 57, 64
+1, 1670400, Sequencer_specific, 5, 153, 1, 146, 220, 4
+1, 1675200, Note_off_c, 0, 64, 64
+1, 1675200, Sequencer_specific, 5, 153, 1, 146, 220, 5
+1, 1675200, Note_on_c, 0, 61, 64
+1, 1675200, Sequencer_specific, 5, 153, 1, 146, 220, 6
+1, 1680000, Note_off_c, 0, 67, 64
+1, 1680000, Sequencer_specific, 5, 153, 1, 146, 220, 7
+1, 1680000, Note_on_c, 0, 64, 64
+1, 1680000, Sequencer_specific, 5, 153, 1, 146, 220, 8
+1, 1684800, Note_off_c, 0, 71, 64
+1, 1684800, Sequencer_specific, 5, 153, 1, 146, 220, 9
+1, 1684800, Note_on_c, 0, 68, 64
+1, 1684800, Sequencer_specific, 5, 153, 1, 146, 220, 10
+1, 1689600, Note_off_c, 0, 64, 64
+1, 1689600, Sequencer_specific, 5, 153, 1, 146, 220, 11
+1, 1689600, Note_on_c, 0, 64, 64
+1, 1689600, Sequencer_specific, 5, 153, 1, 146, 220, 12
+1, 1694400, Note_off_c, 0, 61, 64
+1, 1694400, Sequencer_specific, 5, 153, 1, 146, 220, 13
+1, 1694400, Note_on_c, 0, 61, 64
+1, 1694400, Sequencer_specific, 5, 153, 1, 146, 220, 14
+1, 1699200, Note_off_c, 0, 57, 64
+1, 1699200, Sequencer_specific, 5, 153, 1, 146, 220, 15
+1, 1699200, Note_on_c, 0, 57, 64
+1, 1699200, Sequencer_specific, 5, 153, 1, 146, 220, 16
+1, 1704000, Note_off_c, 0, 61, 64
+1, 1704000, Sequencer_specific, 5, 153, 1, 146, 220, 17
+1, 1704000, Note_on_c, 0, 61, 64
+1, 1704000, Sequencer_specific, 5, 153, 1, 146, 220, 18
+1, 1708800, Note_off_c, 0, 64, 64
+1, 1708800, Sequencer_specific, 5, 153, 1, 146, 220, 19
+1, 1708800, Note_on_c, 0, 64, 64
+1, 1708800, Sequencer_specific, 5, 153, 1, 146, 220, 20
+1, 1713600, Note_off_c, 0, 68, 64
+1, 1713600, Sequencer_specific, 5, 153, 1, 146, 220, 21
+1, 1713600, Note_on_c, 0, 68, 64
+1, 1713600, Sequencer_specific, 5, 153, 1, 146, 220, 22
+1, 1718400, Note_off_c, 0, 64, 64
+1, 1718400, Sequencer_specific, 5, 153, 1, 146, 220, 23
+1, 1718400, Note_on_c, 0, 64, 64
+1, 1718400, Sequencer_specific, 5, 153, 1, 146, 220, 24
+1, 1723200, Note_off_c, 0, 61, 64
+1, 1723200, Sequencer_specific, 5, 153, 1, 146, 220, 25
+1, 1723200, Note_on_c, 0, 61, 64
+1, 1723200, Sequencer_specific, 5, 153, 1, 146, 220, 26
+1, 1728000, Note_off_c, 0, 57, 64
+1, 1728000, Sequencer_specific, 5, 153, 1, 146, 220, 27
+1, 1728000, Note_on_c, 0, 55, 64
+1, 1728000, Sequencer_specific, 5, 153, 1, 146, 220, 28
+1, 1732800, Note_off_c, 0, 61, 64
+1, 1732800, Sequencer_specific, 5, 153, 1, 146, 220, 29
+1, 1732800, Note_on_c, 0, 59, 64
+1, 1732800, Sequencer_specific, 5, 153, 1, 146, 220, 30
+1, 1737600, Note_off_c, 0, 64, 64
+1, 1737600, Sequencer_specific, 5, 153, 1, 146, 220, 31
+1, 1737600, Note_on_c, 0, 62, 64
+1, 1737600, Sequencer_specific, 5, 153, 1, 146, 220, 32
+1, 1742400, Note_off_c, 0, 68, 64
+1, 1742400, Sequencer_specific, 5, 153, 1, 146, 220, 33
+1, 1742400, Note_on_c, 0, 66, 64
+1, 1742400, Sequencer_specific, 5, 153, 1, 146, 220, 34
+1, 1747200, Note_off_c, 0, 62, 64
+1, 1747200, Sequencer_specific, 5, 153, 1, 146, 220, 35
+1, 1747200, Note_on_c, 0, 62, 64
+1, 1747200, Sequencer_specific, 5, 153, 1, 146, 220, 36
+1, 1752000, Note_off_c, 0, 59, 64
+1, 1752000, Sequencer_specific, 5, 153, 1, 146, 220, 37
+1, 1752000, Note_on_c, 0, 59, 64
+1, 1752000, Sequencer_specific, 5, 153, 1, 146, 220, 38
+1, 1756800, Note_off_c, 0, 55, 64
+1, 1756800, Sequencer_specific, 5, 153, 1, 146, 220, 39
+1, 1756800, Note_on_c, 0, 55, 64
+1, 1756800, Sequencer_specific, 5, 153, 1, 146, 220, 40
+1, 1761600, Note_off_c, 0, 59, 64
+1, 1761600, Sequencer_specific, 5, 153, 1, 146, 220, 41
+1, 1761600, Note_on_c, 0, 59, 64
+1, 1761600, Sequencer_specific, 5, 153, 1, 146, 220, 42
+1, 1766400, Note_off_c, 0, 62, 64
+1, 1766400, Sequencer_specific, 5, 153, 1, 146, 220, 43
+1, 1766400, Note_on_c, 0, 62, 64
+1, 1766400, Sequencer_specific, 5, 153, 1, 146, 220, 44
+1, 1771200, Note_off_c, 0, 66, 64
+1, 1771200, Sequencer_specific, 5, 153, 1, 146, 220, 45
+1, 1771200, Note_on_c, 0, 66, 64
+1, 1771200, Sequencer_specific, 5, 153, 1, 146, 220, 46
+1, 1776000, Note_off_c, 0, 62, 64
+1, 1776000, Sequencer_specific, 5, 153, 1, 146, 220, 47
+1, 1776000, Note_on_c, 0, 62, 64
+1, 1776000, Sequencer_specific, 5, 153, 1, 146, 220, 48
+1, 1780800, Note_off_c, 0, 59, 64
+1, 1780800, Sequencer_specific, 5, 153, 1, 146, 220, 49
+1, 1780800, Note_on_c, 0, 59, 64
+1, 1780800, Sequencer_specific, 5, 153, 1, 146, 220, 50
+1, 1785600, Note_off_c, 0, 55, 64
+1, 1785600, Sequencer_specific, 5, 153, 1, 146, 220, 51
+1, 1785600, Note_on_c, 0, 59, 64
+1, 1785600, Sequencer_specific, 5, 153, 1, 146, 220, 52
+1, 1790400, Note_off_c, 0, 59, 64
+1, 1790400, Sequencer_specific, 5, 153, 1, 146, 220, 53
+1, 1790400, Note_on_c, 0, 63, 64
+1, 1790400, Sequencer_specific, 5, 153, 1, 146, 220, 54
+1, 1795200, Note_off_c, 0, 62, 64
+1, 1795200, Sequencer_specific, 5, 153, 1, 146, 220, 55
+1, 1795200, Note_on_c, 0, 66, 64
+1, 1795200, Sequencer_specific, 5, 153, 1, 146, 220, 56
+1, 1800000, Note_off_c, 0, 66, 64
+1, 1800000, Sequencer_specific, 5, 153, 1, 146, 220, 57
+1, 1800000, Note_on_c, 0, 70, 64
+1, 1800000, Sequencer_specific, 5, 153, 1, 146, 220, 58
+1, 1804800, Note_off_c, 0, 66, 64
+1, 1804800, Sequencer_specific, 5, 153, 1, 146, 220, 59
+1, 1804800, Note_on_c, 0, 66, 64
+1, 1804800, Sequencer_specific, 5, 153, 1, 146, 220, 60
+1, 1809600, Note_off_c, 0, 63, 64
+1, 1809600, Sequencer_specific, 5, 153, 1, 146, 220, 61
+1, 1809600, Note_on_c, 0, 63, 64
+1, 1809600, Sequencer_specific, 5, 153, 1, 146, 220, 62
+1, 1814400, Note_off_c, 0, 59, 64
+1, 1814400, Sequencer_specific, 5, 153, 1, 146, 220, 63
+1, 1814400, Note_on_c, 0, 59, 64
+1, 1814400, Sequencer_specific, 5, 153, 1, 146, 220, 64
+1, 1819200, Note_off_c, 0, 63, 64
+1, 1819200, Sequencer_specific, 5, 153, 1, 146, 220, 65
+1, 1819200, Note_on_c, 0, 63, 64
+1, 1819200, Sequencer_specific, 5, 153, 1, 146, 220, 66
+1, 1824000, Note_off_c, 0, 66, 64
+1, 1824000, Sequencer_specific, 5, 153, 1, 146, 220, 67
+1, 1824000, Note_on_c, 0, 66, 64
+1, 1824000, Sequencer_specific, 5, 153, 1, 146, 220, 68
+1, 1828800, Note_off_c, 0, 70, 64
+1, 1828800, Sequencer_specific, 5, 153, 1, 146, 220, 69
+1, 1828800, Note_on_c, 0, 70, 64
+1, 1828800, Sequencer_specific, 5, 153, 1, 146, 220, 70
+1, 1833600, Note_off_c, 0, 66, 64
+1, 1833600, Sequencer_specific, 5, 153, 1, 146, 220, 71
+1, 1833600, Note_on_c, 0, 66, 64
+1, 1833600, Sequencer_specific, 5, 153, 1, 146, 220, 72
+1, 1838400, Note_off_c, 0, 63, 64
+1, 1838400, Sequencer_specific, 5, 153, 1, 146, 220, 73
+1, 1838400, Note_on_c, 0, 63, 64
+1, 1838400, Sequencer_specific, 5, 153, 1, 146, 220, 74
+1, 1843200, Note_off_c, 0, 59, 64
+1, 1843200, Sequencer_specific, 5, 153, 1, 146, 220, 75
+1, 1843200, Note_off_c, 0, 66, 64
+1, 1843200, Sequencer_specific, 5, 153, 1, 146, 220, 76
+1, 1843200, Note_off_c, 0, 70, 64
+1, 1843200, Sequencer_specific, 5, 153, 1, 146, 220, 77
+1, 1843200, Note_off_c, 0, 63, 64
+1, 1843200, Sequencer_specific, 5, 153, 1, 146, 220, 78
+1, 2304000, Note_on_c, 0, 60, 64
+1, 2304000, Sequencer_specific, 5, 153, 1, 146, 220, 79
+1, 2308800, Note_on_c, 0, 64, 64
+1, 2308800, Sequencer_specific, 5, 153, 1, 146, 220, 80
+1, 2313600, Note_on_c, 0, 67, 64
+1, 2313600, Sequencer_specific, 5, 153, 1, 146, 220, 81
+1, 2318400, Note_on_c, 0, 71, 64
+1, 2318400, Sequencer_specific, 5, 153, 1, 146, 220, 82
+1, 2323200, Note_off_c, 0, 67, 64
+1, 2323200, Sequencer_specific, 5, 153, 1, 146, 220, 83
+1, 2323200, Note_on_c, 0, 67, 64
+1, 2323200, Sequencer_specific, 5, 153, 1, 146, 220, 84
+1, 2328000, Note_off_c, 0, 64, 64
+1, 2328000, Sequencer_specific, 5, 153, 1, 146, 220, 85
+1, 2328000, Note_on_c, 0, 64, 64
+1, 2328000, Sequencer_specific, 5, 153, 1, 146, 220, 86
+1, 2332800, Note_off_c, 0, 60, 64
+1, 2332800, Sequencer_specific, 5, 153, 1, 146, 220, 87
+1, 2332800, Note_on_c, 0, 60, 64
+1, 2332800, Sequencer_specific, 5, 153, 1, 146, 220, 88
+1, 2337600, Note_off_c, 0, 64, 64
+1, 2337600, Sequencer_specific, 5, 153, 1, 146, 220, 89
+1, 2337600, Note_on_c, 0, 64, 64
+1, 2337600, Sequencer_specific, 5, 153, 1, 146, 220, 90
+1, 2342400, Note_off_c, 0, 67, 64
+1, 2342400, Sequencer_specific, 5, 153, 1, 146, 220, 91
+1, 2342400, Note_on_c, 0, 67, 64
+1, 2342400, Sequencer_specific, 5, 153, 1, 146, 220, 92
+1, 2347200, Note_off_c, 0, 71, 64
+1, 2347200, Sequencer_specific, 5, 153, 1, 146, 220, 93
+1, 2347200, Note_on_c, 0, 71, 64
+1, 2347200, Sequencer_specific, 5, 153, 1, 146, 220, 94
+1, 2352000, Note_off_c, 0, 67, 64
+1, 2352000, Sequencer_specific, 5, 153, 1, 146, 220, 95
+1, 2352000, Note_on_c, 0, 67, 64
+1, 2352000, Sequencer_specific, 5, 153, 1, 146, 220, 96
+1, 2356800, Note_off_c, 0, 64, 64
+1, 2356800, Sequencer_specific, 5, 153, 1, 146, 220, 97
+1, 2356800, Note_on_c, 0, 64, 64
+1, 2356800, Sequencer_specific, 5, 153, 1, 146, 220, 98
+1, 2361600, Note_off_c, 0, 60, 64
+1, 2361600, Sequencer_specific, 5, 153, 1, 146, 220, 99
+1, 2361600, Note_on_c, 0, 57, 64
+1, 2361600, Sequencer_specific, 5, 153, 1, 146, 220, 100
+1, 2366400, Note_off_c, 0, 64, 64
+1, 2366400, Sequencer_specific, 5, 153, 1, 146, 220, 101
+1, 2366400, Note_on_c, 0, 61, 64
+1, 2366400, Sequencer_specific, 5, 153, 1, 146, 220, 102
+1, 2371200, Note_off_c, 0, 67, 64
+1, 2371200, Sequencer_specific, 5, 153, 1, 146, 220, 103
+1, 2371200, Note_on_c, 0, 64, 64
+1, 2371200, Sequencer_specific, 5, 153, 1, 146, 220, 104
+1, 2376000, Note_off_c, 0, 71, 64
+1, 2376000, Sequencer_specific, 5, 153, 1, 146, 220, 105
+1, 2376000, Note_on_c, 0, 68, 64
+1, 2376000, Sequencer_specific, 5, 153, 1, 146, 220, 106
+1, 2380800, Note_off_c, 0, 64, 64
+1, 2380800, Sequencer_specific, 5, 153, 1, 146, 220, 107
+1, 2380800, Note_on_c, 0, 64, 64
+1, 2380800, Sequencer_specific, 5, 153, 1, 146, 220, 108
+1, 2385600, Note_off_c, 0, 61, 64
+1, 2385600, Sequencer_specific, 5, 153, 1, 146, 220, 109
+1, 2385600, Note_on_c, 0, 61, 64
+1, 2385600, Sequencer_specific, 5, 153, 1, 146, 220, 110
+1, 2390400, Note_off_c, 0, 57, 64
+1, 2390400, Sequencer_specific, 5, 153, 1, 146, 220, 111
+1, 2390400, Note_on_c, 0, 57, 64
+1, 2390400, Sequencer_specific, 5, 153, 1, 146, 220, 112
+1, 2395200, Note_off_c, 0, 61, 64
+1, 2395200, Sequencer_specific, 5, 153, 1, 146, 220, 113
+1, 2395200, Note_on_c, 0, 61, 64
+1, 2395200, Sequencer_specific, 5, 153, 1, 146, 220, 114
+1, 2400000, Note_off_c, 0, 64, 64
+1, 2400000, Sequencer_specific, 5, 153, 1, 146, 220, 115
+1, 2400000, Note_on_c, 0, 64, 64
+1, 2400000, Sequencer_specific, 5, 153, 1, 146, 220, 116
+1, 2404800, Note_off_c, 0, 68, 64
+1, 2404800, Sequencer_specific, 5, 153, 1, 146, 220, 117
+1, 2404800, Note_on_c, 0, 68, 64
+1, 2404800, Sequencer_specific, 5, 153, 1, 146, 220, 118
+1, 2409600, Note_off_c, 0, 64, 64
+1, 2409600, Sequencer_specific, 5, 153, 1, 146, 220, 119
+1, 2409600, Note_on_c, 0, 64, 64
+1, 2409600, Sequencer_specific, 5, 153, 1, 146, 220, 120
+1, 2414400, Note_off_c, 0, 61, 64
+1, 2414400, Sequencer_specific, 5, 153, 1, 146, 220, 121
+1, 2414400, Note_on_c, 0, 61, 64
+1, 2414400, Sequencer_specific, 5, 153, 1, 146, 220, 122
+1, 2419200, Note_off_c, 0, 57, 64
+1, 2419200, Sequencer_specific, 5, 153, 1, 146, 220, 123
+1, 2419200, Note_on_c, 0, 55, 64
+1, 2419200, Sequencer_specific, 5, 153, 1, 146, 220, 124
+1, 2424000, Note_off_c, 0, 61, 64
+1, 2424000, Sequencer_specific, 5, 153, 1, 146, 220, 125
+1, 2424000, Note_on_c, 0, 59, 64
+1, 2424000, Sequencer_specific, 5, 153, 1, 146, 220, 126
+1, 2428800, Note_off_c, 0, 64, 64
+1, 2428800, Sequencer_specific, 5, 153, 1, 146, 220, 127
+1, 2428800, Note_on_c, 0, 62, 64
+1, 2428800, Sequencer_specific, 5, 153, 1, 146, 221, 0
+1, 2433600, Note_off_c, 0, 68, 64
+1, 2433600, Sequencer_specific, 5, 153, 1, 146, 221, 1
+1, 2433600, Note_on_c, 0, 66, 64
+1, 2433600, Sequencer_specific, 5, 153, 1, 146, 221, 2
+1, 2438400, Note_off_c, 0, 62, 64
+1, 2438400, Sequencer_specific, 5, 153, 1, 146, 221, 3
+1, 2438400, Note_on_c, 0, 62, 64
+1, 2438400, Sequencer_specific, 5, 153, 1, 146, 221, 4
+1, 2443200, Note_off_c, 0, 59, 64
+1, 2443200, Sequencer_specific, 5, 153, 1, 146, 221, 5
+1, 2443200, Note_on_c, 0, 59, 64
+1, 2443200, Sequencer_specific, 5, 153, 1, 146, 221, 6
+1, 2448000, Note_off_c, 0, 55, 64
+1, 2448000, Sequencer_specific, 5, 153, 1, 146, 221, 7
+1, 2448000, Note_on_c, 0, 55, 64
+1, 2448000, Sequencer_specific, 5, 153, 1, 146, 221, 8
+1, 2452800, Note_off_c, 0, 59, 64
+1, 2452800, Sequencer_specific, 5, 153, 1, 146, 221, 9
+1, 2452800, Note_on_c, 0, 59, 64
+1, 2452800, Sequencer_specific, 5, 153, 1, 146, 221, 10
+1, 2457600, Note_off_c, 0, 62, 64
+1, 2457600, Sequencer_specific, 5, 153, 1, 146, 221, 11
+1, 2457600, Note_on_c, 0, 62, 64
+1, 2457600, Sequencer_specific, 5, 153, 1, 146, 221, 12
+1, 2462400, Note_off_c, 0, 66, 64
+1, 2462400, Sequencer_specific, 5, 153, 1, 146, 221, 13
+1, 2462400, Note_on_c, 0, 66, 64
+1, 2462400, Sequencer_specific, 5, 153, 1, 146, 221, 14
+1, 2467200, Note_off_c, 0, 62, 64
+1, 2467200, Sequencer_specific, 5, 153, 1, 146, 221, 15
+1, 2467200, Note_on_c, 0, 62, 64
+1, 2467200, Sequencer_specific, 5, 153, 1, 146, 221, 16
+1, 2472000, Note_off_c, 0, 59, 64
+1, 2472000, Sequencer_specific, 5, 153, 1, 146, 221, 17
+1, 2472000, Note_on_c, 0, 59, 64
+1, 2472000, Sequencer_specific, 5, 153, 1, 146, 221, 18
+1, 2476800, Note_off_c, 0, 55, 64
+1, 2476800, Sequencer_specific, 5, 153, 1, 146, 221, 19
+1, 2476800, Note_on_c, 0, 59, 64
+1, 2476800, Sequencer_specific, 5, 153, 1, 146, 221, 20
+1, 2481600, Note_off_c, 0, 59, 64
+1, 2481600, Sequencer_specific, 5, 153, 1, 146, 221, 21
+1, 2481600, Note_on_c, 0, 63, 64
+1, 2481600, Sequencer_specific, 5, 153, 1, 146, 221, 22
+1, 2486400, Note_off_c, 0, 62, 64
+1, 2486400, Sequencer_specific, 5, 153, 1, 146, 221, 23
+1, 2486400, Note_on_c, 0, 66, 64
+1, 2486400, Sequencer_specific, 5, 153, 1, 146, 221, 24
+1, 2491200, Note_off_c, 0, 66, 64
+1, 2491200, Sequencer_specific, 5, 153, 1, 146, 221, 25
+1, 2491200, Note_on_c, 0, 70, 64
+1, 2491200, Sequencer_specific, 5, 153, 1, 146, 221, 26
+1, 2496000, Note_off_c, 0, 66, 64
+1, 2496000, Sequencer_specific, 5, 153, 1, 146, 221, 27
+1, 2496000, Note_on_c, 0, 66, 64
+1, 2496000, Sequencer_specific, 5, 153, 1, 146, 221, 28
+1, 2500800, Note_off_c, 0, 63, 64
+1, 2500800, Sequencer_specific, 5, 153, 1, 146, 221, 29
+1, 2500800, Note_on_c, 0, 63, 64
+1, 2500800, Sequencer_specific, 5, 153, 1, 146, 221, 30
+1, 2505600, Note_off_c, 0, 59, 64
+1, 2505600, Sequencer_specific, 5, 153, 1, 146, 221, 31
+1, 2505600, Note_on_c, 0, 59, 64
+1, 2505600, Sequencer_specific, 5, 153, 1, 146, 221, 32
+1, 2510400, Note_off_c, 0, 63, 64
+1, 2510400, Sequencer_specific, 5, 153, 1, 146, 221, 33
+1, 2510400, Note_on_c, 0, 63, 64
+1, 2510400, Sequencer_specific, 5, 153, 1, 146, 221, 34
+1, 2515200, Note_off_c, 0, 66, 64
+1, 2515200, Sequencer_specific, 5, 153, 1, 146, 221, 35
+1, 2515200, Note_on_c, 0, 66, 64
+1, 2515200, Sequencer_specific, 5, 153, 1, 146, 221, 36
+1, 2520000, Note_off_c, 0, 70, 64
+1, 2520000, Sequencer_specific, 5, 153, 1, 146, 221, 37
+1, 2520000, Note_on_c, 0, 70, 64
+1, 2520000, Sequencer_specific, 5, 153, 1, 146, 221, 38
+1, 2524800, Note_off_c, 0, 66, 64
+1, 2524800, Sequencer_specific, 5, 153, 1, 146, 221, 39
+1, 2524800, Note_on_c, 0, 66, 64
+1, 2524800, Sequencer_specific, 5, 153, 1, 146, 221, 40
+1, 2529600, Note_off_c, 0, 63, 64
+1, 2529600, Sequencer_specific, 5, 153, 1, 146, 221, 41
+1, 2529600, Note_on_c, 0, 63, 64
+1, 2529600, Sequencer_specific, 5, 153, 1, 146, 221, 42
+1, 2534400, Note_off_c, 0, 59, 64
+1, 2534400, Sequencer_specific, 5, 153, 1, 146, 221, 43
+1, 2534400, Note_off_c, 0, 66, 64
+1, 2534400, Sequencer_specific, 5, 153, 1, 146, 221, 44
+1, 2534400, Note_off_c, 0, 70, 64
+1, 2534400, Sequencer_specific, 5, 153, 1, 146, 221, 45
+1, 2534400, Note_off_c, 0, 63, 64
+1, 2534400, Sequencer_specific, 5, 153, 1, 146, 221, 46
+1, 2534400, Note_on_c, 0, 60, 64
+1, 2534400, Sequencer_specific, 5, 153, 1, 146, 221, 47
+1, 2539200, Note_on_c, 0, 64, 64
+1, 2539200, Sequencer_specific, 5, 153, 1, 146, 221, 48
+1, 2544000, Note_on_c, 0, 67, 64
+1, 2544000, Sequencer_specific, 5, 153, 1, 146, 221, 49
+1, 2548800, Note_on_c, 0, 71, 64
+1, 2548800, Sequencer_specific, 5, 153, 1, 146, 221, 50
+1, 2553600, Note_off_c, 0, 67, 64
+1, 2553600, Sequencer_specific, 5, 153, 1, 146, 221, 51
+1, 2553600, Note_on_c, 0, 67, 64
+1, 2553600, Sequencer_specific, 5, 153, 1, 146, 221, 52
+1, 2558400, Note_off_c, 0, 64, 64
+1, 2558400, Sequencer_specific, 5, 153, 1, 146, 221, 53
+1, 2558400, Note_on_c, 0, 64, 64
+1, 2558400, Sequencer_specific, 5, 153, 1, 146, 221, 54
+1, 2563200, Note_off_c, 0, 60, 64
+1, 2563200, Sequencer_specific, 5, 153, 1, 146, 221, 55
+1, 2563200, Note_on_c, 0, 60, 64
+1, 2563200, Sequencer_specific, 5, 153, 1, 146, 221, 56
+1, 2568000, Note_off_c, 0, 64, 64
+1, 2568000, Sequencer_specific, 5, 153, 1, 146, 221, 57
+1, 2568000, Note_on_c, 0, 64, 64
+1, 2568000, Sequencer_specific, 5, 153, 1, 146, 221, 58
+1, 2572800, Note_off_c, 0, 67, 64
+1, 2572800, Sequencer_specific, 5, 153, 1, 146, 221, 59
+1, 2572800, Note_on_c, 0, 67, 64
+1, 2572800, Sequencer_specific, 5, 153, 1, 146, 221, 60
+1, 2577600, Note_off_c, 0, 71, 64
+1, 2577600, Sequencer_specific, 5, 153, 1, 146, 221, 61
+1, 2577600, Note_on_c, 0, 71, 64
+1, 2577600, Sequencer_specific, 5, 153, 1, 146, 221, 62
+1, 2582400, Note_off_c, 0, 67, 64
+1, 2582400, Sequencer_specific, 5, 153, 1, 146, 221, 63
+1, 2582400, Note_on_c, 0, 67, 64
+1, 2582400, Sequencer_specific, 5, 153, 1, 146, 221, 64
+1, 2587200, Note_off_c, 0, 64, 64
+1, 2587200, Sequencer_specific, 5, 153, 1, 146, 221, 65
+1, 2587200, Note_on_c, 0, 64, 64
+1, 2587200, Sequencer_specific, 5, 153, 1, 146, 221, 66
+1, 2592000, Note_off_c, 0, 60, 64
+1, 2592000, Sequencer_specific, 5, 153, 1, 146, 221, 67
+1, 2592000, Note_on_c, 0, 57, 64
+1, 2592000, Sequencer_specific, 5, 153, 1, 146, 221, 68
+1, 2596800, Note_off_c, 0, 64, 64
+1, 2596800, Sequencer_specific, 5, 153, 1, 146, 221, 69
+1, 2596800, Note_on_c, 0, 61, 64
+1, 2596800, Sequencer_specific, 5, 153, 1, 146, 221, 70
+1, 2601600, Note_off_c, 0, 67, 64
+1, 2601600, Sequencer_specific, 5, 153, 1, 146, 221, 71
+1, 2601600, Note_on_c, 0, 64, 64
+1, 2601600, Sequencer_specific, 5, 153, 1, 146, 221, 72
+1, 2606400, Note_off_c, 0, 71, 64
+1, 2606400, Sequencer_specific, 5, 153, 1, 146, 221, 73
+1, 2606400, Note_on_c, 0, 68, 64
+1, 2606400, Sequencer_specific, 5, 153, 1, 146, 221, 74
+1, 2611200, Note_off_c, 0, 64, 64
+1, 2611200, Sequencer_specific, 5, 153, 1, 146, 221, 75
+1, 2611200, Note_on_c, 0, 64, 64
+1, 2611200, Sequencer_specific, 5, 153, 1, 146, 221, 76
+1, 2616000, Note_off_c, 0, 61, 64
+1, 2616000, Sequencer_specific, 5, 153, 1, 146, 221, 77
+1, 2616000, Note_on_c, 0, 61, 64
+1, 2616000, Sequencer_specific, 5, 153, 1, 146, 221, 78
+1, 2620800, Note_off_c, 0, 57, 64
+1, 2620800, Sequencer_specific, 5, 153, 1, 146, 221, 79
+1, 2620800, Note_on_c, 0, 57, 64
+1, 2620800, Sequencer_specific, 5, 153, 1, 146, 221, 80
+1, 2625600, Note_off_c, 0, 61, 64
+1, 2625600, Sequencer_specific, 5, 153, 1, 146, 221, 81
+1, 2625600, Note_on_c, 0, 61, 64
+1, 2625600, Sequencer_specific, 5, 153, 1, 146, 221, 82
+1, 2630400, Note_off_c, 0, 64, 64
+1, 2630400, Sequencer_specific, 5, 153, 1, 146, 221, 83
+1, 2630400, Note_on_c, 0, 64, 64
+1, 2630400, Sequencer_specific, 5, 153, 1, 146, 221, 84
+1, 2635200, Note_off_c, 0, 68, 64
+1, 2635200, Sequencer_specific, 5, 153, 1, 146, 221, 85
+1, 2635200, Note_on_c, 0, 68, 64
+1, 2635200, Sequencer_specific, 5, 153, 1, 146, 221, 86
+1, 2640000, Note_off_c, 0, 64, 64
+1, 2640000, Sequencer_specific, 5, 153, 1, 146, 221, 87
+1, 2640000, Note_on_c, 0, 64, 64
+1, 2640000, Sequencer_specific, 5, 153, 1, 146, 221, 88
+1, 2644800, Note_off_c, 0, 61, 64
+1, 2644800, Sequencer_specific, 5, 153, 1, 146, 221, 89
+1, 2644800, Note_on_c, 0, 61, 64
+1, 2644800, Sequencer_specific, 5, 153, 1, 146, 221, 90
+1, 2649600, Note_off_c, 0, 57, 64
+1, 2649600, Sequencer_specific, 5, 153, 1, 146, 221, 91
+1, 2649600, Note_on_c, 0, 55, 64
+1, 2649600, Sequencer_specific, 5, 153, 1, 146, 221, 92
+1, 2654400, Note_off_c, 0, 61, 64
+1, 2654400, Sequencer_specific, 5, 153, 1, 146, 221, 93
+1, 2654400, Note_on_c, 0, 59, 64
+1, 2654400, Sequencer_specific, 5, 153, 1, 146, 221, 94
+1, 2659200, Note_off_c, 0, 64, 64
+1, 2659200, Sequencer_specific, 5, 153, 1, 146, 221, 95
+1, 2659200, Note_on_c, 0, 62, 64
+1, 2659200, Sequencer_specific, 5, 153, 1, 146, 221, 96
+1, 2664000, Note_off_c, 0, 68, 64
+1, 2664000, Sequencer_specific, 5, 153, 1, 146, 221, 97
+1, 2664000, Note_on_c, 0, 66, 64
+1, 2664000, Sequencer_specific, 5, 153, 1, 146, 221, 98
+1, 2668800, Note_off_c, 0, 62, 64
+1, 2668800, Sequencer_specific, 5, 153, 1, 146, 221, 99
+1, 2668800, Note_on_c, 0, 62, 64
+1, 2668800, Sequencer_specific, 5, 153, 1, 146, 221, 100
+1, 2673600, Note_off_c, 0, 59, 64
+1, 2673600, Sequencer_specific, 5, 153, 1, 146, 221, 101
+1, 2673600, Note_on_c, 0, 59, 64
+1, 2673600, Sequencer_specific, 5, 153, 1, 146, 221, 102
+1, 2678400, Note_off_c, 0, 55, 64
+1, 2678400, Sequencer_specific, 5, 153, 1, 146, 221, 103
+1, 2678400, Note_on_c, 0, 55, 64
+1, 2678400, Sequencer_specific, 5, 153, 1, 146, 221, 104
+1, 2683200, Note_off_c, 0, 59, 64
+1, 2683200, Sequencer_specific, 5, 153, 1, 146, 221, 105
+1, 2683200, Note_on_c, 0, 59, 64
+1, 2683200, Sequencer_specific, 5, 153, 1, 146, 221, 106
+1, 2688000, Note_off_c, 0, 62, 64
+1, 2688000, Sequencer_specific, 5, 153, 1, 146, 221, 107
+1, 2688000, Note_on_c, 0, 62, 64
+1, 2688000, Sequencer_specific, 5, 153, 1, 146, 221, 108
+1, 2692800, Note_off_c, 0, 66, 64
+1, 2692800, Sequencer_specific, 5, 153, 1, 146, 221, 109
+1, 2692800, Note_on_c, 0, 66, 64
+1, 2692800, Sequencer_specific, 5, 153, 1, 146, 221, 110
+1, 2697600, Note_off_c, 0, 62, 64
+1, 2697600, Sequencer_specific, 5, 153, 1, 146, 221, 111
+1, 2697600, Note_on_c, 0, 62, 64
+1, 2697600, Sequencer_specific, 5, 153, 1, 146, 221, 112
+1, 2702400, Note_off_c, 0, 59, 64
+1, 2702400, Sequencer_specific, 5, 153, 1, 146, 221, 113
+1, 2702400, Note_on_c, 0, 59, 64
+1, 2702400, Sequencer_specific, 5, 153, 1, 146, 221, 114
+1, 2707200, Note_off_c, 0, 55, 64
+1, 2707200, Sequencer_specific, 5, 153, 1, 146, 221, 115
+1, 2707200, Note_on_c, 0, 59, 64
+1, 2707200, Sequencer_specific, 5, 153, 1, 146, 221, 116
+1, 2712000, Note_off_c, 0, 59, 64
+1, 2712000, Sequencer_specific, 5, 153, 1, 146, 221, 117
+1, 2712000, Note_on_c, 0, 63, 64
+1, 2712000, Sequencer_specific, 5, 153, 1, 146, 221, 118
+1, 2716800, Note_off_c, 0, 62, 64
+1, 2716800, Sequencer_specific, 5, 153, 1, 146, 221, 119
+1, 2716800, Note_on_c, 0, 66, 64
+1, 2716800, Sequencer_specific, 5, 153, 1, 146, 221, 120
+1, 2721600, Note_off_c, 0, 66, 64
+1, 2721600, Sequencer_specific, 5, 153, 1, 146, 221, 121
+1, 2721600, Note_on_c, 0, 70, 64
+1, 2721600, Sequencer_specific, 5, 153, 1, 146, 221, 122
+1, 2726400, Note_off_c, 0, 66, 64
+1, 2726400, Sequencer_specific, 5, 153, 1, 146, 221, 123
+1, 2726400, Note_on_c, 0, 66, 64
+1, 2726400, Sequencer_specific, 5, 153, 1, 146, 221, 124
+1, 2731200, Note_off_c, 0, 63, 64
+1, 2731200, Sequencer_specific, 5, 153, 1, 146, 221, 125
+1, 2731200, Note_on_c, 0, 63, 64
+1, 2731200, Sequencer_specific, 5, 153, 1, 146, 221, 126
+1, 2736000, Note_off_c, 0, 59, 64
+1, 2736000, Sequencer_specific, 5, 153, 1, 146, 221, 127
+1, 2736000, Note_on_c, 0, 59, 64
+1, 2736000, Sequencer_specific, 5, 153, 1, 146, 222, 0
+1, 2740800, Note_off_c, 0, 63, 64
+1, 2740800, Sequencer_specific, 5, 153, 1, 146, 222, 1
+1, 2740800, Note_on_c, 0, 63, 64
+1, 2740800, Sequencer_specific, 5, 153, 1, 146, 222, 2
+1, 2745600, Note_off_c, 0, 66, 64
+1, 2745600, Sequencer_specific, 5, 153, 1, 146, 222, 3
+1, 2745600, Note_on_c, 0, 66, 64
+1, 2745600, Sequencer_specific, 5, 153, 1, 146, 222, 4
+1, 2750400, Note_off_c, 0, 70, 64
+1, 2750400, Sequencer_specific, 5, 153, 1, 146, 222, 5
+1, 2750400, Note_on_c, 0, 70, 64
+1, 2750400, Sequencer_specific, 5, 153, 1, 146, 222, 6
+1, 2755200, Note_off_c, 0, 66, 64
+1, 2755200, Sequencer_specific, 5, 153, 1, 146, 222, 7
+1, 2755200, Note_on_c, 0, 66, 64
+1, 2755200, Sequencer_specific, 5, 153, 1, 146, 222, 8
+1, 2760000, Note_off_c, 0, 63, 64
+1, 2760000, Sequencer_specific, 5, 153, 1, 146, 222, 9
+1, 2760000, Note_on_c, 0, 63, 64
+1, 2760000, Sequencer_specific, 5, 153, 1, 146, 222, 10
+1, 2764800, Note_off_c, 0, 59, 64
+1, 2764800, Sequencer_specific, 5, 153, 1, 146, 222, 11
+1, 2764800, Note_off_c, 0, 66, 64
+1, 2764800, Sequencer_specific, 5, 153, 1, 146, 222, 12
+1, 2764800, Note_off_c, 0, 70, 64
+1, 2764800, Sequencer_specific, 5, 153, 1, 146, 222, 13
+1, 2764800, Note_off_c, 0, 63, 64
+1, 2764800, Sequencer_specific, 5, 153, 1, 146, 222, 14
+1, 2764800, Note_on_c, 0, 60, 64
+1, 2764800, Sequencer_specific, 5, 153, 1, 146, 222, 15
+1, 2769600, Note_on_c, 0, 64, 64
+1, 2769600, Sequencer_specific, 5, 153, 1, 146, 222, 16
+1, 2774400, Note_on_c, 0, 67, 64
+1, 2774400, Sequencer_specific, 5, 153, 1, 146, 222, 17
+1, 2779200, Note_on_c, 0, 71, 64
+1, 2779200, Sequencer_specific, 5, 153, 1, 146, 222, 18
+1, 2784000, Note_off_c, 0, 67, 64
+1, 2784000, Sequencer_specific, 5, 153, 1, 146, 222, 19
+1, 2784000, Note_on_c, 0, 67, 64
+1, 2784000, Sequencer_specific, 5, 153, 1, 146, 222, 20
+1, 2788800, Note_off_c, 0, 64, 64
+1, 2788800, Sequencer_specific, 5, 153, 1, 146, 222, 21
+1, 2788800, Note_on_c, 0, 64, 64
+1, 2788800, Sequencer_specific, 5, 153, 1, 146, 222, 22
+1, 2793600, Note_off_c, 0, 60, 64
+1, 2793600, Sequencer_specific, 5, 153, 1, 146, 222, 23
+1, 2793600, Note_on_c, 0, 60, 64
+1, 2793600, Sequencer_specific, 5, 153, 1, 146, 222, 24
+1, 2798400, Note_off_c, 0, 64, 64
+1, 2798400, Sequencer_specific, 5, 153, 1, 146, 222, 25
+1, 2798400, Note_on_c, 0, 64, 64
+1, 2798400, Sequencer_specific, 5, 153, 1, 146, 222, 26
+1, 2803200, Note_off_c, 0, 67, 64
+1, 2803200, Sequencer_specific, 5, 153, 1, 146, 222, 27
+1, 2803200, Note_on_c, 0, 67, 64
+1, 2803200, Sequencer_specific, 5, 153, 1, 146, 222, 28
+1, 2808000, Note_off_c, 0, 71, 64
+1, 2808000, Sequencer_specific, 5, 153, 1, 146, 222, 29
+1, 2808000, Note_on_c, 0, 71, 64
+1, 2808000, Sequencer_specific, 5, 153, 1, 146, 222, 30
+1, 2812800, Note_off_c, 0, 67, 64
+1, 2812800, Sequencer_specific, 5, 153, 1, 146, 222, 31
+1, 2812800, Note_on_c, 0, 67, 64
+1, 2812800, Sequencer_specific, 5, 153, 1, 146, 222, 32
+1, 2817600, Note_off_c, 0, 64, 64
+1, 2817600, Sequencer_specific, 5, 153, 1, 146, 222, 33
+1, 2817600, Note_on_c, 0, 64, 64
+1, 2817600, Sequencer_specific, 5, 153, 1, 146, 222, 34
+1, 2822400, Note_off_c, 0, 60, 64
+1, 2822400, Sequencer_specific, 5, 153, 1, 146, 222, 35
+1, 2822400, Note_on_c, 0, 57, 64
+1, 2822400, Sequencer_specific, 5, 153, 1, 146, 222, 36
+1, 2827200, Note_off_c, 0, 64, 64
+1, 2827200, Sequencer_specific, 5, 153, 1, 146, 222, 37
+1, 2827200, Note_on_c, 0, 61, 64
+1, 2827200, Sequencer_specific, 5, 153, 1, 146, 222, 38
+1, 2832000, Note_off_c, 0, 67, 64
+1, 2832000, Sequencer_specific, 5, 153, 1, 146, 222, 39
+1, 2832000, Note_on_c, 0, 64, 64
+1, 2832000, Sequencer_specific, 5, 153, 1, 146, 222, 40
+1, 2836800, Note_off_c, 0, 71, 64
+1, 2836800, Sequencer_specific, 5, 153, 1, 146, 222, 41
+1, 2836800, Note_on_c, 0, 68, 64
+1, 2836800, Sequencer_specific, 5, 153, 1, 146, 222, 42
+1, 2841600, Note_off_c, 0, 64, 64
+1, 2841600, Sequencer_specific, 5, 153, 1, 146, 222, 43
+1, 2841600, Note_on_c, 0, 64, 64
+1, 2841600, Sequencer_specific, 5, 153, 1, 146, 222, 44
+1, 2846400, Note_off_c, 0, 61, 64
+1, 2846400, Sequencer_specific, 5, 153, 1, 146, 222, 45
+1, 2846400, Note_on_c, 0, 61, 64
+1, 2846400, Sequencer_specific, 5, 153, 1, 146, 222, 46
+1, 2851200, Note_off_c, 0, 57, 64
+1, 2851200, Sequencer_specific, 5, 153, 1, 146, 222, 47
+1, 2851200, Note_on_c, 0, 57, 64
+1, 2851200, Sequencer_specific, 5, 153, 1, 146, 222, 48
+1, 2856000, Note_off_c, 0, 61, 64
+1, 2856000, Sequencer_specific, 5, 153, 1, 146, 222, 49
+1, 2856000, Note_on_c, 0, 61, 64
+1, 2856000, Sequencer_specific, 5, 153, 1, 146, 222, 50
+1, 2860800, Note_off_c, 0, 64, 64
+1, 2860800, Sequencer_specific, 5, 153, 1, 146, 222, 51
+1, 2860800, Note_on_c, 0, 64, 64
+1, 2860800, Sequencer_specific, 5, 153, 1, 146, 222, 52
+1, 2865600, Note_off_c, 0, 68, 64
+1, 2865600, Sequencer_specific, 5, 153, 1, 146, 222, 53
+1, 2865600, Note_on_c, 0, 68, 64
+1, 2865600, Sequencer_specific, 5, 153, 1, 146, 222, 54
+1, 2870400, Note_off_c, 0, 64, 64
+1, 2870400, Sequencer_specific, 5, 153, 1, 146, 222, 55
+1, 2870400, Note_on_c, 0, 64, 64
+1, 2870400, Sequencer_specific, 5, 153, 1, 146, 222, 56
+1, 2875200, Note_off_c, 0, 61, 64
+1, 2875200, Sequencer_specific, 5, 153, 1, 146, 222, 57
+1, 2875200, Note_on_c, 0, 61, 64
+1, 2875200, Sequencer_specific, 5, 153, 1, 146, 222, 58
+1, 2880000, Note_off_c, 0, 57, 64
+1, 2880000, Sequencer_specific, 5, 153, 1, 146, 222, 59
+1, 2880000, Note_on_c, 0, 55, 64
+1, 2880000, Sequencer_specific, 5, 153, 1, 146, 222, 60
+1, 2884800, Note_off_c, 0, 61, 64
+1, 2884800, Sequencer_specific, 5, 153, 1, 146, 222, 61
+1, 2884800, Note_on_c, 0, 59, 64
+1, 2884800, Sequencer_specific, 5, 153, 1, 146, 222, 62
+1, 2889600, Note_off_c, 0, 64, 64
+1, 2889600, Sequencer_specific, 5, 153, 1, 146, 222, 63
+1, 2889600, Note_on_c, 0, 62, 64
+1, 2889600, Sequencer_specific, 5, 153, 1, 146, 222, 64
+1, 2894400, Note_off_c, 0, 68, 64
+1, 2894400, Sequencer_specific, 5, 153, 1, 146, 222, 65
+1, 2894400, Note_on_c, 0, 66, 64
+1, 2894400, Sequencer_specific, 5, 153, 1, 146, 222, 66
+1, 2899200, Note_off_c, 0, 62, 64
+1, 2899200, Sequencer_specific, 5, 153, 1, 146, 222, 67
+1, 2899200, Note_on_c, 0, 62, 64
+1, 2899200, Sequencer_specific, 5, 153, 1, 146, 222, 68
+1, 2904000, Note_off_c, 0, 59, 64
+1, 2904000, Sequencer_specific, 5, 153, 1, 146, 222, 69
+1, 2904000, Note_on_c, 0, 59, 64
+1, 2904000, Sequencer_specific, 5, 153, 1, 146, 222, 70
+1, 2908800, Note_off_c, 0, 55, 64
+1, 2908800, Sequencer_specific, 5, 153, 1, 146, 222, 71
+1, 2908800, Note_on_c, 0, 55, 64
+1, 2908800, Sequencer_specific, 5, 153, 1, 146, 222, 72
+1, 2913600, Note_off_c, 0, 59, 64
+1, 2913600, Sequencer_specific, 5, 153, 1, 146, 222, 73
+1, 2913600, Note_on_c, 0, 59, 64
+1, 2913600, Sequencer_specific, 5, 153, 1, 146, 222, 74
+1, 2918400, Note_off_c, 0, 62, 64
+1, 2918400, Sequencer_specific, 5, 153, 1, 146, 222, 75
+1, 2918400, Note_on_c, 0, 62, 64
+1, 2918400, Sequencer_specific, 5, 153, 1, 146, 222, 76
+1, 2923200, Note_off_c, 0, 66, 64
+1, 2923200, Sequencer_specific, 5, 153, 1, 146, 222, 77
+1, 2923200, Note_on_c, 0, 66, 64
+1, 2923200, Sequencer_specific, 5, 153, 1, 146, 222, 78
+1, 2928000, Note_off_c, 0, 62, 64
+1, 2928000, Sequencer_specific, 5, 153, 1, 146, 222, 79
+1, 2928000, Note_on_c, 0, 62, 64
+1, 2928000, Sequencer_specific, 5, 153, 1, 146, 222, 80
+1, 2932800, Note_off_c, 0, 59, 64
+1, 2932800, Sequencer_specific, 5, 153, 1, 146, 222, 81
+1, 2932800, Note_on_c, 0, 59, 64
+1, 2932800, Sequencer_specific, 5, 153, 1, 146, 222, 82
+1, 2937600, Note_off_c, 0, 55, 64
+1, 2937600, Sequencer_specific, 5, 153, 1, 146, 222, 83
+1, 2937600, Note_on_c, 0, 59, 64
+1, 2937600, Sequencer_specific, 5, 153, 1, 146, 222, 84
+1, 2942400, Note_off_c, 0, 59, 64
+1, 2942400, Sequencer_specific, 5, 153, 1, 146, 222, 85
+1, 2942400, Note_on_c, 0, 63, 64
+1, 2942400, Sequencer_specific, 5, 153, 1, 146, 222, 86
+1, 2947200, Note_off_c, 0, 62, 64
+1, 2947200, Sequencer_specific, 5, 153, 1, 146, 222, 87
+1, 2947200, Note_on_c, 0, 66, 64
+1, 2947200, Sequencer_specific, 5, 153, 1, 146, 222, 88
+1, 2952000, Note_off_c, 0, 66, 64
+1, 2952000, Sequencer_specific, 5, 153, 1, 146, 222, 89
+1, 2952000, Note_on_c, 0, 70, 64
+1, 2952000, Sequencer_specific, 5, 153, 1, 146, 222, 90
+1, 2956800, Note_off_c, 0, 66, 64
+1, 2956800, Sequencer_specific, 5, 153, 1, 146, 222, 91
+1, 2956800, Note_on_c, 0, 66, 64
+1, 2956800, Sequencer_specific, 5, 153, 1, 146, 222, 92
+1, 2961600, Note_off_c, 0, 63, 64
+1, 2961600, Sequencer_specific, 5, 153, 1, 146, 222, 93
+1, 2961600, Note_on_c, 0, 63, 64
+1, 2961600, Sequencer_specific, 5, 153, 1, 146, 222, 94
+1, 2966400, Note_off_c, 0, 59, 64
+1, 2966400, Sequencer_specific, 5, 153, 1, 146, 222, 95
+1, 2966400, Note_on_c, 0, 59, 64
+1, 2966400, Sequencer_specific, 5, 153, 1, 146, 222, 96
+1, 2971200, Note_off_c, 0, 63, 64
+1, 2971200, Sequencer_specific, 5, 153, 1, 146, 222, 97
+1, 2971200, Note_on_c, 0, 63, 64
+1, 2971200, Sequencer_specific, 5, 153, 1, 146, 222, 98
+1, 2976000, Note_off_c, 0, 66, 64
+1, 2976000, Sequencer_specific, 5, 153, 1, 146, 222, 99
+1, 2976000, Note_on_c, 0, 66, 64
+1, 2976000, Sequencer_specific, 5, 153, 1, 146, 222, 100
+1, 2980800, Note_off_c, 0, 70, 64
+1, 2980800, Sequencer_specific, 5, 153, 1, 146, 222, 101
+1, 2980800, Note_on_c, 0, 70, 64
+1, 2980800, Sequencer_specific, 5, 153, 1, 146, 222, 102
+1, 2985600, Note_off_c, 0, 66, 64
+1, 2985600, Sequencer_specific, 5, 153, 1, 146, 222, 103
+1, 2985600, Note_on_c, 0, 66, 64
+1, 2985600, Sequencer_specific, 5, 153, 1, 146, 222, 104
+1, 2990400, Note_off_c, 0, 63, 64
+1, 2990400, Sequencer_specific, 5, 153, 1, 146, 222, 105
+1, 2990400, Note_on_c, 0, 63, 64
+1, 2990400, Sequencer_specific, 5, 153, 1, 146, 222, 106
+1, 2995200, Note_off_c, 0, 59, 64
+1, 2995200, Sequencer_specific, 5, 153, 1, 146, 222, 107
+1, 2995200, Note_off_c, 0, 66, 64
+1, 2995200, Sequencer_specific, 5, 153, 1, 146, 222, 108
+1, 2995200, Note_off_c, 0, 70, 64
+1, 2995200, Sequencer_specific, 5, 153, 1, 146, 222, 109
+1, 2995200, Note_off_c, 0, 63, 64
+1, 2995200, Sequencer_specific, 5, 153, 1, 146, 222, 110
+1, 2995200, Note_on_c, 0, 60, 64
+1, 2995200, Sequencer_specific, 5, 153, 1, 146, 222, 111
+1, 3000000, Note_on_c, 0, 64, 64
+1, 3000000, Sequencer_specific, 5, 153, 1, 146, 222, 112
+1, 3004800, Note_on_c, 0, 67, 64
+1, 3004800, Sequencer_specific, 5, 153, 1, 146, 222, 113
+1, 3009600, Note_on_c, 0, 71, 64
+1, 3009600, Sequencer_specific, 5, 153, 1, 146, 222, 114
+1, 3014400, Note_off_c, 0, 67, 64
+1, 3014400, Sequencer_specific, 5, 153, 1, 146, 222, 115
+1, 3014400, Note_on_c, 0, 67, 64
+1, 3014400, Sequencer_specific, 5, 153, 1, 146, 222, 116
+1, 3019200, Note_off_c, 0, 64, 64
+1, 3019200, Sequencer_specific, 5, 153, 1, 146, 222, 117
+1, 3019200, Note_on_c, 0, 64, 64
+1, 3019200, Sequencer_specific, 5, 153, 1, 146, 222, 118
+1, 3024000, Note_off_c, 0, 60, 64
+1, 3024000, Sequencer_specific, 5, 153, 1, 146, 222, 119
+1, 3024000, Note_on_c, 0, 60, 64
+1, 3024000, Sequencer_specific, 5, 153, 1, 146, 222, 120
+1, 3028800, Note_off_c, 0, 64, 64
+1, 3028800, Sequencer_specific, 5, 153, 1, 146, 222, 121
+1, 3028800, Note_on_c, 0, 64, 64
+1, 3028800, Sequencer_specific, 5, 153, 1, 146, 222, 122
+1, 3033600, Note_off_c, 0, 67, 64
+1, 3033600, Sequencer_specific, 5, 153, 1, 146, 222, 123
+1, 3033600, Note_on_c, 0, 67, 64
+1, 3033600, Sequencer_specific, 5, 153, 1, 146, 222, 124
+1, 3038400, Note_off_c, 0, 71, 64
+1, 3038400, Sequencer_specific, 5, 153, 1, 146, 222, 125
+1, 3038400, Note_on_c, 0, 71, 64
+1, 3038400, Sequencer_specific, 5, 153, 1, 146, 222, 126
+1, 3043200, Note_off_c, 0, 67, 64
+1, 3043200, Sequencer_specific, 5, 153, 1, 146, 222, 127
+1, 3043200, Note_on_c, 0, 67, 64
+1, 3043200, Sequencer_specific, 5, 153, 1, 146, 223, 0
+1, 3048000, Note_off_c, 0, 64, 64
+1, 3048000, Sequencer_specific, 5, 153, 1, 146, 223, 1
+1, 3048000, Note_on_c, 0, 64, 64
+1, 3048000, Sequencer_specific, 5, 153, 1, 146, 223, 2
+1, 3052800, Note_off_c, 0, 60, 64
+1, 3052800, Sequencer_specific, 5, 153, 1, 146, 223, 3
+1, 3052800, Note_on_c, 0, 57, 64
+1, 3052800, Sequencer_specific, 5, 153, 1, 146, 223, 4
+1, 3057600, Note_off_c, 0, 64, 64
+1, 3057600, Sequencer_specific, 5, 153, 1, 146, 223, 5
+1, 3057600, Note_on_c, 0, 61, 64
+1, 3057600, Sequencer_specific, 5, 153, 1, 146, 223, 6
+1, 3062400, Note_off_c, 0, 67, 64
+1, 3062400, Sequencer_specific, 5, 153, 1, 146, 223, 7
+1, 3062400, Note_on_c, 0, 64, 64
+1, 3062400, Sequencer_specific, 5, 153, 1, 146, 223, 8
+1, 3067200, Note_off_c, 0, 71, 64
+1, 3067200, Sequencer_specific, 5, 153, 1, 146, 223, 9
+1, 3067200, Note_on_c, 0, 68, 64
+1, 3067200, Sequencer_specific, 5, 153, 1, 146, 223, 10
+1, 3072000, Note_off_c, 0, 64, 64
+1, 3072000, Sequencer_specific, 5, 153, 1, 146, 223, 11
+1, 3072000, Note_on_c, 0, 64, 64
+1, 3072000, Sequencer_specific, 5, 153, 1, 146, 223, 12
+1, 3076800, Note_off_c, 0, 61, 64
+1, 3076800, Sequencer_specific, 5, 153, 1, 146, 223, 13
+1, 3076800, Note_on_c, 0, 61, 64
+1, 3076800, Sequencer_specific, 5, 153, 1, 146, 223, 14
+1, 3081600, Note_off_c, 0, 57, 64
+1, 3081600, Sequencer_specific, 5, 153, 1, 146, 223, 15
+1, 3081600, Note_on_c, 0, 57, 64
+1, 3081600, Sequencer_specific, 5, 153, 1, 146, 223, 16
+1, 3086400, Note_off_c, 0, 61, 64
+1, 3086400, Sequencer_specific, 5, 153, 1, 146, 223, 17
+1, 3086400, Note_on_c, 0, 61, 64
+1, 3086400, Sequencer_specific, 5, 153, 1, 146, 223, 18
+1, 3091200, Note_off_c, 0, 64, 64
+1, 3091200, Sequencer_specific, 5, 153, 1, 146, 223, 19
+1, 3091200, Note_on_c, 0, 64, 64
+1, 3091200, Sequencer_specific, 5, 153, 1, 146, 223, 20
+1, 3096000, Note_off_c, 0, 68, 64
+1, 3096000, Sequencer_specific, 5, 153, 1, 146, 223, 21
+1, 3096000, Note_on_c, 0, 68, 64
+1, 3096000, Sequencer_specific, 5, 153, 1, 146, 223, 22
+1, 3100800, Note_off_c, 0, 64, 64
+1, 3100800, Sequencer_specific, 5, 153, 1, 146, 223, 23
+1, 3100800, Note_on_c, 0, 64, 64
+1, 3100800, Sequencer_specific, 5, 153, 1, 146, 223, 24
+1, 3105600, Note_off_c, 0, 61, 64
+1, 3105600, Sequencer_specific, 5, 153, 1, 146, 223, 25
+1, 3105600, Note_on_c, 0, 61, 64
+1, 3105600, Sequencer_specific, 5, 153, 1, 146, 223, 26
+1, 3110400, Note_off_c, 0, 57, 64
+1, 3110400, Sequencer_specific, 5, 153, 1, 146, 223, 27
+1, 3110400, Note_on_c, 0, 55, 64
+1, 3110400, Sequencer_specific, 5, 153, 1, 146, 223, 28
+1, 3115200, Note_off_c, 0, 61, 64
+1, 3115200, Sequencer_specific, 5, 153, 1, 146, 223, 29
+1, 3115200, Note_on_c, 0, 59, 64
+1, 3115200, Sequencer_specific, 5, 153, 1, 146, 223, 30
+1, 3120000, Note_off_c, 0, 64, 64
+1, 3120000, Sequencer_specific, 5, 153, 1, 146, 223, 31
+1, 3120000, Note_on_c, 0, 62, 64
+1, 3120000, Sequencer_specific, 5, 153, 1, 146, 223, 32
+1, 3124800, Note_off_c, 0, 68, 64
+1, 3124800, Sequencer_specific, 5, 153, 1, 146, 223, 33
+1, 3124800, Note_on_c, 0, 66, 64
+1, 3124800, Sequencer_specific, 5, 153, 1, 146, 223, 34
+1, 3129600, Note_off_c, 0, 62, 64
+1, 3129600, Sequencer_specific, 5, 153, 1, 146, 223, 35
+1, 3129600, Note_on_c, 0, 62, 64
+1, 3129600, Sequencer_specific, 5, 153, 1, 146, 223, 36
+1, 3134400, Note_off_c, 0, 59, 64
+1, 3134400, Sequencer_specific, 5, 153, 1, 146, 223, 37
+1, 3134400, Note_on_c, 0, 59, 64
+1, 3134400, Sequencer_specific, 5, 153, 1, 146, 223, 38
+1, 3139200, Note_off_c, 0, 55, 64
+1, 3139200, Sequencer_specific, 5, 153, 1, 146, 223, 39
+1, 3139200, Note_on_c, 0, 55, 64
+1, 3139200, Sequencer_specific, 5, 153, 1, 146, 223, 40
+1, 3144000, Note_off_c, 0, 59, 64
+1, 3144000, Sequencer_specific, 5, 153, 1, 146, 223, 41
+1, 3144000, Note_on_c, 0, 59, 64
+1, 3144000, Sequencer_specific, 5, 153, 1, 146, 223, 42
+1, 3148800, Note_off_c, 0, 62, 64
+1, 3148800, Sequencer_specific, 5, 153, 1, 146, 223, 43
+1, 3148800, Note_on_c, 0, 62, 64
+1, 3148800, Sequencer_specific, 5, 153, 1, 146, 223, 44
+1, 3153600, Note_off_c, 0, 66, 64
+1, 3153600, Sequencer_specific, 5, 153, 1, 146, 223, 45
+1, 3153600, Note_on_c, 0, 66, 64
+1, 3153600, Sequencer_specific, 5, 153, 1, 146, 223, 46
+1, 3158400, Note_off_c, 0, 62, 64
+1, 3158400, Sequencer_specific, 5, 153, 1, 146, 223, 47
+1, 3158400, Note_on_c, 0, 62, 64
+1, 3158400, Sequencer_specific, 5, 153, 1, 146, 223, 48
+1, 3163200, Note_off_c, 0, 59, 64
+1, 3163200, Sequencer_specific, 5, 153, 1, 146, 223, 49
+1, 3163200, Note_on_c, 0, 59, 64
+1, 3163200, Sequencer_specific, 5, 153, 1, 146, 223, 50
+1, 3168000, Note_off_c, 0, 55, 64
+1, 3168000, Sequencer_specific, 5, 153, 1, 146, 223, 51
+1, 3168000, Note_on_c, 0, 59, 64
+1, 3168000, Sequencer_specific, 5, 153, 1, 146, 223, 52
+1, 3172800, Note_off_c, 0, 59, 64
+1, 3172800, Sequencer_specific, 5, 153, 1, 146, 223, 53
+1, 3172800, Note_on_c, 0, 63, 64
+1, 3172800, Sequencer_specific, 5, 153, 1, 146, 223, 54
+1, 3177600, Note_off_c, 0, 62, 64
+1, 3177600, Sequencer_specific, 5, 153, 1, 146, 223, 55
+1, 3177600, Note_on_c, 0, 66, 64
+1, 3177600, Sequencer_specific, 5, 153, 1, 146, 223, 56
+1, 3182400, Note_off_c, 0, 66, 64
+1, 3182400, Sequencer_specific, 5, 153, 1, 146, 223, 57
+1, 3182400, Note_on_c, 0, 70, 64
+1, 3182400, Sequencer_specific, 5, 153, 1, 146, 223, 58
+1, 3187200, Note_off_c, 0, 66, 64
+1, 3187200, Sequencer_specific, 5, 153, 1, 146, 223, 59
+1, 3187200, Note_on_c, 0, 66, 64
+1, 3187200, Sequencer_specific, 5, 153, 1, 146, 223, 60
+1, 3192000, Note_off_c, 0, 63, 64
+1, 3192000, Sequencer_specific, 5, 153, 1, 146, 223, 61
+1, 3192000, Note_on_c, 0, 63, 64
+1, 3192000, Sequencer_specific, 5, 153, 1, 146, 223, 62
+1, 3196800, Note_off_c, 0, 59, 64
+1, 3196800, Sequencer_specific, 5, 153, 1, 146, 223, 63
+1, 3196800, Note_on_c, 0, 59, 64
+1, 3196800, Sequencer_specific, 5, 153, 1, 146, 223, 64
+1, 3201600, Note_off_c, 0, 63, 64
+1, 3201600, Sequencer_specific, 5, 153, 1, 146, 223, 65
+1, 3201600, Note_on_c, 0, 63, 64
+1, 3201600, Sequencer_specific, 5, 153, 1, 146, 223, 66
+1, 3206400, Note_off_c, 0, 66, 64
+1, 3206400, Sequencer_specific, 5, 153, 1, 146, 223, 67
+1, 3206400, Note_on_c, 0, 66, 64
+1, 3206400, Sequencer_specific, 5, 153, 1, 146, 223, 68
+1, 3211200, Note_off_c, 0, 70, 64
+1, 3211200, Sequencer_specific, 5, 153, 1, 146, 223, 69
+1, 3211200, Note_on_c, 0, 70, 64
+1, 3211200, Sequencer_specific, 5, 153, 1, 146, 223, 70
+1, 3216000, Note_off_c, 0, 66, 64
+1, 3216000, Sequencer_specific, 5, 153, 1, 146, 223, 71
+1, 3216000, Note_on_c, 0, 66, 64
+1, 3216000, Sequencer_specific, 5, 153, 1, 146, 223, 72
+1, 3220800, Note_off_c, 0, 63, 64
+1, 3220800, Sequencer_specific, 5, 153, 1, 146, 223, 73
+1, 3220800, Note_on_c, 0, 63, 64
+1, 3220800, Sequencer_specific, 5, 153, 1, 146, 223, 74
+1, 3225600, Note_off_c, 0, 59, 0
+1, 3225600, Sequencer_specific, 5, 153, 1, 146, 223, 75
+1, 3225610, Note_off_c, 0, 63, 0
+1, 3225610, Sequencer_specific, 5, 153, 1, 146, 223, 76
+1, 3225620, Note_off_c, 0, 66, 0
+1, 3225620, Sequencer_specific, 5, 153, 1, 146, 223, 77
+1, 3225630, Note_off_c, 0, 70, 0
+1, 3225630, End_track
+0, 0, End_of_file

@@ -51,8 +51,8 @@ player = {
 	x = 0,
 	y = 0,
 	inventory = {
-		{ name = "gloves",          count = nil, text = graphics.newText(font) },
-		{ name = "hoe",             count = nil, text = graphics.newText(font) },
+		{ name = "gloves",                       text = graphics.newText(font) },
+		{ name = "hoe",                          text = graphics.newText(font) },
 		{ name = "watering_can",    count = 100, text = graphics.newText(font) },
 
 		{ name = "corn_seeds",      count = 12,  text = graphics.newText(font) },
@@ -61,7 +61,7 @@ player = {
 		{ name = "wheat_seeds",     count = 7,   text = graphics.newText(font) },
 		{ name = "harvested_wheat", count = 15,  text = graphics.newText(font) },
 
-		{ name = "whistle",         count = 500, text = graphics.newText(font) },
+		{ name = "whistle",                      text = graphics.newText(font) },
 	},
 	currentItem = 1,
 	dir = 0,
@@ -252,6 +252,10 @@ function love.draw()
 
 	drawHouse()
 
+	if player.y > -6 then
+		graphics.draw(assets.waterpump, 256, -32)
+	end
+
 	if not player.sheltered then
 		batches.player:clear()
 		batches.player:add(quad(player.dir * 16, player.frame * 24, 16, 24, 16 * 4, 24 * 4), player.x - 8, player.y - 16)
@@ -262,6 +266,10 @@ function love.draw()
 	batches.boy:add(quad((boyTimer > 2) and 16 or 48, math.floor(boyTimer * 10) % 4 * 24, 16, 24, 16 * 4, 24 * 4),
 		player.x - math.abs(boyTimer - 2) * w / 8 - 24, player.y - 16)
 	graphics.draw(batches.boy)
+
+	if player.y <= -6 then
+		graphics.draw(assets.waterpump, 256, -32)
+	end
 
 	drawHouse()
 
@@ -356,7 +364,7 @@ function love.update(dt)
 
 	if boyTimer < 2 and boyTimer > 1 then
 		boyCropCount = boyCropCount + player.inventory[itemIds.harvested_corn].count +
-		player.inventory[itemIds.harvested_wheat].count
+			player.inventory[itemIds.harvested_wheat].count
 		player.inventory[itemIds.harvested_wheat].count = 0
 		player.inventory[itemIds.harvested_corn].count = 0
 	end
@@ -367,8 +375,8 @@ function love.update(dt)
 	end
 
 	for pos, crop in pairs(crops) do
-		if math.random() / dt < 0.01 * (farmLands[pos] or { hydration = 0 }).hydration then
-			crop.growth = math.min(crop.growth + 1, MAX_GROWTH - 2)
+		if math.random() / dt < 0.01 * (farmLands[pos] or { hydration = 0 }).hydration and crop.growth < MAX_GROWTH - 2 then
+			crop.growth = crop.growth + 1
 		end
 	end
 	local isDown = love.keyboard.isDown

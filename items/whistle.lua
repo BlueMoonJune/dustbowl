@@ -1,4 +1,5 @@
 local cooldown = 120
+local sfx = love.audio.newSource("sounds/whistle.ogg", "static")
 
 return {
 	use = function(self, _)
@@ -7,6 +8,7 @@ return {
 			return
 		end
 		if boyTimer < 0 then
+			love.audio.play(sfx)
 			cooldown = 120
 			boyTimer = 4
 			money = money - 5

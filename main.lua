@@ -29,21 +29,21 @@ farmLands = {}
 graphics.setFont(graphics.newFont(50))
 local font = love.graphics.getFont()
 
-local credits = [[ 
+local credits = [[
 Dustbowl: a game by June Turner and Lily Chrisman
 
-Programming: 
-June Turner 
-Lily Chrisman 
+Programming:
+June Turner
+Lily Chrisman
 
-Artwork: 
-Lily Chrisman 
-June Turner 
+Artwork:
+Lily Chrisman
+June Turner
 
-Composition: 
-June Turner 
+Composition:
+June Turner
 
-Presentation: 
+Presentation:
 Lily Chrisman
 ]]
 
@@ -61,7 +61,7 @@ player = {
 		{ name = "wheat_seeds",     count = 7,   text = graphics.newText(font) },
 		{ name = "harvested_wheat", count = 15,  text = graphics.newText(font) },
 
-		{ name = "whistle",         count = 100, text = graphics.newText(font) },
+		{ name = "whistle",         count = 500, text = graphics.newText(font) },
 	},
 	currentItem = 1,
 	dir = 0,
@@ -88,18 +88,34 @@ money = 200
 local cropPrice = 1
 
 local parts = {
-	{frame = 0, index = 1, notes = require("midicsv").getEventTimes("sounds/percussion.csv", function (_, _, type, _, note)
-		return type == "Note_on_c" and note == "56"
-	end)},
-	{frame = 0, index = 1, notes = require("midicsv").getEventTimes("sounds/harmonica.csv", function (_, _, type)
-		return type == "Note_on_c"
-	end)},
-	{frame = 0, index = 1, notes = require("midicsv").getEventTimes("sounds/banjo.csv", function (_, _, type)
-		return type == "Note_on_c"
-	end)},
-	{frame = 0, index = 1, notes = require("midicsv").getEventTimes("sounds/percussion.csv", function (_, _, type, _, note)
-		return type == "Note_on_c" and note == "54"
-	end)},
+	{
+		frame = 0,
+		index = 1,
+		notes = require("midicsv").getEventTimes("sounds/percussion.csv", function(_, _, type, _, note)
+			return type == "Note_on_c" and note == "56"
+		end)
+	},
+	{
+		frame = 0,
+		index = 1,
+		notes = require("midicsv").getEventTimes("sounds/harmonica.csv", function(_, _, type)
+			return type == "Note_on_c"
+		end)
+	},
+	{
+		frame = 0,
+		index = 1,
+		notes = require("midicsv").getEventTimes("sounds/banjo.csv", function(_, _, type)
+			return type == "Note_on_c"
+		end)
+	},
+	{
+		frame = 0,
+		index = 1,
+		notes = require("midicsv").getEventTimes("sounds/percussion.csv", function(_, _, type, _, note)
+			return type == "Note_on_c" and note == "54"
+		end)
+	},
 }
 
 function drawCrops(minx, miny, maxx, maxy)
@@ -146,7 +162,6 @@ function drawHouse()
 		end
 		if i == 1 or i == 4 then
 			local hit = part.index > 1 and part.notes[part.index - 1] > songPos - 0.1
-			print(hit)
 			part.frame = hit and 1 or 0
 		end
 		batches.band:add(quad(16 * i - 16, 24 * part.frame, 16, 24, 64, 48), -68 + 15 * i, -110)
@@ -169,29 +184,29 @@ function love.load()
 	for i = 1, 20 do
 		local x = math.random(-8, 8)
 		local y = math.random(-2, 4)
-		crops[x..","..y] = {
+		crops[x .. "," .. y] = {
 			growth = math.random(0, 6),
 			id = math.random(0, CROP_COUNT - 1)
 		}
-		farmLands[x..","..y] = {
+		farmLands[x .. "," .. y] = {
 			hydration = math.random(0, 4)
 		}
 	end
-
 end
 
 function love.draw()
 	-- dying cowboy color
 
 	local filterIntensity = 1
-	if dustStormTimer < -50 then
-		filterIntensity = 7 + dustStormTimer / 10
+	if dustStormTimer < -60 - 10 * dustStormCount + 10 then
+		filterIntensity = 1 + (dustStormTimer + 60 + 10 * dustStormCount) / 10
 	elseif dustStormTimer < 0 then
 		filterIntensity = 2
 	elseif dustStormTimer < 10 then
 		filterIntensity = 2 - dustStormTimer / 10
 	end
 
+	print(filterIntensity)
 	tracks.wind:setVolume(filterIntensity / 2)
 	tracks.wind:setPitch(filterIntensity)
 	tracks.normal:setVolume(2 - filterIntensity)
@@ -244,7 +259,8 @@ function love.draw()
 	end
 
 	batches.boy:clear()
-	batches.boy:add(quad((boyTimer > 2) and 16 or 48, math.floor(boyTimer * 10) % 4 * 24, 16, 24, 16 * 4, 24 * 4), player.x - math.abs(boyTimer - 2) * w / 8 - 24, player.y - 16)
+	batches.boy:add(quad((boyTimer > 2) and 16 or 48, math.floor(boyTimer * 10) % 4 * 24, 16, 24, 16 * 4, 24 * 4),
+		player.x - math.abs(boyTimer - 2) * w / 8 - 24, player.y - 16)
 	graphics.draw(batches.boy)
 
 	drawHouse()
@@ -294,7 +310,7 @@ function love.draw()
 		graphics.draw(itemInfo.text, offset + boxSize - fontWidth - 2, baseOffset + fontHeight + 5)
 
 		offset = offset + boxSize
-		graphics.print("$"..tostring(money), 0, 60)
+		graphics.print("$" .. tostring(money), 0, 60)
 	end
 end
 
@@ -339,7 +355,8 @@ function love.update(dt)
 	boyTimer = boyTimer - dt / 2
 
 	if boyTimer < 2 and boyTimer > 1 then
-		boyCropCount = boyCropCount + player.inventory[itemIds.harvested_corn].count + player.inventory[itemIds.harvested_wheat].count
+		boyCropCount = boyCropCount + player.inventory[itemIds.harvested_corn].count +
+		player.inventory[itemIds.harvested_wheat].count
 		player.inventory[itemIds.harvested_wheat].count = 0
 		player.inventory[itemIds.harvested_corn].count = 0
 	end
@@ -350,7 +367,7 @@ function love.update(dt)
 	end
 
 	for pos, crop in pairs(crops) do
-		if math.random() / dt < 0.01 * (farmLands[pos] or {hydration = 0}).hydration then
+		if math.random() / dt < 0.01 * (farmLands[pos] or { hydration = 0 }).hydration then
 			crop.growth = math.min(crop.growth + 1, MAX_GROWTH - 2)
 		end
 	end
@@ -414,19 +431,19 @@ function love.update(dt)
 
 	dustStormTimer = dustStormTimer - dt
 	if dustStormTimer < 0 then
-		if dustStormTimer < -60 then
-			dustStormTimer = 300
+		if dustStormTimer < -60 - 10 * dustStormCount then
+			dustStormTimer = 300 - math.random(0, 30 * dustStormCount)
 			dustStormCount = dustStormCount + 1
 			money = money - dustStormCount * 25
 			cropPrice = math.floor(cropPrice * 80) / 100
 			if money < 0 then
-				error("\nYOU RAN OUT OF MONEY AND STARVED      GAME OVER\n"..credits)
+				error("\nYOU RAN OUT OF MONEY AND STARVED      GAME OVER\n" .. credits)
 			end
 		end
 		if not player.sheltered then
 			player.health = player.health - 5 * dt
 			if player.health <= 0 then
-				error("\nYOU INHALED TOO MUCH DUST      GAME OVER\n"..credits)
+				error("\nYOU INHALED TOO MUCH DUST      GAME OVER\n" .. credits)
 			end
 		end
 		for pos, farmland in pairs(farmLands) do
